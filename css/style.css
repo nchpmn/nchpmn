@@ -4,12 +4,18 @@
 
 * { font-family:"Flama"; }
 
+html, body { height:100%; }
+
 h1, h2, h3, h4, h5, h6 { font-family:"Flama Thin"; font-weight:normal !important; }
 
 /* ---- NAVBAR ---- */
-nav.navbar { background-color:transparent; border-bottom:none; }
+nav.navbar { background-color:transparent; border-bottom:none; font-size:1.2em; }
 nav .navbar-header a.navbar-brand { font-family:"Flama Ultra"; font-size:1.2em; color:#999; }
 nav ul { font-size:0.85em; text-transform:uppercase; }
 nav a {  transition:all 0.5s ease; }
 
 /* ---- HOME - COVER ---- */
+
+header.jumbotron.cover { height:100%; width:100%; background:url(http://placehold.it/1280x720/333/444); background-size:cover; background-repeat:no-repeat; background-position:center; color:#fff; }
+
+header.jumbotron.cover .container { text-align:center; display:table-cell; vertical-align:middle; float:none; }
