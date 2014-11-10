@@ -13,3 +13,7 @@ nav ul { font-size:0.85em; text-transform:uppercase; }
 nav a {  transition:all 0.5s ease; }
 
 /* ---- HOME - COVER ---- */
+.video-section h1, .video-section h2 { color:#fff; text-align:center; }
+.video-section h1 { text-transform:uppercase; }
+.video-section .buttonBar { display:none; }
+.player { font-size:1px; }
