@@ -4,6 +4,12 @@
 
 * { font-family:"Flama"; }
 
-/* ---- HOME - NAV ---- */
+h1, h2, h3, h4, h5, h6 { font-family:"Flama Thin"; font-weight:normal !important; }
+
+/* ---- NAVBAR ---- */
+nav.navbar { background-color:transparent; border-bottom:none; }
+nav .navbar-header a.navbar-brand { font-family:"Flama Ultra"; font-size:1.2em; color:#999; }
+nav ul { font-size:0.85em; text-transform:uppercase; }
+nav a {  transition:all 0.5s ease; }
 
 /* ---- HOME - COVER ---- */
