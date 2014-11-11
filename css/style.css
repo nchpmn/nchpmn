@@ -16,7 +16,7 @@ nav a {  transition:all 0.5s ease; }
 
 /* ---- HOME // COVER ---- */
 
-header.jumbotron.cover { height:100%; width:100%; background:url(http://placehold.it/1280x720/333/444); background-size:cover; background-repeat:no-repeat; background-position:center; color:#fff; -webkit-transform-style:preserve-3d;  -moz-transform-style:preserve-3d; transform-style:preserve-3d; overflow:hidden; }
+header.jumbotron.cover { height:100%; width:100%; background:url(http://placehold.it/1280x720/333/444); background-size:cover; background-repeat:no-repeat; background-position:center; color:#fff; -webkit-transform-style:preserve-3d;  -moz-transform-style:preserve-3d; transform-style:preserve-3d; overflow:hidden; margin-bottom:0px; }
 header.jumbotron.cover .container { position:relative; top:45%; -webkit-transform:translateY(-45%); -ms-transform:translateY(-45%); transform:translateY(-45%); }
 header.jumbotron.cover .container-btn { position:relative; top:65%; -webkit-transform:translateY(-65%); -ms-transform:translateY(-65%); transform:translateY(-65%); }
 header.jumbotron.cover .container-btn .btn { border:#bbb 1px solid; color:#bbb; background:rgba(255,255,255,0.05); }
@@ -37,7 +37,10 @@ header.jumbotron.cover h1 { font-size:6em; }
 header.jumbotron.cover h2 { font-size:1.3em; margin-top:1.5em; }
 }
 
-
+/* ---- HOME // WELCOME ---- */
+section#welcome { display:table; height:auto; width:100%; }
+section#welcome .image-wrap { height:100%; overflow:hidden; padding:0; position:absolute; top:0; }
+section#welcome .image-holder { background:url(http://placehold.it/400x600/666/999); height:100%; width:100%; position:absolute; top:0; }
 
 /* ---- UTILITY ---- */
 .orange { color:#d88e2f; }
