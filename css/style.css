@@ -16,6 +16,7 @@ nav a {  transition:all 0.5s ease; }
 
 /* ---- HOME - COVER ---- */
 
-header.jumbotron.cover { height:100%; width:100%; background:url(http://placehold.it/1280x720/333/444); background-size:cover; background-repeat:no-repeat; background-position:center; color:#fff; }
-
-header.jumbotron.cover .container { text-align:center; display:table-cell; vertical-align:middle; float:none; }
+header.jumbotron.cover { height:100%; width:100%; background:url(http://placehold.it/1280x720/333/444); background-size:cover; background-repeat:no-repeat; background-position:center; color:#fff; -webkit-transform-style:preserve-3d;  -moz-transform-style:preserve-3d; transform-style:preserve-3d;}
+header.jumbotron.cover .container { position:relative; top:45%; -webkit-transform:translateY(-45%); -ms-transform:translateY(-45%); transform:translateY(-45%); }
+header.jumbotron.cover h1 { text-transform:uppercase; }
+header.jumbotron.cover h2 { }
