@@ -20,3 +20,21 @@ header.jumbotron.cover { height:100%; width:100%; background:url(http://placehol
 header.jumbotron.cover .container { position:relative; top:45%; -webkit-transform:translateY(-45%); -ms-transform:translateY(-45%); transform:translateY(-45%); }
 header.jumbotron.cover h1 { text-transform:uppercase; }
 header.jumbotron.cover h2 { }
+
+
+
+
+
+/* ---- MEDIA QUERIES - HOLDING ZONE ONLY!!! ---- */
+@media only screen and (min-width : 480px) { /* .xs size */ 
+
+}
+@media only screen and (min-width : 768px) { /* .sm size */
+
+}
+@media only screen and (min-width : 992px) { /* .md size */
+
+}
+@media only screen and (min-width : 1200px) { /* .lg size */
+
+}
