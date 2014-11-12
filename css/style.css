@@ -42,6 +42,14 @@ section#welcome { display:table; height:auto; width:100%; position:relative; }
 section#welcome .image-container { background:url(http://placehold.it/400x600/666/999); background-size:cover; background-position:center center; height:100%; overflow:hidden; padding:0; position:absolute; top:0; }
 section#welcome .container { padding-top:100px; padding-bottom:75px; }
 
+/* ---- FOOTER ---- */
+
+footer { background:#2f2f2f; padding:50px 0; margin-top:75px; color:#aaa; }
+footer h5 {  }
+footer p strong { font-family:"Flama"; color:#ddd; font-size:1.1em; }
+
+#copyright { background:#222; padding-top:15px; text-align:right; font-size:0.75em; color:#666; }
+
 /* ---- UTILITY ---- */
 .orange { color:#d88e2f; }
 .orange-bg { background-color:#d88e2f; }
