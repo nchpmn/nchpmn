@@ -44,6 +44,7 @@ section#welcome .container { padding-top:100px; padding-bottom:75px; }
 
 /* ---- HOME // CALLOUT ---- */
 section#callout { background:url('http://placehold.it/1280x720/') no-repeat bottom center fixed; background-size:cover; display:table; height:auto; padding:45px 0 35px; width:100%; }
+section#callout h4 { color:#fff; font-size:2em; text-transform:uppercase; font-family:"Flama"; margin-bottom:1em; letter-spacing:3px; }
 
 /* ---- FOOTER ---- */
 
