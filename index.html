@@ -79,6 +79,77 @@
         <div class="container">
             <div class="row">
                 <h3 class="text-center">Work</h3>
+                <div class="portfolioFilter">
+                    <a href="#" data-filter="*" class="current">All</a>
+                    <a href="#" data-filter=".film">Film</a>
+                    <a href="#" data-filter=".tvc">TVC</a>
+                    <a href="#" data-filter=".sport">Sport</a>                    
+                </div>
+                <div class="portfolioContainer">
+                    <div class="film col-xs-6 col-md-4">
+                        <div class="work-description text-center">
+                            <h4>Project Title</h4>
+                            <span>Steadicam</span>
+                        </div>
+                        <img class="img-responsive" src="http://placehold.it/580x430/50DFDD/fff" alt="film">
+                    </div>
+                    <div class="film col-xs-6 col-md-4">
+                        <div class="work-description text-center">
+                            <h4>Project Title</h4>
+                            <span>Steadicam</span>
+                        </div>
+                        <img class="img-responsive" src="http://placehold.it/580x430/7241D5/fff" alt="film">
+                    </div>
+                    <div class="tvc col-xs-6 col-md-4">
+                        <div class="work-description text-center">
+                            <h4>Project Title</h4>
+                            <span>Steadicam</span>
+                        </div>
+                        <img class="img-responsive" src="http://placehold.it/580x430/8DC847/fff" alt="tvc">
+                    </div>
+                    <div class="sport col-xs-6 col-md-4">
+                        <div class="work-description text-center">
+                            <h4>Project Title</h4>
+                            <span>Steadicam</span>
+                        </div>
+                        <img class="img-responsive" src="http://placehold.it/580x430/DFB063/fff" alt="sport">
+                    </div>
+                    <div class="film col-xs-6 col-md-4">
+                        <div class="work-description text-center">
+                            <h4>Project Title</h4>
+                            <span>Steadicam</span>
+                        </div>
+                        <img class="img-responsive" src="http://placehold.it/580x430/7241D5/fff" alt="film">
+                    </div>
+                    <div class="sport col-xs-6 col-md-4">
+                        <div class="work-description text-center">
+                            <h4>Project Title</h4>
+                            <span>Steadicam</span>
+                        </div>
+                        <img class="img-responsive" src="http://placehold.it/580x430/DFB063/fff" alt="sport">
+                    </div>
+                    <div class="tvc col-xs-6 col-md-4">
+                        <div class="work-description text-center">
+                            <h4>Project Title</h4>
+                            <span>Steadicam</span>
+                        </div>
+                        <img class="img-responsive" src="http://placehold.it/580x430/D5386C/fff" alt="tvc">
+                    </div>
+                    <div class="sport col-xs-6 col-md-4">
+                        <div class="work-description text-center">
+                            <h4>Project Title</h4>
+                            <span>Steadicam</span>
+                        </div>
+                        <img class="img-responsive" src="http://placehold.it/580x430/DFB063/fff" alt="sport">
+                    </div>
+                    <div class="tvc col-xs-6 col-md-4">
+                        <div class="work-description text-center">
+                            <h4>Project Title</h4>
+                            <span>Steadicam</span>
+                        </div>
+                        <img class="img-responsive" src="http://placehold.it/580x430/D5386C/fff" alt="tvc">
+                    </div>
+                </div>
             </div>
         </div>
     </section>
@@ -120,6 +191,36 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
+    <script src="js/isotope.pkgd.min.js"></script>
     <script src="js/custom.js"></script>
+    <script>
+        $(window).load(function(){
+            var $container = $('.portfolioContainer');
+            $container.isotope({
+                filter: '*',
+                animationOptions: {
+                    duration: 750,
+                    easing: 'linear',
+                    queue: false
+                }
+            });
+         
+            $('.portfolioFilter a').click(function(){
+                $('.portfolioFilter .current').removeClass('current');
+                $(this).addClass('current');
+         
+                var selector = $(this).attr('data-filter');
+                $container.isotope({
+                    filter: selector,
+                    animationOptions: {
+                        duration: 750,
+                        easing: 'linear',
+                        queue: false
+                    }
+                 });
+                 return false;
+            }); 
+        });
+    </script>
 </body>
 </html>
