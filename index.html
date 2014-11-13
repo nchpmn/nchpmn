@@ -174,10 +174,28 @@
     </section><!-- End work -->
     
     <section id="blog">
+        <h3 class="text-center"><span>Blog</span></h3>
         <div id="owl-blog" class="owl-carousel">
-            <div class="item"><img class="img-responsive" src="http://placehold.it/1024x768/F26B6B/fff" alt="Blog"></div>
-            <div class="item"><img class="img-responsive" src="http://placehold.it/1024x768/B0BF39/fff" alt="Blog"></div>
-            <div class="item"><img class="img-responsive" src="http://placehold.it/1024x768/3F858C/fff" alt="Blog"></div>
+            <div class="item">
+                <img class="img-responsive" src="http://placehold.it/1024x768/3D70B2/2462B2" alt="Blog">
+                <h4>Blog Post Title</h4>
+                <span>14 March 2014</span>
+            </div>
+            <div class="item">
+                <img class="img-responsive" src="http://placehold.it/1024x768/FF6F8C/FF456B" alt="Blog">
+                <h4>Why I hate AVCHD</h4>
+                <span>23 August 2014</span>
+            </div>
+            <div class="item">
+                <img class="img-responsive" src="http://placehold.it/1024x768/45B86B/18B84D" alt="Blog">
+                <h4>YouTube, lol?</h4>
+                <span>23 August 2014</span>
+            </div>
+            <div class="item">
+                <img class="img-responsive" src="http://placehold.it/1024x768/E88652/E87335" alt="Blog">
+                <h4>YouTube, lol?</h4>
+                <span>23 August 2014</span>
+            </div>
         </div>
     </section><!-- End blog -->
 
@@ -252,7 +270,12 @@
         });
         
         $(document).ready(function() {
-            $("#owl-blog").owlCarousel();         
+            $('#owl-blog').owlCarousel({
+                items:1,
+                loop:true,
+                margin:10,
+                nav:true,
+            })        
         });
     </script>
 </body>
