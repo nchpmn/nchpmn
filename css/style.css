@@ -79,6 +79,11 @@ section#blog .owl-prev, section#blog .owl-next { position:absolute; top:50%; bac
 section#blog .owl-next { right:0; padding-right:15px; }
 section#blog .owl-prev { padding-left:15px; }
 
+/* ---- HOME // CONTACT ---- */
+section#contact { margin-top:100px; }
+section#contact input[type="text"], section#contact input[type="email"], section#contact textarea { font-size:1.2em; padding:10px; margin:5px 15px; background:#fff; border:none; border-bottom:#000 2px solid; width:100%; }
+section#contact textarea { height:5em; }
+section#contact input[type="submit"] { text-transform:uppercase; background:#d88e2f; border:none; color:#fff; letter-spacing:4px; padding:15px; width:100%; font-size:0.8em; margin:20px 15px; }
 
 
 /* ---- FOOTER ---- */
