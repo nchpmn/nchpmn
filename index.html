@@ -11,6 +11,7 @@
     <link href="fonts/flama.min.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
     <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/owl.carousel.css" rel="stylesheet">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -34,7 +35,7 @@
                 <ul class="nav navbar-nav pull-right">
                     <li><a href="#cover">Home</a></li>
                     <li><a href="#work">Work</a></li>
-                    <li><a href="#">Blog</a></li>
+                    <li><a href="#blog">Blog</a></li>
                     <li><a href="#">Contact</a></li>
                 </ul>
             </div>
@@ -172,6 +173,48 @@
             </div>
         </div>
     </section><!-- End work -->
+    
+    <section id="blog">
+        <h3 class="text-center"><span>Blog</span></h3>
+        <div id="owl-blog" class="owl-carousel">
+            <div class="item">
+                <a href="#">
+                    <img class="img-responsive" src="http://placehold.it/1024x768/3D70B2/2462B2" alt="Blog">
+                    <div class="blog-description">
+                        <h4>Blog Post Title</h4>
+                        <span>14 March 2014</span>
+                    </div>
+                </a>
+            </div>
+            <div class="item">
+                <a href="#">
+                    <img class="img-responsive" src="http://placehold.it/1024x768/FF6F8C/FF456B" alt="Blog">
+                    <div class="blog-description">
+                        <h4>Why I hate AVCHD</h4>
+                        <span>23 August 2014</span>
+                    </div>
+                </a>
+            </div>
+            <div class="item">
+                <a href="#">
+                    <img class="img-responsive" src="http://placehold.it/1024x768/45B86B/18B84D" alt="Blog">
+                    <div class="blog-description">
+                        <h4>YouTube, lol?</h4>
+                        <span>23 August 2014</span>
+                    </div>
+                </a>
+            </div>
+            <div class="item">
+                <a href="#">
+                    <img class="img-responsive" src="http://placehold.it/1024x768/E88652/E87335" alt="Blog">
+                    <div class="blog-description">
+                        <h4>YouTube, lol?</h4>
+                        <span>23 August 2014</span>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section><!-- End blog -->
 
     <footer>
         <div class="container">
@@ -212,6 +255,7 @@
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <!-- script src="js/bootstrap.min.js"></script -->
     <script src="js/isotope.pkgd.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
     <script src="js/custom.js"></script>
     <script>
         $(window).load(function(){
@@ -240,6 +284,15 @@
                  });
                  return false;
             }); 
+        });
+        
+        $(document).ready(function() {
+            $('#owl-blog').owlCarousel({
+                items:1,
+                loop:true,
+                margin:10,
+                nav:true,
+            })        
         });
     </script>
 </body>
