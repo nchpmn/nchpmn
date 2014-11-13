@@ -176,11 +176,10 @@
     
     <section id="blog">
         <div id="owl-blog" class="owl-carousel">
-            <div class="item"><img src="http://placehold.it/1024x768/F26B6B/fff" alt="The Last of us"></div>
-            <div class="item"><img src="http://placehold.it/1024x768/B0BF39/fff" alt="GTA V"></div>
-            <div class="item"><img src="http://placehold.it/1024x768/3F858C/fff" alt="Mirror Edge"></div>
+            <div class="item"><img class="img-responsive" src="http://placehold.it/1024x768/F26B6B/fff" alt="Blog"></div>
+            <div class="item"><img class="img-responsive" src="http://placehold.it/1024x768/B0BF39/fff" alt="Blog"></div>
+            <div class="item"><img class="img-responsive" src="http://placehold.it/1024x768/3F858C/fff" alt="Blog"></div>
         </div>
-        HELLO THERE
     </section><!-- End blog -->
 
     <footer>
@@ -256,6 +255,10 @@
         $(document).ready(function() {
             $("#owl-blog").owlCarousel({
                 navigation : true, // Show next and prev buttons
+                navigationText: [
+                    "<div class='owl-next'>next</div>",
+                    "<div class='owl-prev'>prev</div>",
+                ],
                 slideSpeed : 300,
                 paginationSpeed : 400,
                 singleItem:true         
