@@ -11,6 +11,8 @@
     <link href="fonts/flama.min.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
     <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/owl.carousel.css" rel="stylesheet">
+    <link href="css/owl.theme.css" rel="stylesheet">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -171,6 +173,15 @@
             </div>
         </div>
     </section><!-- End work -->
+    
+    <section id="blog">
+        <div id="owl-blog" class="owl-carousel">
+            <div class="item"><img src="http://placehold.it/1024x768/F26B6B/fff" alt="The Last of us"></div>
+            <div class="item"><img src="http://placehold.it/1024x768/B0BF39/fff" alt="GTA V"></div>
+            <div class="item"><img src="http://placehold.it/1024x768/3F858C/fff" alt="Mirror Edge"></div>
+        </div>
+        HELLO THERE
+    </section><!-- End blog -->
 
     <footer>
         <div class="container">
@@ -211,6 +222,7 @@
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <!-- script src="js/bootstrap.min.js"></script -->
     <script src="js/isotope.pkgd.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
     <script src="js/custom.js"></script>
     <script>
         $(window).load(function(){
@@ -239,6 +251,21 @@
                  });
                  return false;
             }); 
+        });
+        
+        $(document).ready(function() {
+            $("#owl-blog").owlCarousel({
+                navigation : true, // Show next and prev buttons
+                slideSpeed : 300,
+                paginationSpeed : 400,
+                singleItem:true         
+                // "singleItem:true" is a shortcut for:
+                // items : 1, 
+                // itemsDesktop : false,
+                // itemsDesktopSmall : false,
+                // itemsTablet: false,
+                // itemsMobile : false         
+            });         
         });
     </script>
 </body>
