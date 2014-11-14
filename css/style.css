@@ -69,7 +69,7 @@ section#work .portfolioFilter a:hover, section#work .portfolioFilter a:active { 
 section#work .portfolioFilter a.current { color:#d88e2f; }
 
 /* ---- HOME // BLOG  ---- */
-section#blog { margin-top:150px; }
+section#blog { margin-top:70px; padding-top:20px; }
 section#blog .item { height:400px; overflow:hidden; }
 section#blog .item img { height:auto; width:100%; position:absolute; top:50%; -webkit-transform:translateY(-50%); -ms-transform:translateY(-50%); transform:translateY(-50%); }
 section#blog .item .blog-description { width:100%; color:#fff; font-family:"Flama"; text-transform:uppercase; text-align:center; position:absolute; top:50%; -webkit-transform:translateY(-50%); -ms-transform:translateY(-50%); transform:translateY(-50%); }
