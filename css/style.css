@@ -49,6 +49,7 @@ header.jumbotron.cover h2 { font-size:1.3em; margin-top:1.5em; }
 section#welcome { display:table; height:auto; width:100%; position:relative; }
 section#welcome .image-container { background:url(http://placehold.it/400x600/666/999); background-size:cover; background-position:center center; height:100%; overflow:hidden; padding:0; position:absolute; top:0; }
 section#welcome .container { padding:25px 0 75px; }
+section#welcome p.text-left { padding:0px 5px; }
 section#welcome p.lead { font-size:1.65em; font-weight:normal; font-family:"Flama Light"; }
 section#welcome p:not(lead) { }
 
@@ -80,10 +81,12 @@ section#blog .owl-next { right:0; padding-right:15px; }
 section#blog .owl-prev { padding-left:15px; }
 
 /* ---- HOME // CONTACT ---- */
-section#contact { margin-top:100px; }
-section#contact input[type="text"], section#contact input[type="email"], section#contact textarea { font-size:1.2em; padding:10px; margin:5px 15px; background:#fff; border:none; border-bottom:#000 2px solid; width:100%; }
+section#contact { margin-top:100px; background-color:#f00; }
+section#contact h3 { margin-left:0px; margin-right:0px; }
+section#contact form { padding:0 15px; }
+section#contact input[type="text"], section#contact input[type="email"], section#contact textarea { font-size:1.2em; padding:10px; margin:5px 0; background:#fff; border:none; border-bottom:#000 2px solid; width:100%; }
 section#contact textarea { height:5em; }
-section#contact input[type="submit"] { text-transform:uppercase; background:#d88e2f; border:none; color:#fff; letter-spacing:4px; padding:15px; width:100%; font-size:0.8em; margin:20px 15px; }
+section#contact input[type="submit"] { text-transform:uppercase; background:#d88e2f; border:none; color:#fff; letter-spacing:4px; padding:15px; width:100%; font-size:0.8em; margin:20px 0; }
 
 
 /* ---- FOOTER ---- */
