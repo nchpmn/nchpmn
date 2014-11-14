@@ -81,7 +81,7 @@ section#blog .owl-next { right:0; padding-right:15px; }
 section#blog .owl-prev { padding-left:15px; }
 
 /* ---- HOME // CONTACT ---- */
-section#contact { margin-top:100px; background-color:#f00; }
+section#contact { margin-top:100px; }
 section#contact h3 { margin-left:0px; margin-right:0px; }
 section#contact form { padding:0 15px; }
 section#contact input[type="text"], section#contact input[type="email"], section#contact textarea { font-size:1.2em; padding:10px; margin:5px 0; background:#fff; border:none; border-bottom:#000 2px solid; width:100%; }
