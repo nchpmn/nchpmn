@@ -7,7 +7,10 @@
 html, body { height:100%; }
 
 h1, h2, h3, h4, h5, h6 { font-family:"Flama Thin"; font-weight:normal !important; }
-a:link, a:visited { font-family:inherit; }
+
+a:link, a:visited { font-family:inherit; color:#ED8046; }
+a:hover, a:active { }
+a.btn-primary { background-color:#ED8046; color:#fff; border:#d88e2f 1px solid; }
 p { font-size:1.3em; font-family:"Flama Light"; line-height:1.5em; }
 
 /* ---- NAVBAR ---- */
@@ -16,7 +19,8 @@ nav .navbar-header a.navbar-brand { font-family:"Flama Ultra"; font-size:1.2em; 
 nav button.navbar-toggle { color:#eee; padding:9px 16px; }
 nav button.navbar-toggle:hover { color:#666; }
 nav ul { font-size:0.85em; text-transform:uppercase; }
-nav a {  transition:all 0.5s ease; }
+nav a {  transition:all 0.25s ease; }
+nav ul.nav.navbar-nav li a:hover, nav ul.nav.navbar-nav li a:active { color:#ED8046; }
 
 /* ---- HOME // GLOBAL ---- */
 section h3 { margin:2em; }
