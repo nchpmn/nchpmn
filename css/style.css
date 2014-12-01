@@ -17,6 +17,10 @@ a:hover, a:active { }
 
 p { font-size:1.3em; font-family:"Flama Light"; line-height:1.5em; }
 
+dl { font-size:1.15em; }
+dt { font-family:"Flama"; text-transform:uppercase; letter-spacing:1px; font-size:0.8em; }
+dd { font-family:"Flama Light"; margin-bottom:1.5em; }
+
 /* ---- NAVBAR ---- */
 nav.navbar { background-color:transparent; border-bottom:none; font-size:1.2em; }
 nav .navbar-header a.navbar-brand { font-family:"Flama Ultra"; font-size:1.2em; color:#aaa; }
@@ -90,6 +94,10 @@ section#blog .owl-prev { padding-left:15px; }
 
 /* ---- HOME // QUALS ---- */
 section#quals { margin-top:75px; }
+section#quals dl { }
+section#quals dl.quals-major { }
+section#quals dt { text-transform:none; font-size:1.05em; letter-spacing:0; }
+section#quals dd { font-size:0.9em; color:#555; }
 
 /* ---- HOME // CONTACT ---- */
 section#contact { margin-top:100px; }
@@ -98,6 +106,8 @@ section#contact form { padding:0 15px; }
 section#contact input[type="text"], section#contact input[type="email"], section#contact textarea { font-size:1.2em; padding:10px; margin:5px 0; background:#fff; border:none; border-bottom:#000 2px solid; width:100%; }
 section#contact textarea { height:5em; }
 section#contact input[type="submit"] { text-transform:uppercase; background:#ed8046; border:none; color:#fff; letter-spacing:4px; padding:15px; width:100%; font-size:0.8em; margin:20px 0; }
+
+section#contact dl div { overflow:hidden; }
 
 
 /* ---- FOOTER ---- */
