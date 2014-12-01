@@ -115,6 +115,7 @@ section#contact textarea { height:5em; }
 section#contact input[type="submit"] { text-transform:uppercase; background:#ed8046; border:none; color:#fff; letter-spacing:4px; padding:15px; width:100%; font-size:0.8em; margin:20px 0; }
 
 section#contact dl div { overflow:hidden; }
+section#contact dl { margin-top:3em; }
 
 
 /* ---- FOOTER ---- */
