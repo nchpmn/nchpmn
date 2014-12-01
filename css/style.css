@@ -10,7 +10,11 @@ h1, h2, h3, h4, h5, h6 { font-family:"Flama Thin"; font-weight:normal !important
 
 a:link, a:visited { font-family:inherit; color:#ED8046; }
 a:hover, a:active { }
-a.btn-primary { background-color:#ED8046; color:#fff; border:#d88e2f 1px solid; }
+
+.btn { border-radius:0; }
+.btn.btn-primary { background-color:#ED8046; color:#fff; border:none; }
+.btn.btn-primary:hover, .btn-prinary:active { }
+
 p { font-size:1.3em; font-family:"Flama Light"; line-height:1.5em; }
 
 /* ---- NAVBAR ---- */
@@ -70,7 +74,7 @@ section#work .portfolioContainer div:hover { opacity:0.8; }
 
 section#work .portfolioFilter a:link, section#work .portfolioFilter a:visited { text-transform:uppercase; color:#999; text-decoration:none; margin:0 10px; font-size:1em; }
 section#work .portfolioFilter a:hover, section#work .portfolioFilter a:active { color:#666; }
-section#work .portfolioFilter a.current { color:#d88e2f; }
+section#work .portfolioFilter a.current { color:#ed8046; }
 
 /* ---- HOME // BLOG  ---- */
 section#blog { margin-top:70px; padding-top:20px; }
@@ -93,7 +97,7 @@ section#contact h3 { margin-left:0px; margin-right:0px; }
 section#contact form { padding:0 15px; }
 section#contact input[type="text"], section#contact input[type="email"], section#contact textarea { font-size:1.2em; padding:10px; margin:5px 0; background:#fff; border:none; border-bottom:#000 2px solid; width:100%; }
 section#contact textarea { height:5em; }
-section#contact input[type="submit"] { text-transform:uppercase; background:#ED8046; border:none; color:#fff; letter-spacing:4px; padding:15px; width:100%; font-size:0.8em; margin:20px 0; }
+section#contact input[type="submit"] { text-transform:uppercase; background:#ed8046; border:none; color:#fff; letter-spacing:4px; padding:15px; width:100%; font-size:0.8em; margin:20px 0; }
 
 
 /* ---- FOOTER ---- */
@@ -105,8 +109,8 @@ footer a:hover, footer a:active { color:#eee; }
 #copyright { background:#222; padding-top:15px; text-align:right; font-size:0.65em; color:#666; }
 
 /* ---- UTILITY ---- */
-.orange { color:#d88e2f; }
-.orange-bg { background-color:#d88e2f; }
+.orange { color:#ed8046; }
+.orange-bg { background-color:#ed8046; }
 
 
 
