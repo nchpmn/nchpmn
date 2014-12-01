@@ -120,7 +120,7 @@ section#contact dl { margin-top:3em; }
 /* ---- BLOG // ARCHIVE ---- */
 .blog-archive header.jumbotron.cover { height:200px; }
 .blog-archive article.first-post { display:table; height:auto; width:100%; position:relative; }
-article .image-container { background:url(http://placehold.it/400x600/666/999); background-size:cover; background-position:center center; height:100%; overflow:hidden; padding:0; position:absolute; top:0; }
+article .image-container { background:url(http://placehold.it/320x624/666/999); background-size:cover; background-position:center center; height:100%; overflow:hidden; padding:0; position:absolute; top:0; }
 
 /* ---- FOOTER ---- */
 footer { background:#2f2f2f; padding:50px 0; margin-top:75px; color:#aaa; font-size:0.75em; }
