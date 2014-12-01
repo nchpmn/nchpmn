@@ -7,7 +7,10 @@
 html, body { height:100%; }
 
 h1, h2, h3, h4, h5, h6 { font-family:"Flama Thin"; font-weight:normal !important; }
-a:link, a:visited { font-family:inherit; }
+
+a:link, a:visited { font-family:inherit; color:#ED8046; }
+a:hover, a:active { }
+a.btn-primary { background-color:#ED8046; color:#fff; border:#d88e2f 1px solid; }
 p { font-size:1.3em; font-family:"Flama Light"; line-height:1.5em; }
 
 /* ---- NAVBAR ---- */
@@ -16,7 +19,8 @@ nav .navbar-header a.navbar-brand { font-family:"Flama Ultra"; font-size:1.2em; 
 nav button.navbar-toggle { color:#eee; padding:9px 16px; }
 nav button.navbar-toggle:hover { color:#666; }
 nav ul { font-size:0.85em; text-transform:uppercase; }
-nav a {  transition:all 0.5s ease; }
+nav a {  transition:all 0.25s ease; }
+nav ul.nav.navbar-nav li a:hover, nav ul.nav.navbar-nav li a:active { color:#ED8046; }
 
 /* ---- HOME // GLOBAL ---- */
 section h3 { margin:2em; }
@@ -49,6 +53,7 @@ header.jumbotron.cover h2 { font-size:1.3em; margin-top:1.5em; }
 section#welcome { display:table; height:auto; width:100%; position:relative; }
 section#welcome .image-container { background:url(http://placehold.it/400x600/666/999); background-size:cover; background-position:center center; height:100%; overflow:hidden; padding:0; position:absolute; top:0; }
 section#welcome .container { padding:25px 0 75px; }
+section#welcome p.text-left { padding:0px 5px; }
 section#welcome p.lead { font-size:1.65em; font-weight:normal; font-family:"Flama Light"; }
 section#welcome p:not(lead) { }
 
@@ -68,7 +73,7 @@ section#work .portfolioFilter a:hover, section#work .portfolioFilter a:active { 
 section#work .portfolioFilter a.current { color:#d88e2f; }
 
 /* ---- HOME // BLOG  ---- */
-section#blog { margin-top:150px; }
+section#blog { margin-top:70px; padding-top:20px; }
 section#blog .item { height:400px; overflow:hidden; }
 section#blog .item img { height:auto; width:100%; position:absolute; top:50%; -webkit-transform:translateY(-50%); -ms-transform:translateY(-50%); transform:translateY(-50%); }
 section#blog .item .blog-description { width:100%; color:#fff; font-family:"Flama"; text-transform:uppercase; text-align:center; position:absolute; top:50%; -webkit-transform:translateY(-50%); -ms-transform:translateY(-50%); transform:translateY(-50%); }
@@ -84,6 +89,8 @@ section#quals { margin-top:75px; }
 
 /* ---- HOME // CONTACT ---- */
 section#contact { margin-top:100px; }
+section#contact h3 { margin-left:0px; margin-right:0px; }
+section#contact form { padding:0 15px; }
 section#contact input[type="text"], section#contact input[type="email"], section#contact textarea { font-size:1.2em; padding:10px; margin:5px 0; background:#fff; border:none; border-bottom:#000 2px solid; width:100%; }
 section#contact textarea { height:5em; }
 section#contact input[type="submit"] { text-transform:uppercase; background:#d88e2f; border:none; color:#fff; letter-spacing:4px; padding:15px; width:100%; font-size:0.8em; margin:20px 0; }
