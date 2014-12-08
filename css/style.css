@@ -126,11 +126,6 @@ section#contact dl { margin-top:3em; }
 .blog-archive article.first-post p, , .blog-archive article.second-post p { font-family:"Flama Light"; font-size:1.45em; }
 article .image-container { background:url(http://placehold.it/320x624/666/999); background-size:cover; background-position:center center; height:100%; overflow:hidden; padding:0; position:absolute; top:0; }
 
-.blog-archive .blog-archive-list article { padding:0; }
-.blog-archive .blog-archive-list article img { padding:0; width:100%; }
-.blog-archive .blog-archive-list article .blog-archive-list-img { width:100%; height:150px; overflow:hidden; }
-.blog-archive .blog-archive-list article .container { margin:0px auto;}
-
 
 
 /* ---- FOOTER ---- */
