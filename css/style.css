@@ -143,6 +143,13 @@ article .image-container { background:url(http://placehold.it/320x624/666/999); 
 .blog-single .post-content h5 { font-size:1.75em; font-family:"Flama Light"; color:#555; }
 .blog-single .post-content h6 { font-size:1.65em; font-family:"Flama Light"; color:#555; }
 
+.blog-single .post-content ul, ol { list-style-position:outside; margin:1em 2em; }
+.blog-single .post-content ul { list-style-type:square; }
+.blog-single .post-content ol { list-style-type:decimal; }
+.blog-single .post-content ul ul, .blog-single .post-content ol ul { list-style-type:circle; }
+.blog-single .post-content ul ol, .blog-single .post-content ol ol { list-style-type:lower-alpha; }
+
+.blog-single .post-content li { color:#333; font-family:"Flama Light"; font-size:1.3em; margin-bottom:0.5em; }
 
 @media only screen and (min-width : 768px) { /* .sm size */
     .blog-single .post-content { font-size:105%; }
