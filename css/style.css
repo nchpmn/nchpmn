@@ -140,10 +140,11 @@ article .image-container { background:url(http://placehold.it/320x624/666/999); 
     .blog-single .post-content { font-size:105%; }
 }
 @media only screen and (min-width : 992px) { /* .md size */
+    .blog-single .post-content { font-size:110%; }
 }
 
 @media only screen and (min-width : 1200px) { /* .lg size */
-    .blog-single .post-content { font-size:110%; }
+    .blog-single .post-content { font-size:115%; }
 }
 
 
