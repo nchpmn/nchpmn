@@ -133,6 +133,15 @@ article .image-container { background:url(http://placehold.it/320x624/666/999); 
 .blog-single header.jumbotron.cover span.meta { font-family:"Flama Thin"; font-size:0.95em; text-transform:uppercase; vertical-align:bottom; color:#777; margin-bottom:0; }
 .blog-single .post-content { padding:100px 0 75px 0; }
 
+@media only screen and (min-width : 768px) { /* .sm size */
+
+}
+@media only screen and (min-width : 992px) { /* .md size */
+
+}
+@media only screen and (min-width : 1200px) { /* .lg size */
+
+}
 
 
 /* ---- FOOTER ---- */
