@@ -15,7 +15,7 @@ a:hover, a:active { }
 .btn.btn-primary { background-color:#ED8046; color:#fff; border:none; }
 .btn.btn-primary:hover, .btn-prinary:active { }
 
-p { font-size:1.3em; font-family:"Flama Light"; line-height:1.5em; }
+p { font-size:1.3em; font-family:"Flama Light"; line-height:1.5em; margin-bottom:1.5em; }
 
 dl { font-size:1.15em; }
 dt { font-family:"Flama"; text-transform:uppercase; letter-spacing:1px; font-size:0.8em; }
@@ -132,9 +132,17 @@ article .image-container { background:url(http://placehold.it/320x624/666/999); 
 .blog-single header.jumbotron.cover .container { position:relative; top:10em; }
 .blog-single header.jumbotron.cover span.meta { font-family:"Flama Thin"; font-size:0.95em; text-transform:uppercase; vertical-align:bottom; color:#777; margin-bottom:0; }
 .blog-single .post-content { padding:100px 0 75px 0; }
+
+.blog-single .post-content p { }
 .blog-single .post-content p.lead { font-size:1.7em; font-family:"Flama Light"; color:#444; line-height:1.5em; margin-bottom:1.5em; }
 
-.blog-single .post-content h2, .blog-single .post-content h3, .blog-single .post-content h4, .blog-single .post-content h5, .blog-single .post-content h6 { margin-top:2em; font-family:"Flama Ultra"; } 
+.blog-single .post-content h2, .blog-single .post-content h3, .blog-single .post-content h4, .blog-single .post-content h5, .blog-single .post-content h6 { margin-top:2em; margin-bottom:0.5em; font-family:"Flama Ultra"; }
+.blog-single .post-content h2 { font-size:3em; }
+.blog-single .post-content h3 { font-size:2.5em; color:#555; }
+.blog-single .post-content h4 { font-size:2em; color:#222; }
+.blog-single .post-content h5 { font-size:1.75em; font-family:"Flama Light"; color:#555; }
+.blog-single .post-content h6 { font-size:1.65em; font-family:"Flama Light"; color:#555; }
+
 
 @media only screen and (min-width : 768px) { /* .sm size */
     .blog-single .post-content { font-size:105%; }
