@@ -137,7 +137,7 @@ article .image-container { background:url(http://placehold.it/320x624/666/999); 
 .blog-single .post-content p.lead { font-size:1.7em; font-family:"Flama Light"; color:#444; line-height:1.5em; margin-bottom:1.5em; }
 
 .blog-single .post-content h2, .blog-single .post-content h3, .blog-single .post-content h4, .blog-single .post-content h5, .blog-single .post-content h6 { margin-top:2em; margin-bottom:0.5em; font-family:"Flama Ultra"; }
-.blog-single .post-content h2 { font-size:3.5em; margin-top:1em; }
+.blog-single .post-content h2 { font-size:3.5em; margin-top:1em; font-family:"Flama Thin"; color:#000; }
 .blog-single .post-content h3 { font-size:3em; color:#555; margin-top:1.5em; }
 .blog-single .post-content h4 { font-size:2em; color:#222; }
 .blog-single .post-content h5 { font-size:1.65em; font-family:"Flama Light"; color:#555; }
