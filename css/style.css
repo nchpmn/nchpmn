@@ -15,7 +15,7 @@ a:hover, a:active { }
 .btn.btn-primary { background-color:#ED8046; color:#fff; border:none; }
 .btn.btn-primary:hover, .btn-prinary:active { }
 
-p { font-size:1.3em; font-family:"Flama Light"; line-height:1.5em; }
+p { font-size:1.3em; font-family:"Flama Light"; line-height:1.5em; margin-bottom:1.5em; }
 
 dl { font-size:1.15em; }
 dt { font-family:"Flama"; text-transform:uppercase; letter-spacing:1px; font-size:0.8em; }
@@ -127,6 +127,50 @@ section#contact dl { margin-top:3em; }
 .blog-archive article.first-post p, , .blog-archive article.second-post p { font-family:"Flama Light"; font-size:1.45em; }
 article .image-container { background:url(http://placehold.it/320x624/666/999); background-size:cover; background-position:center center; height:100%; overflow:hidden; padding:0; position:absolute; top:0; }
 
+/* ---- BLOG // SINGLE POST ---- */
+.blog-single header.jumbotron.cover { height:auto; min-height:40%; }
+.blog-single header.jumbotron.cover .container { position:relative; top:10em; }
+.blog-single header.jumbotron.cover span.meta { font-family:"Flama Thin"; font-size:0.95em; text-transform:uppercase; vertical-align:bottom; color:#777; margin-bottom:0; }
+.blog-single .post-content { padding:100px 0 75px 0; }
+
+.blog-single .post-content p { }
+.blog-single .post-content p.lead { font-size:1.7em; font-family:"Flama Light"; color:#444; line-height:1.5em; margin-bottom:1.5em; }
+
+.blog-single .post-content h2, .blog-single .post-content h3, .blog-single .post-content h4, .blog-single .post-content h5, .blog-single .post-content h6 { margin-top:2em; margin-bottom:0.5em; font-family:"Flama Ultra"; }
+.blog-single .post-content h2 { font-size:3.5em; margin-top:1em; font-family:"Flama Thin"; color:#000; }
+.blog-single .post-content h3 { font-size:3em; color:#555; margin-top:1.5em; }
+.blog-single .post-content h4 { font-size:2em; color:#222; }
+.blog-single .post-content h5 { font-size:1.65em; font-family:"Flama Light"; color:#555; }
+.blog-single .post-content h6 { font-size:1.45em; font-family:"Flama Light"; color:#333; }
+
+.blog-single .post-content ul, .blog-single .post-content ol { list-style-position:outside; margin:1em 0;  }
+.blog-single .post-content ul { list-style-type:square; }
+.blog-single .post-content ol { list-style-type:decimal; }
+.blog-single .post-content ul ul, .blog-single .post-content ol ul { list-style-type:circle; }
+.blog-single .post-content ul ol, .blog-single .post-content ol ol { list-style-type:lower-alpha; }
+.blog-single .post-content li { color:#333; font-family:"Flama Light"; font-size:1.3em; margin-bottom:0.5em; }
+
+.blog-single .post-content blockquote { padding-left:1.5em; border-left-color:#d88e2f; }
+.blog-single .post-content blockquote p { }
+.blog-single .post-content blockquote cite { font-size:0.9em; font-family:"Flama Light"; }
+
+@media only screen and (min-width : 768px) { /* .sm size */
+    .blog-single .post-content { font-size:105%; }
+    .blog-single .post-content ul, .blog-single .post-content ol {  margin:1em 2em; }
+    .blog-single .post-content blockquote { margin:2em; }
+    .blog-single .post-content blockquote p { }
+    .blog-single .post-content blockquote cite { }
+}
+@media only screen and (min-width : 992px) { /* .md size */
+    .blog-single .post-content { font-size:110%; }
+    .blog-single .post-content blockquote {  }
+
+}
+
+@media only screen and (min-width : 1200px) { /* .lg size */
+    .blog-single .post-content { font-size:115%; }
+    .blog-single .post-content blockquote {  }
+}
 
 
 /* ---- FOOTER ---- */
