@@ -1,6 +1,6 @@
 <?php if(!defined('KIRBY')) exit ?>
 
-title: Article
+title: Link
 fields:
   title:
     label: Title
@@ -14,9 +14,9 @@ fields:
     type: text
     validate: filename
     placeholder: cover.jpg
-  leading:
-    label: Excerpt
-    type: textarea
+  link:
+    label: Link
+    type: url
   article:
     label: Content
     type: textarea
