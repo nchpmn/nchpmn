@@ -49,8 +49,8 @@
         'assets/js/custom.js'
     )) ?>
     <script>
-            // Smooth Anchor Scroll Linky Thing Script
-            $(function() {
+        // Smooth Anchor Scroll Linky Thing Script
+        $(function() {
             $('a[href*=#]:not([href=#])').click(function() {
                 if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
                     var target = $(this.hash);

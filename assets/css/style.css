@@ -131,7 +131,7 @@ article .image-container { background:url(http://placehold.it/320x624/666/999); 
 /* ---- BLOG // SINGLE POST ---- */
 .blog-single header.jumbotron.cover { height:auto; min-height:40%; }
 .blog-single header.jumbotron.cover .container { position:relative; top:10em; }
-.blog-single header.jumbotron.cover span.meta { font-family:"Flama Thin"; font-size:0.95em; text-transform:uppercase; vertical-align:bottom; color:#777; margin-bottom:0; }
+.blog-single header.jumbotron.cover span.meta { font-family:"Flama Thin"; font-size:1em; letter-spacing:1px; text-transform:uppercase; vertical-align:bottom; color:#ccc; margin-bottom:0; }
 .blog-single .post-content { padding:100px 0 75px 0; }
 
 .blog-single .post-content p { }
@@ -155,6 +155,7 @@ article .image-container { background:url(http://placehold.it/320x624/666/999); 
 .blog-single .post-content blockquote p { }
 .blog-single .post-content blockquote cite { font-size:0.9em; font-family:"Flama Light"; }
 
+.blog-single .post-content .footnotes { font-size:0.65em; margin:100px 20px 0px 20px; }
 section.prevnext { margin:0; }
 section.prevnext hr { width:75%; margin:30px auto 50px auto; }
 .prevnext a:visited, .prevnext a:link { padding:20px; text-transform:uppercase; color:#aaa; }
