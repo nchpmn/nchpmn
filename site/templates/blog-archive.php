@@ -1,6 +1,4 @@
-<?php snippet('header') ?>
-<body class="blog-archive">
-<?php snippet('navbar') ?>
+<?php snippet('header', array('bodyclass' => 'blog-archive')) ?>
 
 <header id="cover" class="jumbotron cover">
         <div class="container text-center">
