@@ -12,8 +12,11 @@
         'assets/css/style.css',
         'assets/fonts/flama.min.css',
         'assets/css/font-awesome.min.css',
-        'assets/css/owl.carousel.min.css'
     )) ?>
+    <?php if($page->isHomePage()): ?>
+        <?php echo css('assets/css/owl.carousel.min.css') ?>
+    <?php endif; ?>
+    
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
