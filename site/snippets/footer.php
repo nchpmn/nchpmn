@@ -44,49 +44,13 @@
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/isotope.pkgd.min.js"></script>
-    <script src="js/owl.carousel.min.js"></script>
-    <script src="js/custom.js"></script>
+    <?php echo js(array(
+        'assets/js/bootstrap.min.js',
+        'assets/js/custom.js'
+    )) ?>
     <script>
-        $(window).load(function(){
-            var $container = $('.portfolioContainer');
-            $container.isotope({
-                filter: '*',
-                animationOptions: {
-                    duration: 750,
-                    easing: 'linear',
-                    queue: false
-                }
-            });
-         
-            $('.portfolioFilter a').click(function(){
-                $('.portfolioFilter .current').removeClass('current');
-                $(this).addClass('current');
-         
-                var selector = $(this).attr('data-filter');
-                $container.isotope({
-                    filter: selector,
-                    animationOptions: {
-                        duration: 750,
-                        easing: 'linear',
-                        queue: false
-                    }
-                 });
-                 return false;
-            }); 
-        });
-        
-        $(document).ready(function() {
-            $('#owl-blog').owlCarousel({
-                items:1,
-                loop:true,
-                margin:10,
-                nav:true,
-            })        
-        });
-        
-        $(function() {
+            // Smooth Anchor Scroll Linky Thing Script
+            $(function() {
             $('a[href*=#]:not([href=#])').click(function() {
                 if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
                     var target = $(this.hash);
@@ -101,6 +65,50 @@
             });
         });
     </script>
+    <?php if($page->isHomePage()): ?>
+        <?php echo js(array(
+            'assets/js/isotope.pkgd.min.js',
+            'assets/js/owl.carousel.min.js'
+        )) ?>
+        <script>
+            $(window).load(function(){
+                var $container = $('.portfolioContainer');
+                $container.isotope({
+                    filter: '*',
+                    animationOptions: {
+                        duration: 750,
+                        easing: 'linear',
+                        queue: false
+                    }
+                });
+             
+                $('.portfolioFilter a').click(function(){
+                    $('.portfolioFilter .current').removeClass('current');
+                    $(this).addClass('current');
+             
+                    var selector = $(this).attr('data-filter');
+                    $container.isotope({
+                        filter: selector,
+                        animationOptions: {
+                            duration: 750,
+                            easing: 'linear',
+                            queue: false
+                        }
+                     });
+                     return false;
+                }); 
+            });
+            
+            $(document).ready(function() {
+                $('#owl-blog').owlCarousel({
+                    items:1,
+                    loop:true,
+                    margin:10,
+                    nav:true,
+                })        
+            });
+        </script>
+    <?php endif; ?>
 </body>
 </html>
     <!-- /footer -->
