@@ -2,7 +2,7 @@ Title: STRICTLY TESTING
 ----
 Date: 2014-12-23
 ----
-Cover Image:
+Cover: random.jpg
 ----
 Leading: Nothing Much Here
 ----
