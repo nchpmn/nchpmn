@@ -1,17 +1,9 @@
-Title: Nathan Chapman
-
+Title: Nathan Chapman &mdash; Steadicam Operator
 ----
-
 Author: Nathan Chapman
-
 ----
-
 Description: Steadicam Operator - Camera Assistant - Video Editor
-
 ----
-
 Keywords: Film, Television, TV, Steadicam, Camera, Crew, Editor
-
 ----
-
-Copyright: © 20012-(date: Year) (link: http://nchp.mn text: Nathan Chapman)
+Copyright: © 2012-(date: Year) (link: http://nchp.mn text: Nathan Chapman)

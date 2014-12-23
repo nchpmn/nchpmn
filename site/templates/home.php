@@ -1,14 +1,12 @@
 <?php snippet('header') ?>
-
-  <main class="main" role="main">
-
-    <div class="text">
-      <h1><?php echo $page->title()->html() ?></h1>
-      <?php echo $page->text()->kirbytext() ?>
+<header id="cover" class="jumbotron cover">
+    <div class="container text-center">
+        <h1 class="col-sm-10 col-sm-offset-1">Nathan Chapman</h1>
+        <h2>Steadicam&nbsp;Op &nbsp;&mdash;&nbsp; Camera&nbsp;Assistant &nbsp;&mdash;&nbsp; Video&nbsp;Editor</h2>
     </div>
-
-    <hr>
-
-  </main>
-
+    <div class="container container-btn text-center">
+        <a href="#welcome" class="btn btn-lg btn-default"><span class="fa fa-chevron-down"></span></a>
+    </div>
+    
+</header><!-- End header -->
 <?php snippet('footer') ?>
