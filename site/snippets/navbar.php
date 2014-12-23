@@ -8,13 +8,27 @@
             </button>
             <a class="navbar-brand" href="#">NCHP<span class="orange"><strong>.</strong></span>MN</a>
         </div>
+        
         <div class="collapse navbar-collapse clearfix" id="collapse">
-            <ul class="nav navbar-nav pull-right">
-                <li><a href="#cover">Home</a></li>
-                <li><a href="#work">Work</a></li>
-                <li><a href="#blog">Blog</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
+            <?php if($page->isHomePage()): ?>
+                <ul class="nav navbar-nav pull-right">
+                    <li><a href="#cover">Home</a></li>
+                    <li><a href="#work">Work</a></li>
+                    <li><a href="#blog">Blog</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                
+            <?php else: ?>
+                <ul class="nav navbar-nav pull-right">
+                    <?php $items = $pages->visible();
+                    if($items->count()): ?>
+                        <?php foreach($items as $item): ?>
+                            <li><a href="<?php echo $item->url() ?>"><?php echo $item->title()->html() ?></a></li>
+                        <?php endforeach; ?>
+                    <?php endif ?>
+                    <li><a href="<?php echo kirby()->urls()->index() ?>#contact">Contact</a></li>
+                </ul>
+            <?php endif; ?>            
         </div>
     </div>
 </nav><!-- End navbar -->
