@@ -155,6 +155,12 @@ article .image-container { background:url(http://placehold.it/320x624/666/999); 
 .blog-single .post-content blockquote p { }
 .blog-single .post-content blockquote cite { font-size:0.9em; font-family:"Flama Light"; }
 
+section.prevnext { margin:0; }
+section.prevnext hr { width:75%; margin:30px auto 50px auto; }
+.prevnext a:visited, .prevnext a:link { padding:20px; text-transform:uppercase; color:#aaa; }
+.prevnext a:hover, .prevnext a:active { background-color:#efefef; }
+section.prevnext a.prev { text-align:right; }
+
 @media only screen and (min-width : 768px) { /* .sm size */
     .blog-single .post-content { font-size:105%; }
     .blog-single .post-content ul, .blog-single .post-content ol {  margin:1em 2em; }
