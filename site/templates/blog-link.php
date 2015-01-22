@@ -16,15 +16,19 @@
     <div class="container">
         <div class="row">
             <div class="col-xs-10 col-xs-offset-1 col-md-8 col-md-offset-2 post-content">
-                <div class="blog-link-box">
+                <a id="blog-link-box" href="<?php echo $page->link() ?>">
+                    <h2><?php snippet('urltitle', array('url' => $page->link())) ?></h2>
                     <p><?php echo $page->link() ?></p>
-                </div>
+                </a>
                 <?php echo $page->article()->kirbytext() ?>
             </div>
         </div>
     </div>
 </article>
 
+<script type="text/javascript">
+
+</script>
 
 <?php snippet('prevnext') ?>
 
