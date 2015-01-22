@@ -1,4 +1,4 @@
-<?php snippet('header', array('bodyclass' => 'blog-single')) ?>
+<?php snippet('header', array('bodyclass' => 'blog-single blog-article')) ?>
 
 <header id="cover" class="jumbotron cover" 
     <?php $cover = $page->cover(); ?>
