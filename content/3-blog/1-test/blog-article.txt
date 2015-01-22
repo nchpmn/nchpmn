@@ -1,12 +1,21 @@
 Title: STRICTLY TESTING
+
 ----
+
 Date: 2014-12-23
+
 ----
+
 Cover: random.jpg
+
 ----
-Leading: Nothing Much Here
+
+Leading: Lorem markdownum nostrum, racemiferis rivus, vertit perque: Libys et omnibus verbis sua acrior. Et illi et quos sinistro crimen sudore novem capillo. Tempora ingreditur spatium per tempore proximitas plura umero, capientibus. Sine terrae ab aut loco inscripsere natus citra unus pumice reddite *additus* est Calymne; etiamnum prolem, offensane visceribus!
+
 ----
-Article:
+
+Article: 
+
 Lorem markdownum nostrum, racemiferis rivus, vertit perque: Libys et omnibus verbis sua acrior. Et illi et quos sinistro crimen sudore novem capillo. Tempora ingreditur spatium per tempore proximitas plura umero, capientibus. Sine terrae ab aut loco inscripsere natus citra unus pumice reddite *additus* est Calymne; etiamnum prolem, offensane visceribus!
 
 > Fecit aurumque simul factisque apertas. Iam pari Sabina servata ipse? Quam

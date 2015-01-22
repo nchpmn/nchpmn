@@ -8,6 +8,8 @@ language: en
 role: admin
 token: d7150cbfe39b51c0157764c739b0c4e1edc8eaa5
 history:
+  - blog/another-article
+  - blog/doctor-karl
+  - blog/test
   - blog/post-5
   - blog/jackie-chan-the-action-comedy
-  - blog/doctor-karl

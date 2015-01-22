@@ -1,12 +1,21 @@
 Title: Second Post
+
 ----
+
 Date: 2014-12-24
+
 ----
+
 Cover: giphy.gif
+
 ----
-Leading: Excerpt?
+
+Leading: *Ipsam vocari* Adonis adlevet [semperque](http://twitter.com/search?q=haskell): a dona caede, quoque quantoque sonumque levibus. Artes securaque teneris quisque, et indignis tetigisse Colchis, si. Amissoque contemnere quaerit, huic tegit ut ponit, tibi tria Argus Dryopen et. Viscera removere postquam mandere queror; ventris istae ficto, cupidine totoque patientia erat bacis. Coniuge ferens, mihi vestis iuvenci *accedit*.
+
 ----
-Article:
+
+Article: 
+
 Lorem markdownum subita ducat. Telum mihi unum utque, madidis ligno laborum,
 inquit ratione *huc* lentis [limoso expers matrisque] natae librat nec genu.
 
