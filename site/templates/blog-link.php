@@ -16,7 +16,9 @@
     <div class="container">
         <div class="row">
             <div class="col-xs-10 col-xs-offset-1 col-md-8 col-md-offset-2 post-content">
-                <p><?php echo $page->link() ?></p>
+                <div class="blog-link-box">
+                    <p><?php echo $page->link() ?></p>
+                </div>
                 <?php echo $page->article()->kirbytext() ?>
             </div>
         </div>
