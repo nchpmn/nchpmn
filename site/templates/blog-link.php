@@ -17,8 +17,8 @@
         <div class="row">
             <div class="col-xs-10 col-xs-offset-1 col-md-8 col-md-offset-2 post-content">
                 <a id="blog-link-box" href="<?php echo $page->link() ?>">
-                    <h2><?php snippet('urltitle', array('url' => $page->link())) ?></h2>
-                    <p><?php echo $page->link() ?></p>
+                    <h2><?php snippet('urltitle', array('url' => $page->link())) ?> &raquo;</h2>
+                    <p class="hidden-xs"><?php echo $page->link() ?></p>
                 </a>
                 <?php echo $page->article()->kirbytext() ?>
             </div>
