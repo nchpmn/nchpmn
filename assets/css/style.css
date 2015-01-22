@@ -180,6 +180,8 @@ section.prevnext a.prev { text-align:right; }
     .blog-single .post-content blockquote {  }
 }
 
+/* ---- BLOG // LINK POST ---- */
+.blog-link-box { background:#ddd; color:#555; height:70px; }
 
 /* ---- FOOTER ---- */
 footer { background:#2f2f2f; padding:50px 0; margin-top:75px; color:#aaa; font-size:0.75em; }
