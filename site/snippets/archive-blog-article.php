@@ -1,7 +1,7 @@
 <?php $alignclass = ($n%2) ? 'first-post' : 'second-post' ?>
 <?php if($alignclass == 'first-post'): ?>
 
-    <article class=<?php echo $alignclass ?>>
+    <article class="first-post">
             <div class="image-container col-xs-3 col-sm-4 col-md-5"
             <?php $cover = $post->cover(); ?>
             <?php if($image = $post->image(strval($cover))): ?>
