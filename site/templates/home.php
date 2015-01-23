@@ -12,5 +12,6 @@
 <?php snippet('home-welcome') ?>
 <?php snippet('home-callout') ?>
 <?php snippet('home-quals') ?>
+<?php snippet('home-blog') ?>
 
 <?php snippet('footer') ?>
