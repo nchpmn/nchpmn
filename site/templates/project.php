@@ -1,12 +1,7 @@
 <?php snippet('header', array('bodyclass' => 'work-single')) ?>
 
 <header id="cover" class="jumbotron cover">
-    <div class="owl-carousel">
-        <?php if($page->video()): ?>
-            <div class="item">
-                
-            </div>
-        <?php endif ?>
+    
     </div>
     <?php $cover = $page->cover(); ?>
     <?php if($image = $page->image(strval($cover))): ?>

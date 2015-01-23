@@ -46,16 +46,14 @@
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <?php echo js(array(
         'assets/js/bootstrap.min.js',
-        'assets/js/custom.js'
+        'assets/js/custom.js',
+        'assets/js/jquery.tubular.1.0.js'
     )) ?>
-                                <?php echo js(array(
-                                    'assets/js/okvideo.min.js',
-                                )) ?>
-                                <script>
-                                    $(function(){
-                                        $.okvideo({ video:'<?php echo $page->video() ?>' })
-                                    });
-                                </script>
+    <script>
+    $('document').ready(function() {
+        $('#cover').tubular({videoId: 'Nq82TCA_sl8'});
+    });
+    </script>
     <script>
         // Smooth Anchor Scroll Linky Thing Script
         $(function() {
