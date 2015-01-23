@@ -42,14 +42,7 @@
     </div>
 </article>
 
-<?php echo js(array(
-        'assets/js/okvideo.min.js',
-    )) ?>
-<script>
-$(function(){
-    $.okvideo({ video:'<?php echo $page->video() ?>' })
-});
-</script>
+
 
 
 <?php snippet('prevnext') ?>
