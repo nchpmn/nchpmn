@@ -99,14 +99,12 @@
                 }); 
             });
             
-            $(document).ready(function() {
-                $('.owl-carousel').owlCarousel({
-                    items:1,
-                    loop:true,
-                    margin:10,
-                    nav:true,
-                })        
-            });
+            $('.owl-carousel').owlCarousel({
+                loop:true,
+                margin:10,
+                nav:true,
+                items:1,
+            })
         </script>
     <?php endif; ?>
 </body>

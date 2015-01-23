@@ -17,7 +17,7 @@
         'assets/css/font-awesome.min.css',
     )) ?>
     <?php if($page->isHomePage()): ?>
-        <?php echo css('assets/css/owl.carousel.min.css') ?>
+        <?php echo css('assets/css/owl.carousel.css') ?>
     <?php endif; ?>
     
 
