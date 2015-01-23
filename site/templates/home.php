@@ -14,4 +14,5 @@
 <?php snippet('home-quals') ?>
 <?php snippet('home-blog') ?>
 
+<!-- Start Footer -->
 <?php snippet('footer') ?>
