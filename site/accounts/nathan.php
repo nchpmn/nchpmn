@@ -6,7 +6,7 @@ password: >
   $2a$10$YMeRNrw0Z2shQlIph.YrMu.570D.3YjDXhgwdIAkcXs3E1SuPHzXm
 language: en
 role: admin
-token: d7150cbfe39b51c0157764c739b0c4e1edc8eaa5
+token: 1fcc75a9dc46603e0564d67936645ad2daaa7670
 history:
   - blog/another-article
   - blog/doctor-karl
