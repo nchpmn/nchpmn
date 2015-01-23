@@ -82,7 +82,7 @@ section#work .portfolioFilter a:hover, section#work .portfolioFilter a:active { 
 section#work .portfolioFilter a.current { color:#ed8046; }
 
 /* ---- HOME // BLOG  ---- */
-/*section#blog { margin-top:70px; padding-top:20px; }
+section#blog { margin-top:70px; padding-top:20px; }
 section#blog .item { height:100px !important; overflow:hidden; background-color:#f00; }
 section#blog .item img { height:auto; width:100%; position:absolute; top:50%; -webkit-transform:translateY(-50%); -ms-transform:translateY(-50%); transform:translateY(-50%); }
 section#blog .item .blog-description { width:100%; color:#fff; font-family:"Flama"; text-transform:uppercase; text-align:center; position:absolute; top:50%; -webkit-transform:translateY(-50%); -ms-transform:translateY(-50%); transform:translateY(-50%); }
@@ -91,7 +91,7 @@ section#blog .item a:link, section#blog .item a:visited { }
 section#blog .item a:hover, section#blog .item a:active { opacity:0.9; }
 section#blog .owl-prev, section#blog .owl-next { position:absolute; top:50%; background:#fff; color:#666; font-family:"Flama"; padding:10px; text-transform:uppercase; font-size:0.8em; letter-spacing:2px; }
 section#blog .owl-next { right:0; padding-right:15px; }
-section#blog .owl-prev { padding-left:15px; }*/
+section#blog .owl-prev { padding-left:15px; }
 
 /* ---- HOME // QUALS ---- */
 section#quals { margin-top:75px; }
