@@ -1,4 +1,4 @@
-<?php snippet('header') ?>
+<?php snippet('header', array('bodyclass' => 'home')) ?>
 <header id="cover" class="jumbotron cover">
     <div class="container text-center">
         <h1 class="col-sm-10 col-sm-offset-1">Nathan Chapman</h1>
