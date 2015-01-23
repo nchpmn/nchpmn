@@ -100,7 +100,7 @@
             });
             
             $(document).ready(function() {
-                $('#owl-blog').owlCarousel({
+                $('.owl-carousel').owlCarousel({
                     items:1,
                     loop:true,
                     margin:10,
