@@ -1,33 +1,43 @@
-<?php snippet('header') ?>
+<?php snippet('header', array('bodyclass' => 'work-single')) ?>
 
-  <main class="main" role="main">
+<header id="cover" class="jumbotron cover" 
+    <?php $cover = $page->cover(); ?>
+    <?php if($image = $page->image(strval($cover))): ?>
+        style="background-image:url('<?php echo $image->url() ?>');"
+    <?php endif ?>
+></header><!-- End header -->
 
-    <h1><?php echo $page->title()->html() ?></h1>
-
-    <ul class="meta cf">
-      <li><b>Year:</b> <time datetime="<?php echo $page->date('c') ?>"><?php echo $page->date('Y', 'year') ?></time></li>
-      <li><b>Tags:</b> <?php echo $page->tags() ?></li>
-    </ul>
-
-    <div class="text">
-      <?php echo $page->text()->kirbytext() ?>
-
-      <?php foreach($page->images()->sortBy('sort', 'asc') as $image): ?>
-      <figure>
-        <img src="<?php echo $image->url() ?>" alt="<?php echo $page->title()->html() ?>">
-      </figure>
-      <?php endforeach ?>
+<article>
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-10 col-xs-offset-1 col-md-5 col-md-offset-2 post-content">
+                <div class="clearfix">
+                    <h1><?php echo $page->title() ?></h1>
+                    <span class="pull-left"><?php echo $page->role() ?></span>
+                    <span class="pull-right"><?php echo $page->year('j Y') ?></span>
+                </div>
+                
+                <?php echo $page->text()->kirbytext() ?>
+            </div>
+            <div class="col-xs-10 col-xs-offset-1 col-md-3 col-xs-offset-5">
+                <dl>
+                    <dt>Production Company</dt>
+                    <dd><?php echo $page->company() ?></dd>
+                    <dt>Client</dt>
+                    <dd><?php echo $page->client() ?></dd>
+                    <?php foreach($page->crew()->yaml() as $person): ?>
+                        <dt><?php echo $person['role'] ?></dt>
+                        <dd><?php echo $person['name'] ?></dd>
+                    <?php endforeach ?>
+                </dl>
+            </div>
+        </div>
     </div>
+</article>
 
-    <nav class="nextprev cf" role="navigation">
-      <?php if($prev = $page->prevVisible()): ?>
-      <a class="prev" href="<?php echo $prev->url() ?>">&larr; previous</a>
-      <?php endif ?>
-      <?php if($next = $page->nextVisible()): ?>
-      <a class="next" href="<?php echo $next->url() ?>">next &rarr;</a>
-      <?php endif ?>
-    </nav>
 
-  </main>
+<?php snippet('prevnext') ?>
+
+
 
 <?php snippet('footer') ?>
