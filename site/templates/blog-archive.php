@@ -8,7 +8,7 @@
 
 
 <?php $n = 0; foreach(page('blog')->children()->visible()->limit(5) as $post): $n++; ?>
-    <?php snippet('single-'.$post->template(), array('post' => $post, 'n' => $n)) ?>    
+    <?php snippet('archive-'.$post->template(), array('post' => $post, 'n' => $n)) ?>    
 <?php endforeach ?>
 
 
