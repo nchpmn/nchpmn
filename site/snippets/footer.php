@@ -48,6 +48,14 @@
         'assets/js/bootstrap.min.js',
         'assets/js/custom.js'
     )) ?>
+                                <?php echo js(array(
+                                    'assets/js/okvideo.min.js',
+                                )) ?>
+                                <script>
+                                    $(function(){
+                                        $.okvideo({ video:'<?php echo $page->video() ?>' })
+                                    });
+                                </script>
     <script>
         // Smooth Anchor Scroll Linky Thing Script
         $(function() {
