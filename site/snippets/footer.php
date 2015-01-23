@@ -98,6 +98,10 @@
                      return false;
                 }); 
             });
+            
+            $(document).ready(function(){
+                $(".owl-carousel").owlCarousel();
+            });
         </script>
     <?php endif; ?>
 </body>
