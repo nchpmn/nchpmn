@@ -6,14 +6,40 @@ files:
   sortable: true
 fields:
   title:
-    label: Title
+    label: Project Title
     type:  text
   year:
     label: Year
-    type:  text
+    type:  date
+    format: YYYY  
+  role:
+    label: Role
+    type: text
+  video:
+    label: Video
+    type: url
+  cover:
+    label: Cover Image
+    type: text
   text:
     label: Text
-    type:  textarea
-  tags:
-    label: Tags
-    type:  tags
+    type: textarea
+  company:
+    label: Production Company
+    type: text
+  client:
+    label: Client
+    type: text
+  crew:
+    label: Crew
+    type: structure
+    entry: >
+      {{role}}<br />
+      {{name}}
+    fields:
+      role:
+        label: Role
+        type: text
+      name:
+        label: Name
+        type: text
