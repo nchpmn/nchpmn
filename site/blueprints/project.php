@@ -21,6 +21,8 @@ fields:
   cover:
     label: Cover Image
     type: text
+    validate: filename
+    placeholder: cover.jpg
   text:
     label: Text
     type: textarea
