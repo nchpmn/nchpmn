@@ -19,6 +19,9 @@
     <?php if($page->isHomePage()): ?>
         <?php echo css('assets/css/owl.carousel.css') ?>
     <?php endif; ?>
+    <?php if($page->parent() == "work"): ?>
+        <?php echo css('assets/css/owl.carousel.css') ?>
+    <?php endif; ?>
     
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->

@@ -1,8 +1,14 @@
 <?php snippet('header', array('bodyclass' => 'work-single')) ?>
 
-<header id="cover" class="jumbotron cover">
+<header id="cover" class="jumbotron cover owl-carousel">
+    <?php foreach($page->files() as $image): ?>
+        <div class="item">
+            <img class="img-responsive" src="<?php echo $image->url() ?>">
+        </div>
+    <?php endforeach ?>  
 
 </header>
+
 
 <article>
     <div class="container">
