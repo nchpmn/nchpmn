@@ -116,12 +116,14 @@
                 loop:true,                
                 nav:true,
                 margin:0,
+                center:true,
+                video:true,
                 responsive: {
                     0: {
                         items:1
                     },
                     1200: {
-                        items:2
+                        items:1.75
                     }
                 }
             })

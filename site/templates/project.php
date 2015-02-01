@@ -1,6 +1,9 @@
 <?php snippet('header', array('bodyclass' => 'work-single')) ?>
 
 <header id="cover" class="jumbotron cover owl-carousel">
+    <div class="item video-responsive">
+        <iframe src="//player.vimeo.com/video/114730775" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+    </div>
     <?php foreach($page->files() as $image): ?>
         <div class="item">
             <img class="img-responsive" src="<?php echo $image->url() ?>">
