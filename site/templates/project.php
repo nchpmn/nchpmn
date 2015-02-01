@@ -13,7 +13,7 @@
 </header>
 
 <?php snippet('vimeothumb', array('id' => 118367247)) ?>
-
+<div id="vimeoEmbedder"></div>
 <article>
     <div class="container">
         <div class="row">

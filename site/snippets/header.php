@@ -20,7 +20,10 @@
         <?php echo css('assets/css/owl.carousel.css') ?>
     <?php endif; ?>
     <?php if($page->parent() == "work"): ?>
-        <?php echo css('assets/css/owl.carousel.css') ?>
+        <?php echo css(array(
+            'assets/css/owl.carousel.css',
+            'assets/css/vimeoEmbedder.css',
+        )) ?>
     <?php endif; ?>
     
 
