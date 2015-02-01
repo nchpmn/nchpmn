@@ -47,13 +47,7 @@
     <?php echo js(array(
         'assets/js/bootstrap.min.js',
         'assets/js/custom.js',
-        'assets/js/jquery.tubular.1.0.js'
     )) ?>
-    <script>
-    $('document').ready(function() {
-        $('#cover').tubular({videoId: 'Nq82TCA_sl8'});
-    });
-    </script>
     <script>
         // Smooth Anchor Scroll Linky Thing Script
         $(function() {

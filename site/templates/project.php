@@ -1,13 +1,8 @@
 <?php snippet('header', array('bodyclass' => 'work-single')) ?>
 
 <header id="cover" class="jumbotron cover">
-    
-    </div>
-    <?php $cover = $page->cover(); ?>
-    <?php if($image = $page->image(strval($cover))): ?>
-        style="background-image:url('<?php echo $image->url() ?>');"
-    <?php endif ?>
-</header><!-- End header -->
+
+</header>
 
 <article>
     <div class="container">

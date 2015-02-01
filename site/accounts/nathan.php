@@ -6,10 +6,10 @@ password: >
   $2a$10$YMeRNrw0Z2shQlIph.YrMu.570D.3YjDXhgwdIAkcXs3E1SuPHzXm
 language: en
 role: admin
-token: 1fcc75a9dc46603e0564d67936645ad2daaa7670
+token: eb64b61d26f16fbd747437a2e66accedf0ac42ac
 history:
+  - work/test
   - work/air-nz
   - blog/another-article
   - blog/doctor-karl
   - blog/test
-  - blog/post-5
