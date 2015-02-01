@@ -16,8 +16,9 @@ fields:
     label: Role
     type: text
   video:
-    label: Video
-    type: url
+    label: Video (Vimeo ID)
+    type: text
+    placeholder: 1233454
   cover:
     label: Cover Image
     type: text

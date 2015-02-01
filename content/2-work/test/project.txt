@@ -10,7 +10,7 @@ Role: Steadicam Operator
 
 ----
 
-Video: 
+Video: 114730775
 
 ----
 
@@ -22,11 +22,11 @@ Text:
 
 ----
 
-Company: 
+Company: Relativity
 
 ----
 
-Client: 
+Client: Nikolovski Lawyers
 
 ----
 

@@ -1,7 +1,7 @@
 <?php snippet('header', array('bodyclass' => 'work-single')) ?>
 
 <header id="cover" class="jumbotron cover owl-carousel">
-    <div class="item">
+    <div id="vimeoEmbedder" class="item">
     
     </div>
     <?php foreach($page->files() as $image): ?>
@@ -12,8 +12,6 @@
 
 </header>
 
-<?php snippet('vimeothumb', array('id' => 118367247)) ?>
-<div id="vimeoEmbedder"></div>
 <article>
     <div class="container">
         <div class="row">

@@ -1,4 +1,3 @@
-    
     <footer>
         <div class="container">
             <div class="row">
@@ -107,7 +106,8 @@
             })
         </script>
     <?php endif; ?>
-    <?php if($page->parent() == "work"): ?>
+    <?php if($page->isChildOf($pages->find('work'))): ?>
+        <?php $vidID = $page->video(); ?>
         <?php echo js(array(
             'assets/js/owl.carousel.min.js',
             'assets/js/vimeoEmbedder.js',
@@ -128,15 +128,16 @@
                     }
                 }
             })
-            
+        </script>
+        <script>
             $( document ).ready(function() {
-                var vimeoID = "1185749"; // specify Vimeo video ID to be played
-                var width = "480"; // define WIDTH of Vimeo video canvas
-                var height = "270";	 // define HEIGHT of Vimeo video canvas
-                var image = "http://www.underwater.ca/vimeoembedder/plugin/img/cover.jpg"; // path of your video placeholder image
-                var vimeoColor = "88d6f6"; // specify the color of the video controls
-                var playButtonColor= "88d6f6"; // set the background color of play button
-                var vimeoBgColor = "f1f1f1"; // set the background color of Vimeo player
+                var vimeoID = "<?php echo $vidID ?>"; // specify Vimeo video ID to be played
+                var width = "1280"; // define WIDTH of Vimeo video canvas
+                var height = "456";	 // define HEIGHT of Vimeo video canvas
+                var image = <?php snippet('vimeothumb', array('id' => $vidID)) ?>; // path of your video placeholder image
+                var vimeoColor = "ff0000"; // specify the color of the video controls
+                var playButtonColor= "00ff00"; // set the background color of play button
+                var vimeoBgColor = "0000ff"; // set the background color of Vimeo player
 
                 $('#vimeoEmbedder').html("<div id=\"video\" vimeo-color="+ vimeoColor +" vimeo-id="+ vimeoID +"><div class=\"video-container\" style=\"width:"+ width +"px; height:"+ height +"px; background-color:#"+ vimeoBgColor +";\"><span class=\"play\"><span style=\"background-color:#"+ playButtonColor +";\"></span></span> <img alt=\"Play\" src="+ image +" class=\"placeholder\"></div></div>"); // Get the HTML contents of the video player
 
