@@ -6,7 +6,7 @@
 
 
 <header id="cover" class="jumbotron cover owl-carousel">
-    <div class="video-responsive item"><iframe src="http://player.vimeo.com/video/66140585" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe></div>
+    <div class="video-responsive item"><iframe src="http://player.vimeo.com/video/66140585?portrait=0&title=0&badge=0&byline=0&color=333" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe></div>
     <?php foreach($page->files() as $image): ?>
         <div class="item">
             <img class="img-responsive" src="<?php echo $image->url() ?>">
