@@ -127,22 +127,10 @@
                         items:1.75
                     }
                 }
-            })
-        </script>
-        <script>
-            $( document ).ready(function() {
-                var vimeoID = "<?php echo $vidID ?>"; // specify Vimeo video ID to be played
-                var width = "1280"; // define WIDTH of Vimeo video canvas
-                var height = "456";	 // define HEIGHT of Vimeo video canvas
-                var image = <?php snippet('vimeothumb', array('id' => $vidID)) ?>; // path of your video placeholder image
-                var vimeoColor = "ff0000"; // specify the color of the video controls
-                var playButtonColor= "00ff00"; // set the background color of play button
-                var vimeoBgColor = "0000ff"; // set the background color of Vimeo player
-
-                $('#vimeoEmbedder').html("<div id=\"video\" vimeo-color="+ vimeoColor +" vimeo-id="+ vimeoID +"><div class=\"video-container\" style=\"width:"+ width +"px; height:"+ height +"px; background-color:#"+ vimeoBgColor +";\"><span class=\"play\"><span style=\"background-color:#"+ playButtonColor +";\"></span></span> <img alt=\"Play\" src="+ image +" class=\"placeholder\"></div></div>"); // Get the HTML contents of the video player
-
             });
-        </script>
+            
+            $(document).ready(function() { vimeoEmbedder(); }); // Initiate the plugin
+        </script>  
     <?php endif; ?>
 </body>
 </html>
