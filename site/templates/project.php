@@ -5,10 +5,22 @@
 
 
 
-<header id="cover" class="jumbotron cover owl-carousel">        
-    <!-- VIMEO div class="video-responsive item"><iframe src="http://player.vimeo.com/video/<?php echo $page->video(); ?>?portrait=0&title=0&badge=0&byline=0&color=ed8046" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe></div -->
+<header id="cover" class="jumbotron cover owl-carousel">
+    <?php if($page->videoSource() == "youtube"): ?>
+        <!-- YOUTUBE -->
+        <div class="video-responsive item">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/<?php echo $page->videoID(); ?>?showinfo=0&autohide=1&autoplay=0&controls=2&modestbranding=1" frameborder="0" allowfullscreen></iframe>
+        </div>
+    <?php elseif($page->videoSource() == "vimeo"): ?>
+        <!-- VIMEO -->
+        <div class="video-responsive item">
+            <iframe src="http://player.vimeo.com/video/<?php echo $page->videoID(); ?>?portrait=0&title=0&badge=0&byline=0&color=ed8046" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+        </div>    
+    <?php endif; ?>
+    
 
-    <!-- YOUTUBE --><div class="video-responsive item"><iframe width="560" height="315" src="https://www.youtube.com/embed/QPAloq5MCUA?showinfo=0&autohide=1&autoplay=0&controls=2&modestbranding=1" frameborder="0" allowfullscreen></iframe></div>
+    
+    
     
     <?php foreach($page->files() as $image): ?>
         <div class="item">
@@ -17,8 +29,6 @@
     <?php endforeach ?>  
 
 </header>
-
-
 
 <article>
     <div class="container">
