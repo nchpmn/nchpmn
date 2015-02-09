@@ -34,10 +34,25 @@ Client: Pharrell Williams
 
 Crew: 
 
+- 
+  role: Director
+  name: Chicken Soup
+- 
+  role: Antelope Trainer
+  name: Emily Saywell-Smith
+
 ----
 
-Videosource: 
+Videosource: youtube
 
 ----
 
-Videoid: 
+Videoid: Vd2sLavGofc
+
+----
+
+Images: 150118-0202.jpg
+
+----
+
+Projecturl: 

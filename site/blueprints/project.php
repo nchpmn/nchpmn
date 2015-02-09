@@ -38,6 +38,10 @@ fields:
     label: Video ID
     type: text
     placeholder: 1234567
+  images:
+    label: Project Images
+    type: checkboxes
+    options: images
   creditsInfo:
     label: Credits
     type: headline
@@ -47,6 +51,9 @@ fields:
   client:
     label: Client
     type: text
+  projectURL:
+    label: Project URL
+    type: url
   crew:
     label: Crew
     type: structure
