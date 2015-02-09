@@ -6,7 +6,7 @@
 
 
 <header id="cover" class="jumbotron cover owl-carousel">
-    
+    <div class="video-responsive item"><iframe src="http://player.vimeo.com/video/66140585" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe></div>
     <?php foreach($page->files() as $image): ?>
         <div class="item">
             <img class="img-responsive" src="<?php echo $image->url() ?>">
@@ -15,7 +15,7 @@
 
 </header>
 
-<div id="vimeoEmbedder"></div>
+
 
 <article>
     <div class="container">
@@ -28,6 +28,8 @@
                 </div>
                 
                 <?php echo $page->text()->kirbytext() ?>
+                
+                
             </div>
             <div class="col-xs-10 col-xs-offset-1 col-md-3 col-xs-offset-5">
                 <dl>
