@@ -22,7 +22,6 @@
     <?php if($page->isChildOf($pages->find('work'))): ?>
         <?php echo css(array(
             'assets/css/owl.carousel.css',
-            'assets/css/vimeoEmbedder.css',
         )) ?>
     <?php endif; ?>
     

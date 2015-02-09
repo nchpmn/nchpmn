@@ -107,10 +107,8 @@
         </script>
     <?php endif; ?>
     <?php if($page->isChildOf($pages->find('work'))): ?>
-        <?php $vidID = $page->video(); ?>
         <?php echo js(array(
             'assets/js/owl.carousel.min.js',
-            'assets/js/vimeoEmbedder.js',
         )) ?>
         <script>
             $('.owl-carousel').owlCarousel({
@@ -128,8 +126,6 @@
                     }
                 }
             });
-            
-            $(document).ready(function() { vimeoEmbedder(); }); // Initiate the plugin
         </script>  
     <?php endif; ?>
 </body>
