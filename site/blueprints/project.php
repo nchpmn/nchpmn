@@ -5,28 +5,42 @@ pages: false
 files:
   sortable: true
 fields:
+  projectInfo:
+    label: Project Information
+    type: headline
   title:
     label: Project Title
     type:  text
-  year:
-    label: Year
-    type:  date
-    format: YYYY  
-  role:
-    label: Role
-    type: text
-  video:
-    label: Video (Vimeo ID)
-    type: text
-    placeholder: 1233454
-  cover:
-    label: Cover Image
-    type: text
-    validate: filename
-    placeholder: cover.jpg
   text:
     label: Text
     type: textarea
+  role:
+    label: Role
+    type: text
+  year:
+    label: Year
+    type:  date
+    format: YYYY
+  mediaInfo:
+    label: Media
+    type: headline
+  cover:
+    label: Cover Image
+    type: select
+    options: images
+  videoSource:
+    label: Video Source
+    type: select
+    options:
+      youtube: YouTube
+      vimeo: Vimeo
+  videoID:
+    label: Video ID
+    type: text
+    placeholder: 1234567
+  creditsInfo:
+    label: Credits
+    type: headline
   company:
     label: Production Company
     type: text
