@@ -38,7 +38,7 @@ fields:
     label: Video ID
     type: text
     placeholder: 1234567
-  images:
+  projectImages:
     label: Project Images
     type: checkboxes
     options: images
