@@ -23,7 +23,7 @@
 <article>
     <div class="container">
         <div class="row">
-            <div class="col-xs-10 col-xs-offset-1 col-md-5 col-md-offset-2 post-content">
+            <div class="col-xs-10 col-xs-offset-1 col-md-7 col-md-offset-1 post-content">
                 <div class="clearfix">
                     <h1><?php echo $page->title() ?></h1>
                     <span class="pull-left"><?php echo $page->role() ?></span>
@@ -34,7 +34,7 @@
                 
                 
             </div>
-            <div class="col-xs-10 col-xs-offset-1 col-md-3 col-xs-offset-5">
+            <div class="col-xs-10 col-xs-offset-1 col-md-3 col-xs-offset-7">
                 <dl>
                     <dt>Production Company</dt>
                     <dd><?php echo $page->company() ?></dd>
