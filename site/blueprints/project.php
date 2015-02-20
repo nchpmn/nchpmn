@@ -21,6 +21,14 @@ fields:
     label: Year
     type:  date
     format: YYYY
+  category:
+    label: Category
+    type: radio
+    options:
+      film: Film
+      tvc: TVC
+      sport: Sport
+      other: Other
   mediaInfo:
     label: Media
     type: headline

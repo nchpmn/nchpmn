@@ -10,11 +10,7 @@ Role: Camera Assistant
 
 ----
 
-Video: https://www.youtube.com/watch?v=Nq82TCA_sl8
-
-----
-
-Cover: 
+Cover: 150118-0021.jpg
 
 ----
 
@@ -59,3 +55,23 @@ Est regis transire, maxima canos vestris nymphae primoque et auras culpam natura
 Priamidas **quo** tectum tamen. [Hos sole](http://eelslap.com/) duris, ad corpore et socer et Notum turbinis dabat, ego nam Pallorque, ita.
 
 Scit ab uror illis quique. Comites et fecerat postquam adiutus conscendere rabidi regis, everterit gravidamve aevo.
+
+----
+
+Category: film
+
+----
+
+Videosource: 
+
+----
+
+Videoid: 
+
+----
+
+Projectimages: 150118-0006.jpg, 150118-0021.jpg, 150118-0128.jpg
+
+----
+
+Projecturl: 

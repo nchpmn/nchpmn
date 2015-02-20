@@ -2,12 +2,48 @@ Title: Project C
 
 ----
 
-Year: 2012
-
-----
-
-Tags: stuff
+Year: 2015-01-01
 
 ----
 
 Text: Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo.
+
+----
+
+Role: Steadicam Op
+
+----
+
+Category: tvc
+
+----
+
+Cover: kermit-the-fog.jpg
+
+----
+
+Videosource: 
+
+----
+
+Videoid: 
+
+----
+
+Projectimages: hightide.jpg
+
+----
+
+Company: 
+
+----
+
+Client: 
+
+----
+
+Projecturl: 
+
+----
+
+Crew: 
