@@ -1,6 +1,6 @@
 <section id="work">
     <div class="container">
-        <div class="row text-center">
+        <div class="row">
             <h3 class="text-center"><a href="work.html"><span>Work</span></a></h3>
             <div class="portfolioFilter text-center hidden-xs">
                 <a href="#" data-filter="*" class="current btn btn-link btn-lg">All</a>
