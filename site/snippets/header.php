@@ -17,7 +17,10 @@
         'assets/css/font-awesome.min.css',
     )) ?>
     <?php if($page->isHomePage()): ?>
-        <?php echo css('assets/css/owl.carousel.css') ?>
+        <?php echo css(array(
+            'assets/css/owl.carousel.css',
+            'assets/css/colio.css',
+        )) ?>
     <?php endif; ?>
     <?php if($page->isChildOf($pages->find('work'))): ?>
         <?php echo css(array(

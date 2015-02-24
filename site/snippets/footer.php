@@ -66,10 +66,21 @@
     </script>
     <?php if($page->isHomePage()): ?>
         <?php echo js(array(
+            'assets/js/jquery.easing.1.3.js',
+            'assets/js/jquery.colio.min.js',
             'assets/js/isotope.pkgd.min.js',
             'assets/js/owl.carousel.min.js'
         )) ?>
-        <script>
+        <script type="text/javascript">
+            $(document).ready(function(){
+                $('.portfolioContainer').colio({
+                    id: 'colio_1',
+                    contentFilter: '',
+                });
+            });
+        </script>
+
+        <!--script>
             $(window).load(function(){
                 var $container = $('.portfolioContainer');
                 $container.isotope({
@@ -104,7 +115,7 @@
                 nav:true,
                 items:1,
             })
-        </script>
+        </script-->
     <?php endif; ?>
     <?php if($page->isChildOf($pages->find('work'))): ?>
         <?php echo js(array(

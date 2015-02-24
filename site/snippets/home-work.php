@@ -11,8 +11,8 @@
             
             <div class="portfolioContainer">
                 <?php foreach(page('work')->children()->visible()->flip()->limit(9) as $item): ?>
-                    <div class="<?php echo $item->category() ?> col-xs-6 col-lg-4">
-                        <a href="<?php echo $item->url() ?>">
+                    <div class="<?php echo $item->category() ?> col-xs-6 col-lg-4" data-content="<?php echo $item->url() ?>">
+                        <a class="colio-link" href="#">
                             <div class="work-description text-center">
                                 <h4><?php echo $item->title() ?></h4>
                                 <span><?php echo $item->role() ?></span>
