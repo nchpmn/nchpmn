@@ -71,6 +71,7 @@ section#callout { background:url('http://placehold.it/1280x720/') no-repeat bott
 section#callout h4 { color:#fff; font-size:2em; text-transform:uppercase; font-family:"Flama"; margin-bottom:1em; letter-spacing:3px; }
 
 /* ---- HOME // WORK ---- */
+section#work { margin-top:70px; padding-top:20px; }
 section#work .portfolioContainer div, section#work .portfolioContainer div img { padding:1px 1px 0 0; margin:0; }
 section#work .portfolioContainer .work-description { position:absolute; top:50%; -webkit-transform:translateY(-50%); -ms-transform:translateY(-50%); transform:translateY(-50%); width:100%; color:#fff; }
 section#work .portfolioContainer .work-description h4 { text-transform:uppercase; font-family:"Flama"; letter-spacing:1px; }
@@ -94,7 +95,7 @@ section#blog .owl-next { right:0; padding-right:15px; }
 section#blog .owl-prev { padding-left:15px; }
 
 /* ---- HOME // QUALS ---- */
-section#quals { margin-top:75px; }
+section#quals { margin-top:70px; padding-top:20px; }
 section#quals dl { }
 section#quals dl.quals-major { }
 section#quals dl.quals-minor { font-size:0.9em; }
