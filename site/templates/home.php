@@ -15,6 +15,7 @@
 <?php snippet('home-quals') ?>
 <?php snippet('home-stats') ?>
 <?php snippet('home-blog') ?>
+<?php snippet('home-contact') ?>
 
 <!-- Start Footer -->
 <?php snippet('footer') ?>
