@@ -3,10 +3,11 @@
             <div class="row">
 				<h3 class="text-center"><span>Contact</span></h3>
                 <div class="col-xs-10 col-xs-offset-1 col-sm-7 col-sm-offset-0 col-lg-5 col-lg-offset-2">
-                    <form role="form">
-                        <input placeholder="Name &bullet;" type="text" required name="name">
-                        <input placeholder="Email  &bullet;" type="email" required name="email">
-                        <textarea placeholder="Message  &bullet;" name="message" required></textarea>
+                    <form role="form" method="post" action="">
+                        <input placeholder="Name &bullet;" type="text" required name="name" id="name">
+                        <input placeholder="Email  &bullet;" type="email" required name="email" id="email">
+                        <input placeholder="Phone  &bullet;" type="text" id=name="phone" "phone">
+                        <textarea placeholder="Message  &bullet;" name="message" required id="message"></textarea>
                         <input class="btn btn-primary" name="send_mail" type="submit" value="Send">
                     </form>
                 </div>
