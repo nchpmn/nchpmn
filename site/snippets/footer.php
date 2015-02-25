@@ -111,7 +111,7 @@
                 nav:true,
                 items:1,
             })
-        </script-->
+        </script>
     <?php endif; ?>
     <?php if($page->isChildOf($pages->find('work'))): ?>
         <?php echo js(array(
