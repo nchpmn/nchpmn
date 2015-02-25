@@ -75,6 +75,10 @@
             $(document).ready(function(){
                 $('.portfolioContainer').colio({
                     id: 'colio_1',
+                    placement: 'before', // would prefer this to be 'inside', but there were problems
+                    scrollOffset: 150,
+                    navigation: false,
+                    closeText: '<span><i class="fa fa-times fa-lg"></i></span>',
                     contentFilter: '',
                 });
             });
