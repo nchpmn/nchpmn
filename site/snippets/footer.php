@@ -68,7 +68,7 @@
         <?php echo js(array(
             'assets/js/jquery.easing.1.3.js',
             'assets/js/jquery.colio.min.js',
-            'assets/js/isotope.pkgd.min.js',
+            'assets/js/jquery.isotope.min.js',
             'assets/js/owl.carousel.min.js'
         )) ?>
         <script type="text/javascript">
@@ -81,38 +81,30 @@
                     closeText: '<span><i class="fa fa-times fa-lg"></i></span>',
                     contentFilter: '',
                 });
+            
+                // "isotope" plugin  
+                var filter = '*', isotope_run = function(f) {  
+                    $('.portfolioContainer').  
+                    isotope({layoutMode : 'fitRows', filter: f}).  
+                    trigger('colio','excludeHidden');  
+                };  
+                  
+                $('#filters a').click(function(){  
+                    $(this).addClass('filter-active').siblings().removeClass('filter-active');  
+                    // take class name from href attr and then run isotope to filter items in portfolio  
+                    var href = $(this).attr('href').substr(1);  
+                    filter = href ? '.' + href : '*';  
+                    isotope_run(filter);  
+                    return false;  
+                });  
+                  
+                // run isotope with "*" filter to show all items  
+                isotope_run(filter);  
+                  
             });
         </script>
 
-        <!--script>
-            $(window).load(function(){
-                var $container = $('.portfolioContainer');
-                $container.isotope({
-                    filter: '*',
-                    animationOptions: {
-                        duration: 750,
-                        easing: 'linear',
-                        queue: false
-                    }
-                });
-             
-                $('.portfolioFilter a').click(function(){
-                    $('.portfolioFilter .current').removeClass('current');
-                    $(this).addClass('current');
-             
-                    var selector = $(this).attr('data-filter');
-                    $container.isotope({
-                        filter: selector,
-                        animationOptions: {
-                            duration: 750,
-                            easing: 'linear',
-                            queue: false
-                        }
-                     });
-                     return false;
-                }); 
-            });
-            
+        <script>            
             $('.owl-carousel').owlCarousel({
                 loop:true,
                 margin:10,

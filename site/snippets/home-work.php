@@ -2,11 +2,11 @@
     <div class="container">
         <div class="row">
             <h3 class="text-center"><a href="work.html"><span>Work</span></a></h3>
-            <div class="portfolioFilter text-center hidden-xs">
-                <a href="#" data-filter="*" class="current btn btn-link btn-lg">All</a>
-                <a href="#" data-filter=".film" class="btn btn-link btn-lg">Film</a>
-                <a href="#" data-filter=".tvc" class="btn btn-link btn-lg">TVC</a>
-                <a href="#" data-filter=".sport" class="btn btn-link btn-lg">Sport</a>
+            <div id="filters" class="text-center hidden-xs">
+                <a href="#" class="current btn btn-link btn-lg">All</a>
+                <a href="#film" class="btn btn-link btn-lg">Film</a>
+                <a href="#tvc" class="btn btn-link btn-lg">TVC</a>
+                <a href="#sport" class="btn btn-link btn-lg">Sport</a>
             </div>
         </div>
             
