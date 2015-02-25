@@ -18,7 +18,7 @@ Article:
 
 What's doing, bitches!
 
-NASA rejected Karl as non-astronaut material so he walked into ABC Radio station Double J and offered to talk about the Space shuttle launch instead.  They said ‘Okay’ and his radio career took off like a rocket.  ‘Great Moments In Science’ ran on Double J from 1981, while Karl moonlighted as a medical student.
+NASA rejected Karl as non-astronaut material so he walked into ABC Radio station Double J and offered to talk about the Space shuttle launch instead.  They said ‘Okay’[^1] and his radio career took off like a rocket.  ‘Great Moments In Science’ ran on Double J from 1981, while Karl moonlighted as a medical student.
 
 Since then, his media career has exploded to include TV, books, newspapers, magazines, scripting, professional speaking, and of course, the Net.
 
@@ -33,3 +33,5 @@ Karl has degrees in Physics and Maths, Biomedical Engineering, Medicine and Surg
 He is the author of 36 popular science books, with more on the way.
 
 Dr Karl is currently the Julius Sumner Miller Fellow at the University of Sydney.
+
+[^1]: Colloquial
