@@ -81,6 +81,44 @@ section#work .portfolioFilter a:link, section#work .portfolioFilter a:visited { 
 section#work .portfolioFilter a:hover, section#work .portfolioFilter a:active { color:#666; }
 section#work .portfolioFilter a.current { color:#ed8046; }
 
+
+
+
+
+
+
+
+
+
+
+
+
+/* ---- HOME // WORK // SINGLE ---- */
+section#work article h1 { font-size:3.5em; font-family:"Flama Ultra"; }
+section#work article div:first-child { display:block; margin-bottom:2em; font-family:"Flama Thin"; }
+section#work article div span { text-transform:uppercase; opacity:0.9; }
+section#work .media .item { margin-bottom:0.5em; }
+
+@media only screen and (min-width : 768px) { /* .sm size */
+section#work .media .item { margin-bottom:1em; }
+section#work .media .item:first-child { margin-top:1.5em; }
+}
+@media only screen and (min-width : 992px) { /* .md size */
+section#work .media .item { margin-bottom:1.5em; }
+section#work .media .item:first-child { margin-top:1.5em; }
+}
+@media only screen and (min-width : 1200px) { /* .lg size */
+}
+
+
+
+
+
+
+
+
+
+
 /* ---- HOME // BLOG  ---- */
 section#blog { margin-top:70px; padding-top:20px; }
 section#blog .item { height:400px; overflow:hidden; }
@@ -194,14 +232,6 @@ section.prevnext a.prev { text-align:right; }
 
 
 
-/* ---- WORK // SINGLE ---- */
-.work-single header.jumbotron.cover { height:auto; padding:0; background:#111; }
-.work-single .owl-carousel .item { height:100%; }
-.owl-prev, .owl-next { position:absolute; top:50%; background:#fff; color:#666; font-family:"Flama"; padding:10px; text-transform:uppercase; font-size:0.8em; letter-spacing:2px; }
-.owl-next { right:0; padding-right:15px; }
-.owl-prev { padding-left:15px; }
-.work-single h1 { font-size:4em; }
-.work-single .clearfix { margin-bottom:2em; }
 
 
 

@@ -1,5 +1,10 @@
 <div class="row">
-    <div class="col-sm-7" style="display:block">
+    <div class="col-xs-12 clearfix visible-xs">
+        <h1><?php echo $page->title() ?></h1>
+        <span class="pull-left"><?php echo $page->role() ?></span>
+        <span class="pull-right"><?php echo $page->date('Y', 'year')?></span>
+    </div>
+    <div class="col-sm-6 col-md-7 media" style="display:block">
         <?php if($page->videoSource() == "youtube"): ?>
         <!-- YOUTUBE -->
         <div class="video-responsive item">
@@ -18,11 +23,13 @@
         </div>
     <?php endforeach ?>
     </div>
-    <div class="col-sm-5">
-        <h1><?php echo $page->title() ?></h1>
-        <span class="pull-left"><?php echo $page->role() ?></span>
-        <span class="pull-right"><?php echo $page->date('Y', 'year')?></span>
+    <article class="col-sm-6 col-md-5">
+        <div class="clearfix hidden-xs">
+            <h1><?php echo $page->title() ?></h1>
+            <span class="pull-left"><?php echo $page->role() ?></span>
+            <span class="pull-right"><?php echo $page->date('Y', 'year')?></span>
+        </div>
         
         <?php echo $page->text()->kirbytext() ?>
-    </div>
+    </article>
 </div>
