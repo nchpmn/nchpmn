@@ -10,7 +10,7 @@ Role: Stills Photographer
 
 ----
 
-Year: 2015-02-10
+Year: 2015-01-01
 
 ----
 
@@ -22,7 +22,7 @@ Videoid:
 
 ----
 
-Cover: original-poster.jpg
+Cover: 1280x720.gif
 
 ----
 
@@ -42,7 +42,7 @@ Category: sport
 
 ----
 
-Projectimages: original-poster.jpg
+Projectimages: 1280x720.gif
 
 ----
 

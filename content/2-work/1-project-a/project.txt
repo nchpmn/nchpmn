@@ -18,7 +18,7 @@ Client: New Zealand Air
 
 ----
 
-Cover: forrest.jpg
+Cover: 1280x720-copy-3.gif
 
 ----
 
@@ -38,7 +38,7 @@ Videoid:
 
 ----
 
-Projectimages: forrest.jpg, green.jpg, the-sea.jpg
+Projectimages: 1280x720-copy-2.gif, 1280x720-copy-3.gif, 1280x720-copy-4.gif
 
 ----
 

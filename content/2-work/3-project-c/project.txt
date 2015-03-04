@@ -18,7 +18,7 @@ Category: tvc
 
 ----
 
-Cover: kermit-the-fog.jpg
+Cover: 1280x720-copy.gif
 
 ----
 
@@ -30,7 +30,7 @@ Videoid:
 
 ----
 
-Projectimages: hightide.jpg
+Projectimages: 1280x720-copy-3.gif
 
 ----
 

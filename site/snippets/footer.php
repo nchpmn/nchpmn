@@ -47,29 +47,12 @@
         'assets/js/bootstrap.min.js',
         'assets/js/custom.js',
     )) ?>
-    <script>
-        // Smooth Anchor Scroll Linky Thing Script
-        $(function() {
-            $('a[href*=#]:not([href=#])').click(function() {
-                if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
-                    var target = $(this.hash);
-                    target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
-                    if (target.length) {
-                        $('html,body').animate({
-                            scrollTop: target.offset().top
-                        }, 1000);
-                        return false;
-                    }
-                }
-            });
-        });
-    </script>
+    
     <?php if($page->isHomePage()): ?>
         <?php echo js(array(
             'assets/js/jquery.easing.1.3.js',
             'assets/js/jquery.colio.min.js',
             'assets/js/jquery.isotope.min.js',
-            'assets/js/owl.carousel.min.js'
         )) ?>
         <script type="text/javascript">
             $(document).ready(function(){
@@ -104,14 +87,6 @@
             });
         </script>
 
-        <script>            
-            $('.owl-carousel').owlCarousel({
-                loop:true,
-                margin:10,
-                nav:true,
-                items:1,
-            })
-        </script>
     <?php endif; ?>
     <?php if($page->isChildOf($pages->find('work'))): ?>
         <?php echo js(array(

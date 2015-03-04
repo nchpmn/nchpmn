@@ -10,7 +10,7 @@ Role: Camera Assistant
 
 ----
 
-Cover: 150118-0021.jpg
+Cover: 1280x720.gif
 
 ----
 
@@ -70,7 +70,7 @@ Videoid:
 
 ----
 
-Projectimages: 150118-0006.jpg, 150118-0021.jpg, 150118-0128.jpg
+Projectimages: 1280x720-copy-3.gif, 1280x720-copy-4.gif, 1280x720.gif
 
 ----
 

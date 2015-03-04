@@ -1,9 +1,4 @@
 <div class="row">
-    <div class="col-xs-12 clearfix visible-xs">
-        <h1><?php echo $page->title() ?></h1>
-        <span class="pull-left"><?php echo $page->role() ?></span>
-        <span class="pull-right"><?php echo $page->date('Y', 'year')?></span>
-    </div>
     <div class="col-sm-6 col-md-7 media" style="display:block">
         <?php if($page->videoSource() == "youtube"): ?>
         <!-- YOUTUBE -->

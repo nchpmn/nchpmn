@@ -10,7 +10,7 @@ Role: Steadicam Operator
 
 ----
 
-Cover: 150118-0021.jpg
+Cover: 1280x720.gif
 
 ----
 
@@ -55,7 +55,7 @@ Projecturl:
 
 ----
 
-Projectimages: 150118-0128.jpg, 150118-0202.jpg
+Projectimages: 1280x720-copy-2.gif, 1280x720.gif
 
 ----
 

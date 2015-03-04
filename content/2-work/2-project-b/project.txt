@@ -18,7 +18,7 @@ Category: sport
 
 ----
 
-Cover: road.jpg
+Cover: 1280x720.gif
 
 ----
 
@@ -30,7 +30,7 @@ Videoid:
 
 ----
 
-Projectimages: mountains.jpg, road.jpg
+Projectimages: 1280x720-copy-3.gif, 1280x720.gif
 
 ----
 
