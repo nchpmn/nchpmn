@@ -37,7 +37,7 @@ section h3 span { border:#515151 1px solid; font-family:"Flama Light"; font-size
 
 
 /* ---- HOME // COVER ---- */
-header.jumbotron.cover { height:100%; width:100%; background:url(http://placehold.it/1280x720/333/444) no-repeat center center fixed; background-size:cover; color:#fff; -webkit-transform-style:preserve-3d;  -moz-transform-style:preserve-3d; transform-style:preserve-3d; overflow:hidden; margin-bottom:0px; }
+header.jumbotron.cover { height:100%; width:100%; background:url(http://i.imgur.com/SSekIVm.jpg) no-repeat center center fixed; background-size:cover; color:#fff; -webkit-transform-style:preserve-3d;  -moz-transform-style:preserve-3d; transform-style:preserve-3d; overflow:hidden; margin-bottom:0px; }
 header.jumbotron.cover .container { position:relative; top:45%; -webkit-transform:translateY(-45%); -ms-transform:translateY(-45%); transform:translateY(-45%); }
 header.jumbotron.cover .container-btn { position:relative; top:65%; -webkit-transform:translateY(-65%); -ms-transform:translateY(-65%); transform:translateY(-65%); }
 header.jumbotron.cover .container-btn .btn { border:#bbb 1px solid; color:#bbb; background:rgba(255,255,255,0.05); padding:8px 15px 12px 15px;}
@@ -60,7 +60,7 @@ header.jumbotron.cover h2 { font-size:1.3em; margin-top:1.5em; }
 
 /* ---- HOME // WELCOME ---- */
 section#welcome { display:table; height:auto; width:100%; position:relative; }
-section#welcome .image-container { background:url(http://placehold.it/400x600/666/999); background-size:cover; background-position:center center; height:100%; overflow:hidden; padding:0; position:absolute; top:0; }
+section#welcome .image-container { background:url(http://i.imgur.com/8E9vwqK.jpg); background-size:cover; background-position:top center; height:100%; overflow:hidden; padding:0; position:absolute; top:0; }
 section#welcome .container { padding:25px 0 75px; }
 section#welcome p.text-left { padding:0px 5px; }
 section#welcome p.lead { font-size:1.65em; font-weight:normal; font-family:"Flama Light"; }
