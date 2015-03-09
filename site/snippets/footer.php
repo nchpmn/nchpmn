@@ -88,28 +88,7 @@
         </script>
 
     <?php endif; ?>
-    <?php if($page->isChildOf($pages->find('work'))): ?>
-        <?php echo js(array(
-            'assets/js/owl.carousel.min.js',
-        )) ?>
-        <script>
-            $('.owl-carousel').owlCarousel({
-                loop:true,                
-                nav:true,
-                margin:0,
-                center:true,
-                video:true,
-                responsive: {
-                    0: {
-                        items:1
-                    },
-                    1200: {
-                        items:1.75
-                    }
-                }
-            });
-        </script>  
-    <?php endif; ?>
+    
 </body>
 </html>
     <!-- /footer -->
