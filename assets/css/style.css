@@ -67,8 +67,20 @@ section#welcome p.lead { font-size:1.65em; font-weight:normal; font-family:"Flam
 section#welcome p:not(lead) { }
 
 /* ---- HOME // CALLOUT ---- */
-section#callout { background:url(http://i.imgur.com/bUjcwk4.jpg) no-repeat bottom center fixed; background-size:cover; background-attachment:fixed; display:table; height:auto; padding:45px 0 35px; width:100%; }
+section#callout { background:url(http://i.imgur.com/bUjcwk4.jpg); background-repeat:no-repeat; background-position:center -250px; background-size:cover; background-attachment:scroll; display:table; height:auto; padding:45px 0 35px; width:100%; }
 section#callout h4 { color:#fff; font-size:2em; text-transform:uppercase; font-family:"Flama"; margin-bottom:1em; letter-spacing:3px; }
+
+@media only screen and (min-width : 768px) { /* .sm size */
+
+}
+@media only screen and (min-width : 1025px) { /* .md size */
+section#callout { background-attachment:fixed; background-position:bottom center; }
+}
+@media only screen and (min-width : 1200px) { /* .lg size */
+
+}
+
+
 
 /* ---- HOME // WORK ---- */
 section#work .portfolioContainer div, section#work .portfolioContainer div img { padding:1px 1px 0 0; margin:0; }
