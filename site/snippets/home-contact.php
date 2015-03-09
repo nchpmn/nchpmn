@@ -25,6 +25,13 @@
                             <dt>Phone</dt>
                             <dd>+61 416 544 800</dd>
                         </div>
+                        <div class="col-xs-4 col-sm-12">
+                            <dt>SOCIALLY</dt>
+                            <dd><a href="<?php echo $site->youtube() ?>"><i class="fa fa-youtube-square fa-3x"></i></a>
+                            <a href="<?php echo $site->twitter() ?>"><i class="fa fa-twitter-square fa-3x"></i></a>
+                            <a href="<?php echo $site->facebook() ?>"><i class="fa fa-facebook-square fa-3x"></i></a>
+                            <a href="<?php echo $site->vimeo() ?>"><i class="fa fa-vimeo-square fa-3x"></i></a></dd>
+                        </div>
                     </dl>
                 </div>
             </div>
