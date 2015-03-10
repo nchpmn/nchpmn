@@ -8,8 +8,8 @@ language: en
 role: admin
 token: 72d2958b1172c1dcbf88580f9974b99b1503600c
 history:
-  - work/test-2
+  - home/work
   - work/test
   - work/air-nz
+  - work/test-2
   - work/project-c
-  - work/project-b

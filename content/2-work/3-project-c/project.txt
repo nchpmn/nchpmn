@@ -14,7 +14,7 @@ Role: Steadicam Op
 
 ----
 
-Category: tvc
+Category: TVCs
 
 ----
 
@@ -50,4 +50,4 @@ Crew:
 
 ----
 
-Tags: tvc
+Tags: TVCs

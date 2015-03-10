@@ -14,7 +14,7 @@ Role:
 
 ----
 
-Category: sport
+Category: Sport
 
 ----
 
@@ -50,4 +50,4 @@ Crew:
 
 ----
 
-Tags: sport
+Tags: Sport

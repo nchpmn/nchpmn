@@ -58,7 +58,7 @@ Scit ab uror illis quique. Comites et fecerat postquam adiutus conscendere rabid
 
 ----
 
-Category: film
+Category: Film
 
 ----
 
@@ -78,4 +78,4 @@ Projecturl: http://www.example.com
 
 ----
 
-Tags: 
+Tags: Film

@@ -38,7 +38,7 @@ Crew:
 
 ----
 
-Category: sport
+Category: Sport
 
 ----
 
@@ -50,4 +50,4 @@ Projecturl:
 
 ----
 
-Tags: sport
+Tags: Sport
