@@ -38,7 +38,7 @@
     
     <div id="copyright">
         <div class="container">
-            <p>Copyright Nathan Chapman &mdash; 2014</p>
+            <p>Copyright Nathan Chapman &mdash; 2015</p>
         </div>
     </div>
 
