@@ -6,3 +6,6 @@ fields:
   title:
     label: Title
     type:  text
+  number:
+    label: Items to Show
+    type: number
