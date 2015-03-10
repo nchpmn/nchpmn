@@ -23,3 +23,7 @@ fields:
       caption:
         label: Caption
         type: text
+  colour:
+    label: Text Colour
+    type: color
+    default: 333333
