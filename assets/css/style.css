@@ -66,18 +66,18 @@ section#welcome p.text-left { padding:0px 5px; }
 section#welcome p.lead { font-size:1.65em; font-weight:normal; font-family:"Flama Light"; }
 section#welcome p:not(lead) { }
 
-/* ---- HOME // CALLOUT ---- */
-section#callout { background-repeat:no-repeat; background-position:center -50px; background-size:cover; background-attachment:scroll; display:table; height:auto; padding:45px 0 35px; width:100%; }
-section#callout h4 { color:#fff; font-size:2em; text-transform:uppercase; font-family:"Flama"; margin-bottom:1em; letter-spacing:3px; }
+/* ---- HOME // CALLOUT + STATS ---- */
+section#callout, section#stats { background-repeat:no-repeat; background-position:center -50px; background-size:cover; background-attachment:scroll; display:table; height:auto; padding:45px 0 35px; width:100%; }
+section#callout h4, section#stats h4 { color:#fff; font-size:2em; text-transform:uppercase; font-family:"Flama"; margin-bottom:1em; letter-spacing:3px; }
 
 @media only screen and (min-width : 768px) { /* .sm size */
-section#callout { background-position:center -240px; }
+section#callout, section#stats { background-position:center -240px; }
 }
 @media only screen and (min-width : 992px) { /* .md size */
-section#callout { background-position:center -320px; }
+section#callout, section#stats { background-position:center -320px; }
 }
 @media only screen and (min-width : 1200px) { /* .lg size */
-section#callout { background-attachment:fixed; background-position:bottom center; }
+section#callout, section#stats { background-attachment:fixed; background-position:bottom center; }
 }
 
 

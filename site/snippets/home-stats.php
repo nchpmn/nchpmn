@@ -1,4 +1,9 @@
-<section id="callout">
+<section id="stats" style="background-image:url(
+        <?php $photo = $data->photo(); ?>
+        <?php if($image = $data->image(strval($photo))): ?>
+            <?php echo $image->url() ?>
+        <?php endif ?>
+        )">
     <div class="container">
         <div class="row text-center">
             <div class="col-xs-6 col-sm-3">
