@@ -11,6 +11,6 @@ fields:
     type:  textarea
     size:  large
   photo:
-    label: Cover Photo
+    label: Profile Photo
     type: select
     options: images

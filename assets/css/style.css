@@ -60,7 +60,7 @@ header.jumbotron.cover h2 { font-size:1.3em; margin-top:1.5em; }
 
 /* ---- HOME // WELCOME ---- */
 section#welcome { display:table; height:auto; width:100%; position:relative; background-color:#f9f9f9; }
-section#welcome .image-container { background:url(http://i.imgur.com/X1sT522.jpg); background-size:cover; background-position:top center; height:100%; overflow:hidden; padding:0; position:absolute; top:0; }
+section#welcome .image-container { background-size:cover; background-position:top center; height:100%; overflow:hidden; padding:0; position:absolute; top:0; }
 section#welcome .container { padding:25px 0 75px; }
 section#welcome p.text-left { padding:0px 5px; }
 section#welcome p.lead { font-size:1.65em; font-weight:normal; font-family:"Flama Light"; }

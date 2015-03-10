@@ -10,11 +10,11 @@
     </div>    
 </header><!-- End header -->
 
-<?php snippet('home-welcome') ?>
-<?php snippet('home-work') ?>
-<?php snippet('home-callout') ?>
-<?php snippet('home-quals') ?>
-<?php snippet('home-blog') ?>
-<?php snippet('home-contact') ?>
+<?php foreach($page->children()->visible() as $section): ?>
+    <?php snippet('home-'.$section->uid(), array('data' => $section)) ?>
+<?php endforeach ?>
+
+
+
 <!-- Start Footer -->
 <?php snippet('footer') ?>
