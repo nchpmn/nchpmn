@@ -6,7 +6,3 @@ fields:
   title:
     label: Title
     type:  text
-  filters:
-    label: Filters
-    type: tags
-    index: children
