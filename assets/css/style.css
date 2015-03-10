@@ -84,6 +84,7 @@ section#callout { background-attachment:fixed; background-position:bottom center
 
 /* ---- HOME // WORK ---- */
 section#work { margin:50px 0 125px 0; }
+section#work article h1 a { text-decoration:none; color:#333; }
 section#work .portfolioContainer div, section#work .portfolioContainer div img { padding:1px 1px 0 0; margin:0; }
 section#work .portfolioContainer .work-description { position:absolute; top:50%; -webkit-transform:translateY(-50%); -ms-transform:translateY(-50%); transform:translateY(-50%); width:100%; color:#fff; }
 section#work .portfolioContainer .work-description h4 { text-transform:uppercase; font-family:"Flama"; letter-spacing:1px; }
