@@ -1,7 +1,7 @@
 <section id="work">
     <div class="container">
         <div class="row">
-            <h3 class="text-center"><a href="work.html"><span><?php echo $data->title() ?></span></a></h3>
+            <h3 class="text-center"><a href="work"><span><?php echo $data->title() ?></span></a></h3>
             <div id="filters" class="text-center hidden-xs">
                 <a href="#" class="current btn btn-link btn-lg">All</a>
                 <?php foreach(explode(',',$data->tags()) as $tag): ?>
