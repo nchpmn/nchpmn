@@ -1,5 +1,6 @@
 <div class="row">
     <div class="col-sm-6 col-md-7 media" style="display:block">
+        <?php $cover = $page->cover(); ?>
         <?php if($page->videoSource() == "youtube"): ?>
         <!-- YOUTUBE -->
         <div class="video-responsive item">
@@ -10,13 +11,10 @@
         <div class="video-responsive item">
             <iframe src="http://player.vimeo.com/video/<?php echo $page->videoID(); ?>?portrait=0&title=0&badge=0&byline=0&color=ed8046" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
         </div>    
-    <?php endif; ?>
+    <?php elseif($image = $page->image(strval($cover))): ?>
+        <img class="img-responsive" src="<?php echo $image->url() ?>">
+    <?php endif ?>
     
-    <?php foreach($page->projectImages()->split() as $image): ?>
-        <div class="item">
-            <img class="img-responsive" src="<?php echo $page->files()->get($image)->url() ?>">
-        </div>
-    <?php endforeach ?>
     </div>
     <article class="col-sm-6 col-md-5">
         <div class="clearfix hidden-xs">
