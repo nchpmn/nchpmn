@@ -243,7 +243,23 @@ section.prevnext a.prev { text-align:right; }
 .blog-link .post-content a#blog-link-box h2 { font-family:"Flama"; font-size:1.5em; text-transform:uppercase; color:inherit; }
 .blog-link .post-content a#blog-link-box p { font-family:"Flama"; font-size:1em; opacity:0.5; }
 
+/* ---- WORK // SINGLE POST ---- */
+.work-single article { margin-top:150px; }
+.work-single article h1 { font-size:5em;  }
+.work-single article div { margin-bottom:2em; }
+.work-single .media .item { margin-bottom:0.5em; }
+.work-single .crew, .work-single .crew a { color:#999; }
 
+@media only screen and (min-width : 768px) { /* .sm size */
+.work-single .media .item { margin-bottom:1em; }
+.work-single .media .item:first-child { margin-top:1.5em; }
+}
+@media only screen and (min-width : 992px) { /* .md size */
+.work-single .media .item { margin-bottom:1.5em; }
+.work-single .media .item:first-child { margin-top:1.5em; }
+}
+@media only screen and (min-width : 1200px) { /* .lg size */
+}
 
 
 
