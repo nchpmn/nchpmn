@@ -6,7 +6,7 @@ Date: 2014-12-23
 
 ----
 
-Cover: random.jpg
+Cover: cover.gif
 
 ----
 
