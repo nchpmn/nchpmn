@@ -6,6 +6,7 @@
         </div>        
 </header><!-- End header -->
 
+<div class="container">
 <?php $posts = $page->children()->visible()->flip()->paginate(2) ?>
 <?php $n = 0; foreach($posts as $post): $n++; ?>
 <?php $alignclass = ($n%2) ? 'first-post' : 'second-post' ?>
@@ -45,7 +46,7 @@
 
 <?php endif ?>                    
 <?php endforeach ?>
-
+</div>
 
 <?php snippet('pagination-prevnext', array('posts' => $posts)) ?>
 
