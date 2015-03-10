@@ -38,7 +38,7 @@ Crew:
 
 ----
 
-Category: sport
+Category: Sport
 
 ----
 
@@ -47,3 +47,7 @@ Projectimages: 1280x720.gif
 ----
 
 Projecturl: 
+
+----
+
+Tags: Sport

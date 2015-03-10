@@ -1,18 +1,16 @@
 <?php if(!defined('KIRBY')) exit ?>
 
-title: Home
+title: Home/Welcome
 pages: true
 fields:
   title:
     label: Title
-    type: text
-  name:
+    type:  text
+  text:
     label: Text
-    type: text
-  tagline:
-    label: Tagline
-    type: text
+    type:  textarea
+    size:  large
   photo:
-    label: Cover Photo
+    label: Profile Photo
     type: select
     options: images

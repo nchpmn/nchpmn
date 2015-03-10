@@ -29,6 +29,9 @@ fields:
       tvc: TVC
       sport: Sport
       other: Other
+  tags:
+    label: Tags
+    type: tags
   mediaInfo:
     label: Media
     type: headline

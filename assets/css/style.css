@@ -37,7 +37,7 @@ section h3 span { border:#515151 1px solid; font-family:"Flama Light"; font-size
 
 
 /* ---- HOME // COVER ---- */
-header.jumbotron.cover { height:100%; width:100%; background:url(http://i.imgur.com/SSekIVm.jpg) no-repeat center center fixed; background-size:cover; webkit-background-size:cover; -moz-background-size:cover; -o-background-size:cover; background-attachment:scroll; color:#fff; -webkit-transform-style:preserve-3d;  -moz-transform-style:preserve-3d; transform-style:preserve-3d; overflow:hidden; margin-bottom:0px; }
+header.jumbotron.cover { height:100%; width:100%; background:no-repeat center center fixed; background-size:cover; webkit-background-size:cover; -moz-background-size:cover; -o-background-size:cover; background-attachment:scroll; color:#fff; -webkit-transform-style:preserve-3d;  -moz-transform-style:preserve-3d; transform-style:preserve-3d; overflow:hidden; margin-bottom:0px; }
 header.jumbotron.cover .container { position:relative; top:45%; -webkit-transform:translateY(-45%); -ms-transform:translateY(-45%); transform:translateY(-45%); }
 header.jumbotron.cover .container-btn { position:relative; top:65%; -webkit-transform:translateY(-65%); -ms-transform:translateY(-65%); transform:translateY(-65%); }
 header.jumbotron.cover .container-btn .btn { border:#bbb 1px solid; color:#bbb; background:rgba(255,255,255,0.05); padding:8px 15px 12px 15px;}
@@ -60,24 +60,31 @@ header.jumbotron.cover h2 { font-size:1.3em; margin-top:1.5em; }
 
 /* ---- HOME // WELCOME ---- */
 section#welcome { display:table; height:auto; width:100%; position:relative; background-color:#f9f9f9; }
-section#welcome .image-container { background:url(http://i.imgur.com/X1sT522.jpg); background-size:cover; background-position:top center; height:100%; overflow:hidden; padding:0; position:absolute; top:0; }
+section#welcome .image-container { background-size:cover; background-position:top center; height:100%; overflow:hidden; padding:0; position:absolute; top:0; }
 section#welcome .container { padding:25px 0 75px; }
 section#welcome p.text-left { padding:0px 5px; }
 section#welcome p.lead { font-size:1.65em; font-weight:normal; font-family:"Flama Light"; }
 section#welcome p:not(lead) { }
 
-/* ---- HOME // CALLOUT ---- */
-section#callout { background:url(http://i.imgur.com/bUjcwk4.jpg); background-repeat:no-repeat; background-position:center -50px; background-size:cover; background-attachment:scroll; display:table; height:auto; padding:45px 0 35px; width:100%; }
-section#callout h4 { color:#fff; font-size:2em; text-transform:uppercase; font-family:"Flama"; margin-bottom:1em; letter-spacing:3px; }
+/* ---- HOME // CALLOUT + STATS ---- */
+section#callout, section#stats { background-repeat:no-repeat; background-position:center -50px; background-size:cover; background-attachment:scroll; display:table; height:auto; padding:45px 0 35px; width:100%; }
+section#callout h4, section#stats h4 { color:#fff; font-size:2em; text-transform:uppercase; font-family:"Flama"; margin-bottom:1em; letter-spacing:3px; }
+
+section#stats { background-position:center center; }
+section#stats div.stat { margin:5px 0 5px; }
+section#stats div.stat div { font-family:"Flama Light"; font-size:1.25em; text-shadow: 0px 0px 17px rgba(0, 0, 0, 0.84); }
+section#stats div.stat div span { font-family:"Flama"; font-size:2em; }
 
 @media only screen and (min-width : 768px) { /* .sm size */
 section#callout { background-position:center -240px; }
+section#stats { background-position:center -250px; }
 }
 @media only screen and (min-width : 992px) { /* .md size */
-section#callout { background-position:center -320px; }
+section#callout, section#stats { background-position:center -320px; }
 }
 @media only screen and (min-width : 1200px) { /* .lg size */
-section#callout { background-attachment:fixed; background-position:bottom center; }
+section#callout, section#stats { background-attachment:fixed; background-position:bottom center; }
+section#stats { font-size:1.25em; background-position:center center; }
 }
 
 

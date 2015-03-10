@@ -14,7 +14,7 @@ Role:
 
 ----
 
-Category: sport
+Category: Sport
 
 ----
 
@@ -47,3 +47,7 @@ Projecturl: http://www.internet.com
 ----
 
 Crew: 
+
+----
+
+Tags: Sport
