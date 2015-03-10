@@ -37,7 +37,7 @@ section h3 span { border:#515151 1px solid; font-family:"Flama Light"; font-size
 
 
 /* ---- HOME // COVER ---- */
-header.jumbotron.cover { height:100%; width:100%; background:url(http://i.imgur.com/SSekIVm.jpg) no-repeat center center fixed; background-size:cover; webkit-background-size:cover; -moz-background-size:cover; -o-background-size:cover; background-attachment:scroll; color:#fff; -webkit-transform-style:preserve-3d;  -moz-transform-style:preserve-3d; transform-style:preserve-3d; overflow:hidden; margin-bottom:0px; }
+header.jumbotron.cover { height:100%; width:100%; background:no-repeat center center fixed; background-size:cover; webkit-background-size:cover; -moz-background-size:cover; -o-background-size:cover; background-attachment:scroll; color:#fff; -webkit-transform-style:preserve-3d;  -moz-transform-style:preserve-3d; transform-style:preserve-3d; overflow:hidden; margin-bottom:0px; }
 header.jumbotron.cover .container { position:relative; top:45%; -webkit-transform:translateY(-45%); -ms-transform:translateY(-45%); transform:translateY(-45%); }
 header.jumbotron.cover .container-btn { position:relative; top:65%; -webkit-transform:translateY(-65%); -ms-transform:translateY(-65%); transform:translateY(-65%); }
 header.jumbotron.cover .container-btn .btn { border:#bbb 1px solid; color:#bbb; background:rgba(255,255,255,0.05); padding:8px 15px 12px 15px;}
@@ -67,7 +67,7 @@ section#welcome p.lead { font-size:1.65em; font-weight:normal; font-family:"Flam
 section#welcome p:not(lead) { }
 
 /* ---- HOME // CALLOUT ---- */
-section#callout { background:url(http://i.imgur.com/bUjcwk4.jpg); background-repeat:no-repeat; background-position:center -50px; background-size:cover; background-attachment:scroll; display:table; height:auto; padding:45px 0 35px; width:100%; }
+section#callout { background-repeat:no-repeat; background-position:center -50px; background-size:cover; background-attachment:scroll; display:table; height:auto; padding:45px 0 35px; width:100%; }
 section#callout h4 { color:#fff; font-size:2em; text-transform:uppercase; font-family:"Flama"; margin-bottom:1em; letter-spacing:3px; }
 
 @media only screen and (min-width : 768px) { /* .sm size */
