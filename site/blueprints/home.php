@@ -5,11 +5,13 @@ pages: true
 fields:
   title:
     label: Title
-    type:  text
-  text:
+    type: text
+  name:
     label: Text
-    type:  textarea
-    size:  large
+    type: text
+  tagline:
+    label: Tagline
+    type: text
   photo:
     label: Cover Photo
     type: select

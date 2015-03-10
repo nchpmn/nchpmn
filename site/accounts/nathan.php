@@ -8,8 +8,8 @@ language: en
 role: admin
 token: 72d2958b1172c1dcbf88580f9974b99b1503600c
 history:
+  - home
   - home/welcome
   - work/air-nz
   - blog/post-5
   - blog/jackie-chan-the-action-comedy
-  - blog/another-article
