@@ -6,7 +6,7 @@ password: >
   $2a$10$YMeRNrw0Z2shQlIph.YrMu.570D.3YjDXhgwdIAkcXs3E1SuPHzXm
 language: en
 role: admin
-token: 8c7a7885f4d646886ce0e4d037d143d94bb6d6a3
+token: 517db8b58fac449b406dea77a27a978d980d4897
 history:
   - work/test
   - work/air-nz
