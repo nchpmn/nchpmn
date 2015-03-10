@@ -20,6 +20,7 @@
                     <a href="<?php echo $site->twitter() ?>"><i class="fa fa-twitter-square fa-3x"></i></a>
                     <a href="<?php echo $site->facebook() ?>"><i class="fa fa-facebook-square fa-3x"></i></a>
                     <a href="<?php echo $site->vimeo() ?>"><i class="fa fa-vimeo-square fa-3x"></i></a>
+                    <a href="<?php echo url('feed') ?>"><i class="fa fa-rss-square fa-3x"></i></a>
                 </div>
 				<div class="col-xs-5 visible-xs">
                     <p class="text-right">SOCIALLY</p>
@@ -29,6 +30,7 @@
                     <a href="<?php echo $site->twitter() ?>"><i class="fa fa-twitter-square fa-3x"></i></a>
                     <a href="<?php echo $site->facebook() ?>"><i class="fa fa-facebook-square fa-3x"></i></a>
                     <a href="<?php echo $site->vimeo() ?>"><i class="fa fa-vimeo-square fa-3x"></i></a>
+                    <a href="<?php echo url('feed') ?>"><i class="fa fa-rss-square fa-3x"></i></a>
                 </div>
             </div>
         </div>
