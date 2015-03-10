@@ -17,4 +17,5 @@
 <?php snippet('home-blog') ?>
 <?php snippet('home-contact') ?>
 <!-- Start Footer -->
+<!-- Emi -->
 <?php snippet('footer') ?>
