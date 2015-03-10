@@ -3,13 +3,13 @@
             <div class="row">
 				<h3 class="text-center"><span>Contact</span></h3>
                 <div class="col-xs-10 col-xs-offset-1 col-sm-7 col-sm-offset-0 col-lg-5 col-lg-offset-2">
-                    <form role="form" method="post" action="<?php snippet('contact-form-submit') ?>">
+                    <!--form role="form" method="post" action="<?php snippet('contact-form-submit') ?>">
                         <input placeholder="Name &bullet;" type="text" required name="name" id="name">
                         <input placeholder="Email  &bullet;" type="email" required name="email" id="email">
                         <input placeholder="Phone  &bullet;" type="text" id=name="phone" "phone">
                         <textarea placeholder="Message  &bullet;" name="message" required id="message"></textarea>
                         <input class="btn btn-primary" name="send_mail" type="submit" value="Send">
-                    </form>
+                    </form-->
                     
                     <form action="https://docs.google.com/a/nchp.mn/forms/d/1kTv3r4TWYg5Rw-fQgnjqaSfIhTGzfD2w_JUmLtmx9Uo/formResponse" method="POST" id="ss-form" target="_self" onsubmit=""><ol role="list" class="ss-question-list" style="padding-left: 0">
                         <input placeholder="Name &bullet;" type="text" name="entry.85818402" value="" class="ss-q-short" id="entry_85818402" dir="auto" aria-label="Name  " title="">
