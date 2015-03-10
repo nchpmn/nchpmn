@@ -12,7 +12,7 @@ fields:
   button:
     label: Button Text
     type: text
-  buttonURL
+  buttonURL:
     label: Button Link
     type: text
   photo:
