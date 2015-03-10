@@ -250,6 +250,7 @@ section.prevnext a.prev { text-align:right; }
 .work-single article h1 { font-size:5em;  }
 .work-single article div { margin-bottom:2em; }
 .work-single .media .item { margin-bottom:0.5em; }
+.work-single .crew, .work-single .crew a { color:#999; }
 
 @media only screen and (min-width : 768px) { /* .sm size */
 .work-single .media .item { margin-bottom:1em; }

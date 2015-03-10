@@ -52,7 +52,7 @@
                         <?php if($page->projectURL() != ''): ?>
                             <div class="col-xs-12 col-sm-6">
                                 <dt>Website</dt>
-                                <dd><?php echo $page->projectURL() ?></dd>
+                                <dd><a href="<?php echo $page->projectURL() ?>"><?php echo $page->projectURL() ?></a></dd>
                             </div>
                         <?php endif ?>
                         <?php if($page->crew() != ''): ?>
