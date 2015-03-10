@@ -7,6 +7,7 @@
     <meta name="description" content="<?php echo $site->description() ?>">
     <meta name="author" content="<?php echo $site->author() ?>">
     <meta name="keywords" content="<?php echo $site->keywords() ?>">
+    <meta name="google-site-verification" content="TF0O9Pi5NZCDsp3nLzlEkt_E6dE6S3PAcM7I9wmX__w" /> <!-- Google Webmaster Tools Verification -->
     <title>Nathan Chapman &ndash; Steadicam Operator</title>
 
     <!-- Bootstrap -->
