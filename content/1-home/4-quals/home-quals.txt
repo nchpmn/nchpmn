@@ -1,0 +1,40 @@
+Title: Qualifications
+
+----
+
+Shorttitle: Quals
+
+----
+
+Mainquals: 
+
+- 
+  award: 'Advanced Diploma of Screen & Media'
+  major: 'Screenwriting, Directing & Producing'
+  id: CUF60107
+- 
+  award: 'Certificate III in Live Production, Theatre & Events'
+  major: Technical Operations
+  id: CUE30203
+
+----
+
+Minorquals: 
+
+- 
+  award: Communicate in the Workplace
+  id: PUACOM001B
+- 
+  award: >
+    Follow Defined Occupational Health and
+    Safety Policies and Procedures
+  id: PUAOHS001B
+- 
+  award: Contribute to team effectiveness
+  id: BSBFLM3120C
+- 
+  award: Work Autonomously
+  id: PUATEA002B
+- 
+  award: Work in a Team
+  id: PUATEA001A
