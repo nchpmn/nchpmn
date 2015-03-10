@@ -1,12 +1,12 @@
 <section id="work">
     <div class="container">
         <div class="row">
-            <h3 class="text-center"><a href="work.html"><span>Work</span></a></h3>
+            <h3 class="text-center"><a href="work.html"><span><?php echo $data->title() ?></span></a></h3>
             <div id="filters" class="text-center hidden-xs">
-                <a href="#" class="current btn btn-link btn-lg">All</a>
-                <a href="#film" class="btn btn-link btn-lg">Film</a>
-                <a href="#tvc" class="btn btn-link btn-lg">TVC</a>
-                <a href="#sport" class="btn btn-link btn-lg">Sport</a>
+                    <a href="#" class="current btn btn-link btn-lg">All</a>
+                <?php foreach($data->filters() as $tag): ?>
+                    <a href="#".<?php echo $tag ?> class="btn btn-link btn-lg"><?php echo $tag ?></a>
+                <?php endforeach ?>
             </div>
         </div>
             
