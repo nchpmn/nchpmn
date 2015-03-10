@@ -47,19 +47,7 @@
 <?php endforeach ?>
 
 
-<?php if($posts->pagination()->hasPages()): ?>
-<nav class="pagination">
-
-  <?php if($posts->pagination()->hasNextPage()): ?>
-  <a class="next" href="<?php echo $posts->pagination()->nextPageURL() ?>">&lsaquo; newer posts</a>
-  <?php endif ?>
-
-  <?php if($posts->pagination()->hasPrevPage()): ?>
-  <a class="prev" href="<?php echo $posts->pagination()->prevPageURL() ?>">older posts &rsaquo;</a>
-  <?php endif ?>
-
-</nav>
-<?php endif ?>
+<?php snippet('pagination-prevnext', array('posts' => $posts)) ?>
 
 
 
