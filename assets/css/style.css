@@ -107,7 +107,7 @@ section#work .portfolioFilter a.current { color:#ed8046; }
 
 
 
-/* ---- HOME // WORK // SINGLE ---- */
+/* ---- HOME // WORK // SINGLE-AJAX ---- */
 section#work article h1 { font-size:3.5em; font-family:"Flama Ultra"; }
 section#work article div:first-child { display:block; margin-bottom:2em; font-family:"Flama Thin"; }
 section#work article div span { text-transform:uppercase; opacity:0.9; }
@@ -245,6 +245,22 @@ section.prevnext a.prev { text-align:right; }
 .blog-link .post-content a#blog-link-box p { font-family:"Flama"; font-size:1em; opacity:0.5; }
 
 
+/* ---- WORK // SINGLE POST ---- */
+.work-single article { margin-top:150px; }
+.work-single article h1 { font-size:5em;  }
+.work-single article div { margin-bottom:2em; }
+.work-single .media .item { margin-bottom:0.5em; }
+
+@media only screen and (min-width : 768px) { /* .sm size */
+.work-single .media .item { margin-bottom:1em; }
+.work-single .media .item:first-child { margin-top:1.5em; }
+}
+@media only screen and (min-width : 992px) { /* .md size */
+.work-single .media .item { margin-bottom:1.5em; }
+.work-single .media .item:first-child { margin-top:1.5em; }
+}
+@media only screen and (min-width : 1200px) { /* .lg size */
+}
 
 
 
