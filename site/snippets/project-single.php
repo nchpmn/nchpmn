@@ -35,15 +35,34 @@
                 <?php echo kirbytext($page->text()) ?>
                 
                 <div class="crew">
+                    <hr>
                     <dl>
-                        <div class="col-xs-6 col-sm-4 col-lg-3">
-                            <dt><?php echo $page->company() ?></dt>
-                            <dd></dd>
-                        </div>
-                        <div class="col-xs-6 col-sm-4 col-lg-3">
-                            <dt></dt>
-                            <dd></dd>
-                        </div>
+                        <?php if($page->company() != ''): ?>
+                            <div class="col-xs-12 col-sm-6">
+                                <dt>Production&nbsp;Company</dt>
+                                <dd><?php echo $page->company() ?></dd>
+                            </div>
+                        <?php endif ?>
+                        <?php if($page->client() != ''): ?>
+                            <div class="col-xs-12 col-sm-6">
+                                <dt>Client</dt>
+                                <dd><?php echo $page->client() ?></dd>
+                            </div>
+                        <?php endif ?>
+                        <?php if($page->projectURL() != ''): ?>
+                            <div class="col-xs-12 col-sm-6">
+                                <dt>Website</dt>
+                                <dd><?php echo $page->projectURL() ?></dd>
+                            </div>
+                        <?php endif ?>
+                        <?php if($page->crew() != ''): ?>
+                            <?php foreach($page->crew()->yaml() as $person): ?>
+                                <div class="col-xs-12 col-sm-6">
+                                    <dt><?php echo $person['role'] ?></dt>
+                                    <dd><?php echo $person['name'] ?></dd>
+                                </div>
+                            <?php endforeach ?>
+                        <?php endif ?>
                     </dl>
                 </div>
             </div>
