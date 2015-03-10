@@ -59,7 +59,7 @@ header.jumbotron.cover h2 { font-size:1.3em; margin-top:1.5em; }
 }
 
 /* ---- HOME // WELCOME ---- */
-section#welcome { display:table; height:auto; width:100%; position:relative; background-color:#eee; }
+section#welcome { display:table; height:auto; width:100%; position:relative; background-color:#f9f9f9; }
 section#welcome .image-container { background:url(http://i.imgur.com/X1sT522.jpg); background-size:cover; background-position:top center; height:100%; overflow:hidden; padding:0; position:absolute; top:0; }
 section#welcome .container { padding:25px 0 75px; }
 section#welcome p.text-left { padding:0px 5px; }
@@ -84,7 +84,6 @@ section#callout { background-attachment:fixed; background-position:bottom center
 
 /* ---- HOME // WORK ---- */
 section#work { margin:50px 0 125px 0; }
-section#work article h1 a { text-decoration:none; color:#333; }
 section#work .portfolioContainer div, section#work .portfolioContainer div img { padding:1px 1px 0 0; margin:0; }
 section#work .portfolioContainer .work-description { position:absolute; top:50%; -webkit-transform:translateY(-50%); -ms-transform:translateY(-50%); transform:translateY(-50%); width:100%; color:#fff; }
 section#work .portfolioContainer .work-description h4 { text-transform:uppercase; font-family:"Flama"; letter-spacing:1px; }
@@ -107,7 +106,7 @@ section#work .portfolioFilter a.current { color:#ed8046; }
 
 
 
-/* ---- HOME // WORK // SINGLE-AJAX ---- */
+/* ---- HOME // WORK // SINGLE ---- */
 section#work article h1 { font-size:3.5em; font-family:"Flama Ultra"; }
 section#work article div:first-child { display:block; margin-bottom:2em; font-family:"Flama Thin"; }
 section#work article div span { text-transform:uppercase; opacity:0.9; }
@@ -245,23 +244,6 @@ section.prevnext a.prev { text-align:right; }
 .blog-link .post-content a#blog-link-box p { font-family:"Flama"; font-size:1em; opacity:0.5; }
 
 
-/* ---- WORK // SINGLE POST ---- */
-.work-single article { margin-top:150px; }
-.work-single article h1 { font-size:5em;  }
-.work-single article div { margin-bottom:2em; }
-.work-single .media .item { margin-bottom:0.5em; }
-.work-single .crew, .work-single .crew a { color:#999; }
-
-@media only screen and (min-width : 768px) { /* .sm size */
-.work-single .media .item { margin-bottom:1em; }
-.work-single .media .item:first-child { margin-top:1.5em; }
-}
-@media only screen and (min-width : 992px) { /* .md size */
-.work-single .media .item { margin-bottom:1.5em; }
-.work-single .media .item:first-child { margin-top:1.5em; }
-}
-@media only screen and (min-width : 1200px) { /* .lg size */
-}
 
 
 
