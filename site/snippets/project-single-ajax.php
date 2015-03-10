@@ -17,7 +17,7 @@
     
     </div>
     <article class="col-sm-6 col-md-5">
-        <div class="clearfix hidden-xs">
+        <div class="clearfix">
             <h1><a href="<?php echo $page->url() ?>"><?php echo $page->title() ?></a></h1>
             <span class="pull-left"><?php echo $page->role() ?></span>
             <span class="pull-right"><?php echo $page->date('Y', 'year')?></span>
