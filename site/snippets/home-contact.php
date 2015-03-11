@@ -10,7 +10,7 @@
                         <textarea placeholder="Message  &bullet;" name="message" required id="message"></textarea>
                         <input class="btn btn-primary" name="send_mail" type="submit" value="Send">
                     </form-->
-                    
+                    <!-- this needs to be fixed -->
                     <form action="https://docs.google.com/a/nchp.mn/forms/d/1kTv3r4TWYg5Rw-fQgnjqaSfIhTGzfD2w_JUmLtmx9Uo/formResponse" method="POST" id="ss-form" target="_self" onsubmit=""><ol role="list" class="ss-question-list" style="padding-left: 0">
                         <input placeholder="Name &bullet;" type="text" name="entry.85818402" value="" class="ss-q-short" id="entry_85818402" dir="auto" aria-label="Name  " title="">
                         <input placeholder="Email  &bullet;" type="text" name="entry.119583773" value="" class="ss-q-short" id="entry_119583773" dir="auto" aria-label="Email  " title="">
