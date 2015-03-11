@@ -16,17 +16,17 @@
                 </div>
                 <div class="col-xs-4 hidden-xs">
                     <p>SOCIALLY</p>
-                    <a class="icon" href="<?php echo $site->youtube() ?>"><span class="icon icon-youtube3"></span></a>
-                    <a class="icon" href="<?php echo $site->twitter() ?>"><span class="icon icon-twitter2"></span></a>
-                    <a class="icon" href="<?php echo $site->facebook() ?>"><span class="icon icon-facebook2"></span></a>
-                    <a class="icon" href="<?php echo $site->vimeo() ?>"><span class="icon icon-vimeo2"></span></a>
-                    <a class="icon" href="<?php echo url('feed') ?>"><span class="icon icon-feed3"></span></a>
+                    <a href="<?php echo $site->youtube() ?>"><i class="fa fa-youtube-square fa-3x"></i></a>
+                    <a href="<?php echo $site->twitter() ?>"><i class="fa fa-twitter-square fa-3x"></i></a>
+                    <a href="<?php echo $site->facebook() ?>"><i class="fa fa-facebook-square fa-3x"></i></a>
+                    <a href="<?php echo $site->vimeo() ?>"><i class="fa fa-vimeo-square fa-3x"></i></a>
+                    <a href="<?php echo url('feed') ?>"><i class="fa fa-rss-square fa-3x"></i></a>
                 </div>
 				<div class="col-xs-5 visible-xs">
                     <p class="text-right">SOCIALLY</p>
                 </div>
                 <div class="col-xs-7 visible-xs">
-                    <a href="<?php echo $site->youtube() ?>"><span class="icon-youtube"></span></a>
+                    <a href="<?php echo $site->youtube() ?>"><i class="fa fa-youtube-square fa-3x"></i></a>
                     <a href="<?php echo $site->twitter() ?>"><i class="fa fa-twitter-square fa-3x"></i></a>
                     <a href="<?php echo $site->facebook() ?>"><i class="fa fa-facebook-square fa-3x"></i></a>
                     <a href="<?php echo $site->vimeo() ?>"><i class="fa fa-vimeo-square fa-3x"></i></a>
@@ -81,7 +81,7 @@
                     placement: 'before', // would prefer this to be 'inside', but there were problems
                     scrollOffset: 150,
                     navigation: false,
-                    closeText: '<span class="icon-cross"></span>',
+                    closeText: '<span><i class="fa fa-times fa-lg"></i></span>',
                     contentFilter: '',
                 });
             

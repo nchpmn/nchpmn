@@ -39,10 +39,10 @@
                         </div>
                         <div class="col-xs-4 col-sm-12">
                             <dt>SOCIALLY</dt>
-                            <dd><a class="icon" href="<?php echo $site->youtube() ?>"><span class="icon icon-youtube3"></span></a>
-                            <a class="icon" href="<?php echo $site->twitter() ?>"><span class="icon icon-twitter2"></span></a>
-                            <a class="icon" href="<?php echo $site->facebook() ?>"><span class="icon icon-facebook2"></span></a>
-                            <a class="icon" href="<?php echo $site->vimeo() ?>"><span class="icon icon-vimeo2"></span></a></dd>
+                            <dd><a href="<?php echo $site->youtube() ?>"><i class="fa fa-youtube-square fa-3x"></i></a>
+                            <a href="<?php echo $site->twitter() ?>"><i class="fa fa-twitter-square fa-3x"></i></a>
+                            <a href="<?php echo $site->facebook() ?>"><i class="fa fa-facebook-square fa-3x"></i></a>
+                            <a href="<?php echo $site->vimeo() ?>"><i class="fa fa-vimeo-square fa-3x"></i></a></dd>
                         </div>
                     </dl>
                 </div>
