@@ -1,6 +1,9 @@
 <?php if(!defined('KIRBY')) exit ?>
 
-title: Link
+title: Blog/Link
+pages: false
+files:
+  sortable: false
 fields:
   title:
     label: Title
@@ -8,15 +11,13 @@ fields:
   date:
     label: Date
     type: date
-    format: YYYY-MM-DD
-  cover:
-    label: Cover Image
-    type: text
-    validate: filename
-    placeholder: cover.jpg
+    format: DD/MM/YYYY
   link:
-    label: Link
+    label: Link URL
     type: url
-  article:
-    label: Content
+  quote:
+    label: Link Quotation
+    type: textarea
+  text:
+    label: Text
     type: textarea
