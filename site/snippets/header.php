@@ -15,7 +15,7 @@
         'assets/css/bootstrap.min.css',
         'assets/css/style.css',
         'assets/fonts/flama.min.css',
-        'assets/css/font-awesome.min.css',
+        'assets/fonts/icomoon.min.css',
     )) ?>
     <?php if($page->isHomePage()): ?>
         <?php echo css(array(
