@@ -180,6 +180,8 @@ section#contact dl { margin-top:3em; }
 .blog-single article strong { font-family:"Flama" }
 .blog-single article em { font-family:"Flama Light"; font-style:italic; }
 
+.blog-single article img { max-width:100%; height:auto; margin:2.5em 0 4.5em;  }
+
 .blog-single article h1, .blog-single article h2, .blog-single article h3, .blog-single article h4, .blog-single article h5, .blog-single article h6 { margin-top:2em; margin-bottom:0.5em; font-family:"Flama Ultra"; }
 .blog-single article h1 { font-size:4.5em; margin-top:1em; margin-bottom:0.2em; font-family:"Flama Thin"; color:#000; }
 .blog-single article h2 { font-size:3.5em; margin-top:1em; font-family:"Flama Thin"; color:#000; }
@@ -195,7 +197,7 @@ section#contact dl { margin-top:3em; }
 .blog-single article ul ol, .blog-single article ol ol { list-style-type:lower-alpha; }
 .blog-single article li { color:#333; font-family:"Flama Light"; font-size:1.3em; margin-bottom:0.5em; }
 
-.blog-single article blockquote { padding-left:1.5em; border-left-color:#d88e2f; }
+.blog-single article blockquote { padding-left:1.5em; border-left-color:#d88e2f; background-color:#f9f9f9; }
 .blog-single article blockquote p { }
 .blog-single article blockquote cite { font-size:0.9em; font-family:"Flama Light"; }
 
@@ -229,11 +231,8 @@ section.prevnext a.prev { text-align:right; }
 
 
 /* ---- BLOG // LINK POST ---- */
-.blog-link article a#blog-link-box:link, .blog-link article a#blog-link-box:visited { background:#eee; color:#555; text-decoration:none; display:block; padding:10px 50px; text-align:center; margin-bottom:2em; }
-.blog-link article a#blog-link-box:hover, .blog-link article a#blog-link-box:active { background:#ED8046; color:#fff; }
-
-.blog-link article a#blog-link-box h2 { font-family:"Flama"; font-size:1.5em; text-transform:uppercase; color:inherit; }
-.blog-link article a#blog-link-box p { font-family:"Flama"; font-size:1em; opacity:0.5; }
+.blog-link article blockquote { margin-top:4em; font-family:"Flama Light"; font-size:1.25em; }
+.blog-link article h1 a { text-decoration:none; }
 
 /* ---- WORK // SINGLE POST ---- */
 .work-single article { margin-top:150px; }
