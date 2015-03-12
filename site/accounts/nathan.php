@@ -8,8 +8,8 @@ language: en
 role: admin
 token: bcd5f71089b1f1eefd26da19ccbc70183fe368fa
 history:
+  - blog/video-time
   - blog/article-test
   - blog/first-blog-link
   - blog/second-blog-article
   - home/blog
-  - home/callout

@@ -18,7 +18,7 @@ fields:
     options:
       youtube: YouTube
       vimeo: Vimeo
-  id:
+  videoid:
     label: Video ID
     type: text
   text:
