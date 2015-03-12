@@ -20,4 +20,8 @@
         </div>    
     </div>
 </article>
+
+<?php snippet('prevnext') ?>
+
+
 <?php snippet('footer') ?>
