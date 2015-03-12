@@ -141,7 +141,10 @@ section#work .media .item:first-child { margin-top:1.5em; }
 
 /* ---- HOME // BLOG  ---- */
 section#blog { margin-top:70px; padding-top:20px; }
-section#blog div.post a { display:block; padding:50px; }
+section#blog div.post { padding:10px; }
+section#blog div.post a { display:block; padding:20px; }
+section#blog div.post.first { background:#f9f9f9; }
+section#blog div.post.second { }
 
 
 /* ---- HOME // QUALS ---- */

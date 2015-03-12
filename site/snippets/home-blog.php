@@ -4,13 +4,16 @@
         <div class="row">
             <?php $items = page('blog')->children()->visible()->flip()->limit(strval($data->number())) ?>
             <?php $first = $items->first() ?>
+            <?php $second = $items->nth(1) // Second overall item - index starts at 0 ?>
             
             <?php foreach($items as $item): ?>
                     <div class="post
                         <?php if($item == $first): ?>
-                            col-sm-6 first
+                            col-sm-7 first
+                        <?php elseif($item == $second): ?>
+                            col-sm-5 second
                         <?php else: ?>
-                            col-xs-6 col-sm-3
+                            col-xs-12 col-sm-4
                         <?php endif ?>
                     ">
                         <a href="<?php echo $item->url() ?>">
