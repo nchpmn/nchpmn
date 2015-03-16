@@ -42,10 +42,10 @@
                                 <i class="fa fa-play"></i> &nbsp;&nbsp;&mdash;&nbsp;&nbsp; <?php echo $item->date('j M Y') ?>
                             <?php endif ?>
                             
-                            <?php if($item == $first): ?>
-                                <a class="btn btn-sm btn-primary pull-right" href="<?php echo $page->url() ?>">Read More &raquo;</a>
-                            <?php elseif($item == $second): ?>
-                                <a class="btn btn-sm btn-default pull-right" href="<?php echo $page->url() ?>">Read More &raquo;</a>
+                            <?php if($item == $first or $item == $second): ?>
+                                <div class="tags pull-right">
+                                    <?php foreach(explode(',',$item->tags()) as $t): ?><a href="<?php echo $item->url() ?>/tag:<?php echo $t ?>"><span><?php echo "#".$t ?></span></a><?php endforeach ?>
+                                </div>
                             <?php endif ?>
                             
                         </div>

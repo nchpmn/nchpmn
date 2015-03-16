@@ -8,8 +8,8 @@ language: en
 role: admin
 token: 6b938e0164938b328229c9b84686c13e40ca6278
 history:
+  - blog/first-blog-link
   - home/work
   - blog/video-time
-  - blog/first-blog-link
   - blog/second-blog-article
   - blog/article-test
