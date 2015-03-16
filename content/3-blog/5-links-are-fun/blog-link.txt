@@ -1,0 +1,31 @@
+Title: Links are fun!
+
+----
+
+Date: 2015-03-12
+
+----
+
+Link: http://sashtown.de/blog/responsive-images-resources
+
+----
+
+Quote: There's no need to wait for production usage since we've got a bulletproof fallback (at least in case of <code>< picture ></code>) and we've also got the second and brand new version of picturefill.js which makes it possible to use both solutions, <picture> and srcset.
+
+----
+
+Text: 
+
+I daresay that Fry has discovered the smelliest object in the known universe! It must be wonderful. Oh Leela! You're the only person I could turn to; you're the only person who ever loved me. Belligerent and numerous. Dr. Zoidberg, that doesn't make sense. But, okay! Uh, is the puppy mechanical in any way?
+
+I just told you! You've killed me! Uh, is the puppy mechanical in any way? One hundred dollars. My fellow Earthicans, as I have explained in my book 'Earth in the Balance'', and the much more popular ''Harry Potter and the Balance of Earth', we need to defend our planet against pollution. Also dark wizards. I've got to find a way to escape the horrible ravages of youth. Suddenly, I'm going to the bathroom like clockwork, every three hours. And those jerks at Social Security stopped sending me checks. Now 'I'' have to pay ''them'!
+
+Yeah, I do that with my stupidness. Yeah. Give a little credit to our public schools. Bender! Ship! Stop bickering or I'm going to come back there and change your opinions manually! I'm Santa Claus!
+
+Perhaps, but perhaps your civilization is merely the sewer of an even greater society above you! Tell them I hate them. Ask her how her day was.
+
+Soothe us with sweet lies. Hello, little man. I will destroy you! Yes! In your face, Gandhi! Good news, everyone! I've taught the toaster to feel love!
+
+----
+
+Tags: filmmaking

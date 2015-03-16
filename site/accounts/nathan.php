@@ -6,10 +6,10 @@ password: >
   $2a$10$YMeRNrw0Z2shQlIph.YrMu.570D.3YjDXhgwdIAkcXs3E1SuPHzXm
 language: en
 role: admin
-token: 72d2958b1172c1dcbf88580f9974b99b1503600c
+token: 6b938e0164938b328229c9b84686c13e40ca6278
 history:
-  - home/blog
-  - home/callout
-  - home/stats
-  - home/contact
-  - home/quals
+  - blog/first-blog-link
+  - home/work
+  - blog/video-time
+  - blog/second-blog-article
+  - blog/article-test

@@ -32,6 +32,7 @@ fields:
   tags:
     label: Tags
     type: tags
+    index: siblings
   mediaInfo:
     label: Media
     type: headline

@@ -1,6 +1,6 @@
 <?php if(!defined('KIRBY')) exit ?>
 
-title: Blog/Article
+title: Blog/Video
 pages: false
 files:
   sortable: false
@@ -12,11 +12,17 @@ fields:
     label: Date
     type: date
     format: DD/MM/YYYY
-  excerpt:
-    label: Leading Paragraph
-    type: textarea
+  source:
+    label: Video Source
+    type: radio
+    options:
+      youtube: YouTube
+      vimeo: Vimeo
+  videoid:
+    label: Video ID
+    type: text
   text:
-    label: Main Article Text
+    label: Text
     type: textarea
   tags:
     label: Tags
