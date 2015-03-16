@@ -6,7 +6,7 @@ password: >
   $2a$10$YMeRNrw0Z2shQlIph.YrMu.570D.3YjDXhgwdIAkcXs3E1SuPHzXm
 language: en
 role: admin
-token: a024b8e05358a85da216d0477a5f49ca2e0fdfbf
+token: 6b938e0164938b328229c9b84686c13e40ca6278
 history:
   - blog/links-are-fun
   - home/blog

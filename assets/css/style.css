@@ -103,16 +103,6 @@ section#work .portfolioFilter a.current { color:#ed8046; }
 
 
 
-
-
-
-
-
-
-
-
-
-
 /* ---- HOME // WORK // SINGLE ---- */
 section#work article h1 { font-size:3.5em; font-family:"Flama Ultra"; }
 section#work article div:first-child { display:block; margin-bottom:2em; font-family:"Flama Thin"; }
@@ -132,19 +122,29 @@ section#work .media .item:first-child { margin-top:1.5em; }
 
 
 
-
-
-
-
-
-
-
 /* ---- HOME // BLOG  ---- */
 section#blog { margin-top:70px; padding-top:20px; }
-section#blog div.post { padding:10px; }
-section#blog div.post a { display:block; padding:20px; }
-section#blog div.post.first { background:#f9f9f9; }
+section#blog div.post { padding:10px 30px 10px 30px; margin-bottom:2em; }
+section#blog div.post.first { background:#fafafa; }
 section#blog div.post.second { }
+section#blog div.post .meta { color:#777; font-family:"Flama Light"; margin-top:1.5em; }
+
+section#blog div.post:not(.first):not(.second) h4 a { color:#333; }
+
+
+section#blog div.post h4 { font-size:2em; font-family:"Flama Ultra"; }
+section#blog div.post.first h4 { font-size:2.75em; }
+section#blog div.post.second h4 { font-size:2.25em; }
+
+@media only screen and (min-width : 768px) { /* .sm size */
+section#blog div.post { padding:10px 30px 10px 30px; }
+}
+@media only screen and (min-width : 992px) { /* .md size */
+
+}
+@media only screen and (min-width : 1200px) { /* .lg size */
+
+}
 
 
 /* ---- HOME // QUALS ---- */
@@ -172,7 +172,9 @@ section#contact dl div { overflow:hidden; }
 section#contact dl { margin-top:3em; }
 
 /* ---- BLOG // ARCHIVE ---- */
-
+.blog-archive h1 { margin:3em; }
+.blog-archive h1 a:link, .blog-archive h1 a:visited, .blog-archive h1 a:active, .blog-archive h1 a:hover { color:#333; text-decoration:none; }
+.blog-archive h1 span { border:#515151 1px solid; font-family:"Flama Light"; font-size:1.45em; text-transform:uppercase; text-align:center; padding:7px 50px; }
 
 /* ---- BLOG // GLOBAL SINGLE POSTS ---- */
 .blog-single article { margin-top:5em; }
