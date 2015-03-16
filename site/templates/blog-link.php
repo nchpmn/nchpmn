@@ -7,8 +7,9 @@
                 <h1><a href="<?php echo $page->link() ?>"><?php echo $page->title() ?> &rarr;</a></h1>
                 <div class="meta">
                     <span><i class="fa fa-link"></i> &nbsp;&nbsp;&mdash;&nbsp;&nbsp; 
-                    <?php foreach(explode(',',$page->tags()) as $t): ?><a href="<?php echo $page->parent()->url() ?>/tag:<?php echo $t ?>"><span><?php echo "#".$t ?></span></a> <?php endforeach ?>&nbsp;&nbsp;&mdash;&nbsp;&nbsp;
-                    <?php echo $page->date('j M Y') ?></span>
+                    <?php echo $page->date('j M Y') ?>&nbsp;&nbsp;&mdash;&nbsp;&nbsp;
+                    <?php foreach(explode(',',$page->tags()) as $t): ?><a href="<?php echo $page->parent()->url() ?>/tag:<?php echo $t ?>"><span><?php echo "#".$t ?></span></a> <?php endforeach ?>
+                    </span>
                 </div>
             </div>
         </div>
