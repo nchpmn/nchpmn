@@ -4,7 +4,7 @@
         <div class="navbar-header">
             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#collapse">
                 <span class="sr-only">Toggle Navigation</span>
-                <i class="fa fa-bars"></i>
+                <i class="fa fa-asterisk"></i>
             </button>
             <a class="navbar-brand" href="#">NCHP<span class="orange"><strong>.</strong></span>MN</a>
         </div>
