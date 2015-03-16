@@ -55,7 +55,6 @@
             'assets/js/jquery.easing.1.3.js',
             'assets/js/jquery.colio.min.js',
             'assets/js/jquery.isotope.min.js',
-            'assets/js/owl.carousel.min.js',
         )) ?>
         <script type="text/javascript">
         // Smooth Anchor Scroll Linky Thing Script
@@ -105,14 +104,6 @@
                 isotope_run(filter);  
                   
             });
-        
-        // OWL CAROUSEL
-            $('.owl-carousel').owlCarousel({
-                loop:true,
-                margin:10,
-                nav:true,
-                items:1,
-            })
         </script>
 
     <?php endif; ?>
