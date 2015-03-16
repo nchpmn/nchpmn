@@ -1,7 +1,7 @@
 <?php snippet('header', array('bodyclass' => 'blog-archive')) ?>
-
+<h1 class="text-center"><a href="<?php echo $page->url() ?>"><span><?php echo $page->title() ?></span></a></h1>
 <div class="container">
-    <h1 class="text-center"><a href="<?php echo $page->url() ?>"><span><?php echo $page->title() ?></span></a></h1>
+    <div class="col-xs-12 col-lg-10 col-lg-offset-1">
     <div class="row">
         <?php $posts = $page->children()->visible()->flip();
         if($tag = param('tag')) {
@@ -32,6 +32,7 @@
                 </div>
             </article>
         <?php endforeach ?>
+    </div>
     </div>
 </div>
 
