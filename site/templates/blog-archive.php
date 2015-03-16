@@ -27,7 +27,7 @@
                         <i class="fa fa-play"></i> &nbsp;&nbsp;&mdash;&nbsp;&nbsp; <?php echo $post->date('j M Y') ?>
                     <?php endif ?>
                     <div class="tags pull-right">
-                        <?php foreach(explode(',',$post->tags()) as $t): ?><a href="<?php echo $page->url() ?>/tag:<?php echo $t ?>"><span><?php echo "#".$t ?></span></a><?php endforeach ?>
+                        <?php foreach(explode(',',$post->tags()) as $t): ?><a href="<?php echo $page->url() ?>/tag:<?php echo $t ?>"><span><?php echo "#".$t ?></span></a> <?php endforeach ?>
                     </div>
                 </div>
             </article>
