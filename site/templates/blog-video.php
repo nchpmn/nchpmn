@@ -6,7 +6,9 @@
             <div class="col-xs-10 col-xs-offset-1 col-md-8 col-md-offset-2 text-center">
                 <h1><?php echo $page->title() ?></h1>
                 <div class="meta">
-                    <span><i class="fa fa-play"></i> &nbsp;&nbsp;&mdash;&nbsp;&nbsp; <?php echo $page->date('j M Y') ?></span>
+                    <span><i class="fa fa-play"></i> &nbsp;&nbsp;&mdash;&nbsp;&nbsp; 
+                    <?php foreach(explode(',',$page->tags()) as $t): ?><a href="<?php echo $page->parent()->url() ?>/tag:<?php echo $t ?>"><span><?php echo "#".$t ?></span></a><?php endforeach ?>&nbsp;&nbsp;&mdash;&nbsp;&nbsp;
+                    <?php echo $page->date('j M Y') ?></span>
                 </div>
             </div>
         </div>
