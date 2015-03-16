@@ -18,3 +18,7 @@ fields:
   text:
     label: Main Article Text
     type: textarea
+  tags:
+    label: Tags
+    type: tags
+    index: siblings
