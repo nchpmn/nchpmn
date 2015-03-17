@@ -1,0 +1,61 @@
+Title: VISA Global Logistics
+
+----
+
+Text: 
+
+A specific project with a tight turnaround, this corporate profile for VISA Global Logistics shows the unique opportunities they have in the Port Botany shipping market.
+
+Shot entirely on the DJI Ronin, production was light enough to not interfere with the precision of the active shipping yard and warehouse.
+
+----
+
+Role: Gimbal Operator
+
+----
+
+Year: 2015-01-01
+
+----
+
+Category: other
+
+----
+
+Tags: 
+
+----
+
+Cover: screenshot-2015-03-17-20.58.00.png
+
+----
+
+Videosource: vimeo
+
+----
+
+Videoid: 120323650
+
+----
+
+Company: Relativity
+
+----
+
+Client: VISA Global Logistics
+
+----
+
+Projecturl: 
+
+----
+
+Crew: 
+
+- 
+  role: Gimbal Operator / Editor / Graphics
+  name: Nathan Chapman
+
+----
+
+Projectimages: screenshot-2015-03-17-20.58.00.png

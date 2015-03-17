@@ -1,0 +1,68 @@
+Title: Family Building
+
+----
+
+Text: This TVC is the third in an integrated campaign for Nikolovski Lawyers. Along with the other commercials, Morning Run and [The Fighter](../work/the-fighter), this campaign also featured bus and newspaper advertising, featuring stills from each scene.
+
+----
+
+Role: Camera Assistant
+
+----
+
+Year: 2014-01-01
+
+----
+
+Category: tvc
+
+----
+
+Tags: tvc
+
+----
+
+Cover: 499641202.jpg
+
+----
+
+Videosource: vimeo
+
+----
+
+Videoid: 114090104
+
+----
+
+Company: Relativity
+
+----
+
+Client: Nikolovski Lawyers
+
+----
+
+Projecturl: 
+
+----
+
+Crew: 
+
+- 
+  role: Director
+  name: Keean Murrell Snape
+- 
+  role: Producer / Cinematographer
+  name: Gerardo Ceres
+- 
+  role: Production Manager
+  name: Mariana Zurak
+- 
+  role: Camera Operator
+  name: Gerardo Ceres
+- 
+  role: Camera Assistant
+  name: Nathan Chapman
+- 
+  role: Production Assistants
+  name: 'Kira Jade & Geoff Adams'
