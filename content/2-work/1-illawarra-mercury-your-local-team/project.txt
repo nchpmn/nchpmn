@@ -1,0 +1,72 @@
+Title: Illawarra Mercury: Your Local Team
+
+----
+
+Text: 
+
+This targeted television commercial campaign was produced to highlight how the local newspaper, the Illawarra Mercury, was produced in the region in a time where consolidating editors and reporters is becoming increasingly common.
+
+As we were shooting in a working newsroom, it would be impossible to stage our setups, as we were required to shoot as fly-on-the-wall. Shooting with the RED Scarlet-X with Canon CN-E Primes enabled us to achieve the cinematic style within the constraints of an active, working environment.
+
+----
+
+Role: Camera Assistant
+
+----
+
+Year: 2014-01-01
+
+----
+
+Category: tvc
+
+----
+
+Tags: tvc
+
+----
+
+Cover: 
+
+----
+
+Videosource: vimeo
+
+----
+
+Videoid: 104064430
+
+----
+
+Company: Relativity
+
+----
+
+Client: Illawarra Mercury
+
+----
+
+Projecturl: 
+
+----
+
+Crew: 
+
+- 
+  role: Writer / Director
+  name: Keean Murrell Snape
+- 
+  role: Producer / Cinematographer
+  name: Gerardo Ceres
+- 
+  role: Production Manager
+  name: Mariana Zurak
+- 
+  role: Editor
+  name: Keean Murrel Snape
+- 
+  role: Camera Assistant
+  name: Nathan Chapman
+- 
+  role: Production Assistant
+  name: 'Kira Jade & Geoff Adams'

@@ -8,8 +8,8 @@ language: en
 role: admin
 token: 890aab07c62eecbaf9c352d4f82440a4fc29d766
 history:
+  - work/illawarra-mercury-your-local-team
+  - home/work
   - work/morning-run
   - work
   - work/the-fighter
-  - work/nbl-on-court-camera
-  - work/family-building
