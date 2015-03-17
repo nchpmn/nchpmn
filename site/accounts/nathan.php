@@ -8,8 +8,8 @@ language: en
 role: admin
 token: 2d6d16e1ce2b3910e3af497c84181d6c96beea31
 history:
-  - extras/youtube/build-a-studio
-  - extras/youtube/a7s
-  - extras/youtube
-  - work
-  - extras
+  - extras/youtube/extra-birthday-delivery
+  - extras/youtube/motivation
+  - extras/youtube/extra-facebook-hq
+  - extras/youtube/fat
+  - extras/youtube/exovest
