@@ -4,7 +4,7 @@
             
         <div class="portfolioContainer">
             <?php $posts = $page->children()->visible()->flip();
-            $posts = $posts->paginate(12); ?>
+            $posts = $posts->paginate(strval($page->numberitems())); ?>
             <?php foreach($posts as $item): ?>
                 <div class="col-xs-6 col-sm-4 col-lg-3">
                     <a class="colio-link" href="<?php echo $item->url() ?>">
