@@ -1,6 +1,6 @@
 <!-- Designed for AJAX Loading -->
 <div class="row">
-    <div class="col-sm-10 col-sm-offset-1">
+    <div class="col-sm-10 col-sm-offset-1 media">
         <div class="video-responsive item">
             <?php $id = explode("?v=", $page->link()) ?>
             <?php $id = $id[1] ?>
