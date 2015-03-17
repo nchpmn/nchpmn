@@ -8,8 +8,8 @@ language: en
 role: admin
 token: 2d6d16e1ce2b3910e3af497c84181d6c96beea31
 history:
+  - extras/youtube/a7s
+  - extras/youtube
   - work
   - extras
   - home/blog
-  - blog/first-blog-link
-  - home/work
