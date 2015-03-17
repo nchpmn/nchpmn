@@ -1,12 +1,12 @@
 <?php if(!defined('KIRBY')) exit ?>
 
-title: Page
+title: Extras/YouTube Single
 pages: true
 files: true
 fields:
   title:
     label: Title
     type:  text
-  text:
+  link:
     label: Video URL
     type:  url
