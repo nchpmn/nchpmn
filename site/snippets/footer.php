@@ -50,7 +50,7 @@
         'assets/js/custom.js',
     )) ?>
     
-    <?php if($page->isHomePage()): ?>
+    <?php if($page->isHomePage() or $page == 'extras/youtube'): ?>
         <?php echo js(array(
             'assets/js/jquery.easing.1.3.js',
             'assets/js/jquery.colio.min.js',
