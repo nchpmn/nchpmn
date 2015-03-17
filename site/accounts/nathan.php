@@ -6,11 +6,11 @@ password: >
   $2a$10$YMeRNrw0Z2shQlIph.YrMu.570D.3YjDXhgwdIAkcXs3E1SuPHzXm
 language: en
 role: admin
-token: 2d6d16e1ce2b3910e3af497c84181d6c96beea31
+token: 890aab07c62eecbaf9c352d4f82440a4fc29d766
 history:
-  - blog/illawarra-mercury-behind-the-scenes
+  - work/nbl-on-court-camera
+  - work/morning-run
+  - work/the-fighter
+  - work/family-building
   - >
-    blog/nikolovski-laywers-behind-the-scenes
-  - work/visa-global-logistics
-  - work/nikolovski-lawyers-family-building
-  - home/work
+    blog/nikolovski-lawyers-behind-the-scenes

@@ -2,7 +2,15 @@ Title: Family Building
 
 ----
 
-Text: This TVC is the third in an integrated campaign for Nikolovski Lawyers. Along with the other commercials, Morning Run and [The Fighter](../work/the-fighter), this campaign also featured bus and newspaper advertising, featuring stills from each scene.
+Text: 
+
+This TVC is the third in an integrated campaign for Nikolovski Lawyers. Along with the other commercials, [Morning Run][2] and [The Fighter][3], this campaign also featured bus and newspaper advertising, featuring stills from each scene.
+
+Shot on RED EPIC-X with Canon CN-E Primes. For a full behind-the-scenes look at this production, check out [the blog][1].
+
+[1]: ../blog/nikolovski-lawyers-behind-the-scenes
+[2]: ../work/morning-run
+[3]: ../work/the-fighter
 
 ----
 
