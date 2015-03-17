@@ -17,9 +17,10 @@
                             <h4><?php echo $item->title() ?></h4>
                             <span><?php echo $item->role() ?></span>
                         </div>
-                        <?php $cover = $item->cover(); ?>
-                        <?php if($image = $item->image(strval($cover))): ?>
-                            <?php echo thumb($image, array('width' => 600, 'blur' => true, 'grayscale' => false, 'class' => 'img-responsive')); ?>
+                        <?php if($item->cover() == ''): ?>
+                            <?php echo thumb(page('work')->file(strval(page('work')->defaultimage())), array('width' => 500, 'blur' => false, 'grayscale' => false, 'class' => 'img-responsive')); ?>
+                        <?php else: ?>
+                            <?php echo thumb($item->file(strval($item->cover())), array('width' => 500, 'blur' => true, 'grayscale' => false, 'class' => 'img-responsive')); ?>
                         <?php endif ?>
                     </a>
                 </div>
