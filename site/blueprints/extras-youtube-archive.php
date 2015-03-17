@@ -1,6 +1,6 @@
 <?php if(!defined('KIRBY')) exit ?>
 
-title: Work
+title: Extras/YouTube Archive
 pages: true
 files: false
 fields:

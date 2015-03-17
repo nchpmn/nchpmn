@@ -1,6 +1,6 @@
 <?php if(!defined('KIRBY')) exit ?>
 
-title: Work
+title: Work/Archive
 pages: true
 files: false
 fields:
