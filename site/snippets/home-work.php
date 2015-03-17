@@ -19,7 +19,7 @@
                         </div>
                         <?php $cover = $item->cover(); ?>
                         <?php if($image = $item->image(strval($cover))): ?>
-                            <img class="img-responsive" src="<?php echo $image->url() ?>">
+                            <?php echo thumb($image, array('width' => 600, 'blur' => true, 'grayscale' => false, 'class' => 'img-responsive')); ?>
                         <?php endif ?>
                     </a>
                 </div>

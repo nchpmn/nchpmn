@@ -12,9 +12,10 @@
                             <h4><?php echo $item->title() ?></h4>
                             <span><?php echo $item->role() ?></span>
                         </div>
-                        <?php $cover = $item->cover(); ?>
-                        <?php if($image = $item->image(strval($cover))): ?>
-                            <img class="img-responsive" src="<?php echo $image->url() ?>">
+                        <?php if($item->cover() == ''): ?>
+                            <?php echo thumb($page->file(strval($page->defaultimage())), array('width' => 500, 'blur' => false, 'grayscale' => false, 'class' => 'img-responsive')); ?>
+                        <?php else: ?>
+                            <?php echo thumb($item->file(strval($item->cover())), array('width' => 500, 'blur' => true, 'grayscale' => false, 'class' => 'img-responsive')); ?>
                         <?php endif ?>
                     </a>
                 </div>

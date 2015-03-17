@@ -2,7 +2,7 @@
 
 title: Work/Archive
 pages: true
-files: false
+files: true
 fields:
   title:
     label: Title
@@ -10,3 +10,7 @@ fields:
   numberitems:
     label: Number of Items to Show
     type: number
+  defaultimage:
+    label: Default Thumbnail
+    type: select
+    options: images
