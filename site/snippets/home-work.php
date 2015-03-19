@@ -17,10 +17,21 @@
                             <h4><?php echo $item->title() ?></h4>
                             <span><?php echo $item->role() ?></span>
                         </div>
-                        <?php if($item->cover() == ''): ?>
-                            <?php echo thumb(page('work')->file(strval(page('work')->defaultimage())), array('width' => 500, 'height' => 282, 'crop' => true, 'blur' => false, 'grayscale' => false, 'class' => 'img-responsive')); ?>
+                        <?php if($item->coverSource() == '1'): ?>
+                            <?php if($item->videoSource() == 'youtube'): ?>
+                                <img src="<?php echo 'http://i1.ytimg.com/vi/'.$item->videoID().'/maxresdefault.jpg' ?>" class="img-responsive" />
+                            <?php else: ?>
+                                <?php
+                                $hash = unserialize(file_get_contents("http://vimeo.com/api/v2/video/".$item->videoID().".php"));
+                                $img = $hash[0]['thumbnail_large'] ?>
+                                <img src="<?php echo $img ?>" class="img-responsive" />                                
+                            <?php endif ?>
                         <?php else: ?>
-                            <?php echo thumb($item->file(strval($item->cover())), array('width' => 500, 'height' => 282, 'crop' => true, 'blur' => true, 'grayscale' => false, 'class' => 'img-responsive')); ?>
+                            <?php if($item->cover() == ''): ?>
+                                <?php echo thumb(page('work')->file(strval(page('work')->defaultimage())), array('width' => 500, 'height' => 282, 'crop' => true, 'blur' => false, 'grayscale' => false, 'class' => 'img-responsive')); ?>
+                            <?php else: ?>
+                                <?php echo thumb($item->file(strval($item->cover())), array('width' => 500, 'height' => 282, 'crop' => true, 'blur' => true, 'grayscale' => false, 'class' => 'img-responsive')); ?>
+                            <?php endif ?>
                         <?php endif ?>
                     </a>
                 </div>
