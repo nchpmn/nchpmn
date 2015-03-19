@@ -30,7 +30,7 @@ Tags:
 
 ----
 
-Cover: 
+Cover: nik_fight_113_web_141026a.jpg
 
 ----
 
@@ -55,3 +55,11 @@ Projecturl:
 ----
 
 Crew: 
+
+----
+
+Coversource: 
+
+----
+
+Projectimages: nik_fight_113_web_141026a.jpg

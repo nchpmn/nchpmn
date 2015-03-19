@@ -30,7 +30,7 @@ Tags: tvc
 
 ----
 
-Cover: 499641202.jpg
+Cover: 1-nik_family_1194_141026b.jpg
 
 ----
 
@@ -77,4 +77,8 @@ Crew:
 
 ----
 
-Projectimages: 1798704_855222904501784_4160549307448691656_n.jpg, 499641202.jpg, img_0633.jpg
+Projectimages: 1-nik_family_1194_141026b.jpg, 2-1798704_855222904501784_4160549307448691656_n.jpg, 3-img_0633.jpg
+
+----
+
+Coversource: 
