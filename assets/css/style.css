@@ -91,7 +91,8 @@ section#stats { font-size:1.25em; background-position:center center; }
 
 /* ---- HOME // WORK ---- */
 section#work { margin:50px 0 125px 0; }
-.portfolioContainer div, .portfolioContainer div img { padding:1px 1px 0 0; margin:0; }
+.portfolioContainer div { padding:1px 1px 0 0; margin:0;  }
+.portfolioContainer div div { padding:none;; }
 .portfolioContainer .work-description { position:absolute; top:50%; -webkit-transform:translateY(-50%); -ms-transform:translateY(-50%); transform:translateY(-50%); width:100%; color:#fff; }
 .portfolioContainer .work-description h4 { text-transform:uppercase; font-family:"Flama"; letter-spacing:1px; }
 .portfolioContainer .work-description span { text-transform:uppercase; font-family:"Flama"; font-size:0.95em; }
@@ -100,6 +101,8 @@ section#work { margin:50px 0 125px 0; }
 .portfolioFilter a:hover, section#work .portfolioFilter a:active { color:#666; }
 .portfolioFilter a.current { color:#ed8046; }
 
+@media only screen and (min-width:768px) {
+}
 
 
 /* ---- HOME // WORK // SINGLE ---- */

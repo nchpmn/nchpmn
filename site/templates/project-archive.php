@@ -12,14 +12,15 @@
                         <span><?php echo $item->role() ?></span>
                     </div>
                     <?php if($item->coverSource() == '1'): ?>
-                        <?php if($item->videoSource() == 'youtube'): ?>
-                            <img src="http://placehold.it/320x180" class="img-responsive">
-                        <?php else: ?>
+                        <?php if($item->videoSource() == 'vimeo'): ?>
                             <?php
                             $hash = unserialize(file_get_contents("http://vimeo.com/api/v2/video/".$item->videoID().".php"));
                             $img = $hash[0]['thumbnail_large'] ?>
-                            <img src="<?php echo $img ?>" class="img-responsive" />                                
                         <?php endif ?>
+                        <?php if($item->videoSource() == 'youtube'): ?>
+                            <?php $img = "http://img.youtube.com/vi/".$item->videoID()."/mqdefault.jpg"; ?>
+                        <?php endif ?>
+                        <img src="<?php echo $img ?>" class="img-responsive" /> 
                     <?php else: ?>
                         <?php if($item->cover() == ''): ?>
                             <?php echo thumb($page->file(strval($page->defaultimage())), array('width' => 500, 'height' => 282, 'crop' => true, 'blur' => false, 'grayscale' => false, 'class' => 'img-responsive')); ?>
