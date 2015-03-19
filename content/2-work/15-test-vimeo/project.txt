@@ -1,0 +1,57 @@
+Title: Test Vimeo
+
+----
+
+Text: Thanks very much for this, very helpful. I think there is one very small typo. You use # in the id_img variables, but haven't got the # in the img element id. Does your example assume the use of jQuery as well? I swopped the $(id_img).before and $(id_img).attr for createElement and a more basic getElementById(id_img).src, but wouldn't have got it at all if it wasn't for your example. –  atomicules Mar 13 '11 at 22:52
+
+----
+
+Role: Bump Scoopoodle
+
+----
+
+Year: 2014-01-01
+
+----
+
+Category: film
+
+----
+
+Tags: film
+
+----
+
+Coversource: 1
+
+----
+
+Cover: wallpaper-1120596.jpg
+
+----
+
+Videosource: vimeo
+
+----
+
+Videoid: 121103018
+
+----
+
+Company: Balloon Dog
+
+----
+
+Client: Beyond Blue
+
+----
+
+Projecturl: 
+
+----
+
+Crew: 
+
+----
+
+Projectimages: wallpaper-1120596.jpg, wallpaper-1174991.jpg

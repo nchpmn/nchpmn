@@ -8,8 +8,9 @@ language: en
 role: admin
 token: 554bc52644c63780c4120a50f36ba0b06fa5c562
 history:
-  - work/illawarra-mercury-your-local-team
+  - work/test-vimeo
+  - work/test
+  - >
+    blog/nikolovski-lawyers-behind-the-scenes
+  - work/morning-run
   - work/family-building
-  - work/gpt-wollongong-central
-  - work/wollongong-adventure-weekend
-  - blog/this-is-our-year-behind-the-scenes

@@ -36,13 +36,17 @@ fields:
   mediaInfo:
     label: Media
     type: headline
+  coverSource:
+    label: Cover Image Source
+    type: checkbox
+    text: Use the Video Thumbnail as Cover Image
   cover:
     label: Cover Image
     type: select
     options: images
   videoSource:
     label: Video Source
-    type: select
+    type: radio
     options:
       youtube: YouTube
       vimeo: Vimeo
