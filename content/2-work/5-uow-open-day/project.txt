@@ -1,0 +1,53 @@
+Title: UOW Open Day
+
+----
+
+Text: 
+
+----
+
+Role: Gimbal Operator
+
+----
+
+Year: 2014-01-01
+
+----
+
+Category: film
+
+----
+
+Tags: film
+
+----
+
+Cover: 
+
+----
+
+Videosource: vimeo
+
+----
+
+Videoid: 105533313
+
+----
+
+Company: Relativity
+
+----
+
+Client: University of Wollongong
+
+----
+
+Projecturl: 
+
+----
+
+Crew: 
+
+----
+
+Coversource: 1
