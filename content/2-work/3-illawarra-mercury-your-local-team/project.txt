@@ -26,7 +26,7 @@ Tags: tvc
 
 ----
 
-Cover: 
+Cover: 10406994_824691917554883_5359171967014508423_n.jpg
 
 ----
 
@@ -70,3 +70,7 @@ Crew:
 - 
   role: Production Assistant
   name: 'Kira Jade & Geoff Adams'
+
+----
+
+Projectimages: 10406994_824691917554883_5359171967014508423_n.jpg, 10534685_824245267599548_9071799753538770105_n.jpg
