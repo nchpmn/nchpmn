@@ -18,9 +18,9 @@
                             <span><?php echo $item->role() ?></span>
                         </div>
                         <?php if($item->cover() == ''): ?>
-                            <?php echo thumb(page('work')->file(strval(page('work')->defaultimage())), array('width' => 500, 'blur' => false, 'grayscale' => false, 'class' => 'img-responsive')); ?>
+                            <?php echo thumb(page('work')->file(strval(page('work')->defaultimage())), array('width' => 500, 'height' => 282, 'crop' => true, 'blur' => false, 'grayscale' => false, 'class' => 'img-responsive')); ?>
                         <?php else: ?>
-                            <?php echo thumb($item->file(strval($item->cover())), array('width' => 500, 'blur' => true, 'grayscale' => false, 'class' => 'img-responsive')); ?>
+                            <?php echo thumb($item->file(strval($item->cover())), array('width' => 500, 'height' => 282, 'crop' => true, 'blur' => true, 'grayscale' => false, 'class' => 'img-responsive')); ?>
                         <?php endif ?>
                     </a>
                 </div>
