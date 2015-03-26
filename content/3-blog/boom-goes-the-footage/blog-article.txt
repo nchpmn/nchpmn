@@ -1,0 +1,59 @@
+Title: Boom Goes the Footage
+
+----
+
+Date: 
+
+----
+
+Excerpt: What a power outage started, I'm still finishing. Three and a half days later.
+
+----
+
+Text: 
+
+Hard drives truly are a miraculous thing. They sure as hell are nicer to use than our old precious friend, the DV tape or the VCR[^1], and the sheer mechanics of a drive is breathtaking. A needle, sitting less than 3nm - 0.0000003cm - above a disk spinning at 7200rpm - or *758km/h*[^3] - reading and writing millions of bits at a time.
+
+**BZZT!**
+
+It's 11:30 in the morning, and still everything goes dark. There's a click of one drive- no, two, shutting down; I'm holding my breath; I can hear the fans on *Apollo* spinning down...
+
+My chair creaks as I roll away from my desk.
+
+The next few moments are critical. Find the source of the outage, isolate, repair, reboot. Or more importantly, don't freak out when you can't remember the last time you hit *Ctrl-S*.
+
+*Did I cause this?*
+
+A dangerous thought. As with most anyone's desk, a cocophany of powerboards, transformers and cables lie behind. I was sure I hadn't been kicking them, an action only begging for disaster.
+
+For the first time since I began editing this morning[^2] I realised the rain bombarding the house. This was of little consquence, normally - except today, the power went kaput. It was time to go out and check the meter box.
+
+One drenching, harrowing minute later, I'm back inside. None of the circuits had tripped - this problem was beyond me.
+
+***
+
+It was late evening when the lights flickered back to life. Bounding over to the computer, I need to make sure the project I was just minutes into rendering had survived.
+
+My computer features an agonising black screen between the BIOS and the Windows boot screen. It lasts for only 10 seconds, but it's minutes in my head.
+
+<blockquote class="twitter-tweet" lang="en"><p>Sigh... So what&#39;re y&#39;all doing today? <a href="http://t.co/h5i3RINpew">pic.twitter.com/h5i3RINpew</a></p>&mdash; Nathan Chapman (@nchpmn) <a href="https://twitter.com/nchpmn/status/580546400246763520">March 25, 2015</a></blockquote>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+
+
+
+
+
+
+
+
+[^1]: To the collective grief of all cinematographers over 45, I have never, and looking at the industry, most likely will never shoot on celluloid. You can wax lyrical all you want about the finesse of your image, trapped delicately in finite chemicals and plastic; however even if it's shot on film, it's edited and mastered on digital. It's not necessarily better, it's just what we use.
+
+[^2]: Hey, you. Yes, you: are you unable to sleep? Up at 5:20 in the morning? How about you edit!
+
+[^3]: These figures are just insane.
+
+----
+
+Tags: 

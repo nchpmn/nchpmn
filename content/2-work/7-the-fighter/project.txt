@@ -56,10 +56,29 @@ Projecturl:
 
 Crew: 
 
+- 
+  role: Director
+  name: Keean Murrell Snape
+- 
+  role: Producer / Cinematographer
+  name: Gerardo Ceres
+- 
+  role: Production Manager
+  name: Mariana Zurak
+- 
+  role: Camera Operator
+  name: Gerardo Ceres
+- 
+  role: Camera Assistant
+  name: Nathan Chapman
+- 
+  role: Production Assistants
+  name: 'Kira Jade & Geoff Adams'
+
 ----
 
 Coversource: 
 
 ----
 
-Projectimages: nik_fight_113_web_141026a.jpg
+Projectimages: setwidth1500-niko-art-final-fight.jpg
