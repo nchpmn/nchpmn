@@ -24,18 +24,26 @@ Whilst that's only the theme, and not the actual content of the site, this was m
         Content of the page...
     {% endblock %}
 
-Blergh!
+Blergh! To open or close a single tag, you needed to type both a <code>{</code> and a <code>%</code>. 
 
 From that, we took the great leap to a self-hosted, completely owned website. My first stop was WordPress, however, alas, I've no trace of that 'generation' of website. Next up, in 2012, was a site built in Stacey, a flat-file CMS.
 
 (image: 2012-stacey.png)
 
-, the same as used by Tumblr. Twig makes extensive use of 
+Stacey used its own custom templating engine, but for whatever reason, I moved away from it.
 
+Now comes 2013, the first year of really thinking about what I want to do, and how I am going to brand myself. It was the year of my first business card, the creation of my business[^2], and just a big year overall.
 
+Except on the website front:
 
+(image: website-2013.png)
+
+Over the course of around 9 or 12 months, this static html design didn't progress much. I don't remember what my intentions where for using it, whether it would be run on Stacey, or WordPress, or another beast entirely.
+
+2014 saw a proper foray into the world of WordPress, with the use of a blog theme called [Brooklyn](http://themeforest.net/item/brooklyn-creative-one-page-multipurpose-theme/6221179?ref=nchpmn). I can best describe this template as being a bloated monster, having to be fought with shortcodes and sub-pages and custom menus that defined what pages were pulled onto the home page. In short, WordPress isn't build for this sort of customisation, and having to 
 
 [^1]: It's lucky I am an obsessive backup freak, because even four years later, I've still got partial backups of most of these websites.
+[^2]: ABNs are fun!
 
 ----
 
