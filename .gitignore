@@ -8,13 +8,20 @@
 ehthumbs.db
 Thumbs.db
 
-# Kirby CMS Cache
-site/cache/
+# Created by https://www.gitignore.io
 
-# Kirby CMS Users
-site/accounts/
+### Kirby2 ###
+## Kirby 2 | http://getkirby.com
 
-# Kirby CMS Thumbnails
-thumbs/
+# Exclude account information
+site/accounts/*.php
+assets/avatars/*
+!assets/avatars/.gitkeep
 
-# Modified 26/03/2015
+# Exclude thumbnails
+thumbs/*
+!thumbs/index.html
+
+# Exclude cache
+site/cache/*
+!site/cache/index.html
