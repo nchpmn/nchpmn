@@ -9,7 +9,7 @@ ehthumbs.db
 Thumbs.db
 
 # Kirby CMS Cache
-site\cache\
+site/cache/
 
 # Kirby CMS Users
-site\accounts\
+site/accounts/
