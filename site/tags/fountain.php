@@ -2,7 +2,9 @@
 
 kirbytext::$tags['fountain'] = array(
   'html' => function($tag) {
-    return $tag->file($tag->attr('fountain'))->read();
-  }
+    $script = $tag->file($tag->attr('fountain'))->read();
+    return js('assets/js/fountain/fountain.js');
+      }
 );
+
 ?>
