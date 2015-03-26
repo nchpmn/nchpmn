@@ -26,17 +26,17 @@
                 <div class="col-xs-10 col-xs-offset-1 col-sm-5 col-sm-offset-0">
                     <dl>
                         <div class="col-xs-4 col-sm-12">
+                            <dt>Phone</dt>
+                            <dd>+61 416 544 800</dd>
+                        </div>
+                        <div class="col-xs-4 col-sm-12">
                             <dt>Email</dt>
                             <dd><a href="mailto:nathan@nchp.mn">nathan@nchp.mn</a></dd>
                         </div>
                         <div class="col-xs-4 col-sm-12">
                             <dt>Location</dt>
                             <dd>Sydney &amp; Wollongong, Australia</dd>
-                        </div>
-                        <div class="col-xs-4 col-sm-12">
-                            <dt>Phone</dt>
-                            <dd>+61 416 544 800</dd>
-                        </div>
+                        </div>                        
                         <div class="col-xs-4 col-sm-12">
                             <dt>SOCIALLY</dt>
                             <dd><a href="<?php echo $site->youtube() ?>"><i class="fa fa-youtube-square fa-3x"></i></a>
