@@ -13,3 +13,6 @@ site/cache/
 
 # Kirby CMS Users
 site/accounts/
+
+# Kirby CMS Thumbnails
+thumbs/
