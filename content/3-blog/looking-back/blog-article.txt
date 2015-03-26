@@ -1,0 +1,42 @@
+Title: Looking Back
+
+----
+
+Date: 2015-03-26
+
+----
+
+Excerpt: With the new site finally up (and with some luck, working!), it's about time to take a stroll back through the development of this site. It all began back in 2011...
+
+----
+
+Text: 
+
+Before I was *Nathan Chapman*, I was Chapman Films. My site was hosted on Tumblr, using a theme I'd found called [hasaportfolio](http://hasaportfolio.com/). It looked something like this:
+
+(image: 2011-tumblr-website.png)
+
+Whilst that's only the theme, and not the actual content of the site, this was me. My portfolio[^1]. Running on Tumblr was a choice I'd originally made to avoid having to look around for hosting and the like. It was also a simple backend, that already had great support for media (so long as you weren't using Tumblr's video hosting). What made Tumblr special (or especially frustrating) was the Twig templating engine. Twig makes extensive use of curly brackets for everything from calling content to logic loops. For example:
+
+    {% extends "layout.html" %}
+    
+    {% block content %}
+        Content of the page...
+    {% endblock %}
+
+Blergh!
+
+From that, we took the great leap to a self-hosted, completely owned website. My first stop was WordPress, however, alas, I've no trace of that 'generation' of website. Next up, in 2012, was a site built in Stacey, a flat-file CMS.
+
+(image: 2012-stacey.png)
+
+, the same as used by Tumblr. Twig makes extensive use of 
+
+
+
+
+[^1]: It's lucky I am an obsessive backup freak, because even four years later, I've still got partial backups of most of these websites.
+
+----
+
+Tags: hello-world
