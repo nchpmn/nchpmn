@@ -32,11 +32,13 @@ of the system, please check out http://getkirby.com/docs/advanced/options
 c::set('markdown.extra', 'true');
 c::set('debug', 'true');
 
-/* Caching - Added 26/03/2015 */
+/* Caching - Added 26/03/2015 
+
+Possible cause of problems with pagination - TBC!
 
 c::set('cache', true);
 c::set('cache.ignore', array(
   'sitemap',
   'search'
 ));
-c::set('cache.driver', 'file');
+c::set('cache.driver', 'file'); */
