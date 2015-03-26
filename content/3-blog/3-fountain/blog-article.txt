@@ -1,0 +1,21 @@
+Title: Fountain
+
+----
+
+Date: 2015-03-11
+
+----
+
+Excerpt: Once upon a time, I wrote a screenplay. Did you know that? Well, here it is.
+
+----
+
+Text: 
+
+fountain-js is a JavaScript based parser for the screenplay format Fountain.
+
+You can try fountain-js out. The file system currently uses the HTML 5 File API, which means not all browsers support it, you'll be told if yours doesn't - I'm working on compatiblity. CSS styling isn't complete, so some elements aren't placed correctly and the text spacing might not be quite right, and, as you'll see, individual pages aren't currently supported either.
+
+----
+
+Tags: 
