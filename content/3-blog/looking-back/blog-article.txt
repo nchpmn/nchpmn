@@ -40,9 +40,18 @@ Except on the website front:
 
 Over the course of around 9 or 12 months, this static html design didn't progress much. I don't remember what my intentions where for using it, whether it would be run on Stacey, or WordPress, or another beast entirely.
 
-2014 saw a proper foray into the world of WordPress, with the use of a blog theme called [Brooklyn](http://themeforest.net/item/brooklyn-creative-one-page-multipurpose-theme/6221179?ref=nchpmn). I can best describe this template as being a bloated monster, having to be fought with shortcodes and sub-pages and custom menus that defined what pages were pulled onto the home page. In short, WordPress isn't build for this sort of customisation, and having to 
+2014 saw a proper foray into the world of WordPress, with the use of a blog theme called [Brooklyn](http://themeforest.net/item/brooklyn-creative-one-page-multipurpose-theme/6221179?ref=nchpmn). I can best describe this template as being a bloated monster, having to be fought with shortcodes and sub-pages and custom menus that defined what pages were pulled onto the home page. In short, WordPress isn't built for this sort of customisation, and having to hack on such a complex set template hooks just killed performance - not only page load times, but actual page performance. If the JavaScript on your website is causing an i7-2600K processor to lag, you've gone and done it wrong.
 
-[^1]: It's lucky I am an obsessive backup freak, because even four years later, I've still got partial backups of most of these websites.
+That theme was also the first time I'd spent money on this endeavour. Sure, I'd bought a domain name and hosting, but actually spending money on the design of he site itself - this was brand new.
+
+And what a waste of money.
+
+Since then, it has been a slow build to get to where we are now. Kirby was the catalyst of great design, and Bootstrap the framework for it; but my own inner designer took... Let's just say it took quite a while to warm to the idea of this website looking pretty.
+
+
+
+
+[^1]: It's lucky I am an obsessive backup freak, because even four years later, I've still got partial backups of these websites.
 [^2]: ABNs are fun!
 
 ----
