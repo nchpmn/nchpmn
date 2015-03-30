@@ -9,7 +9,7 @@ html, body { height:100%; }
 h1, h2, h3, h4, h5, h6 { font-family:"Flama Thin"; font-weight:normal !important; }
 
 a:link, a:visited { font-family:inherit; color:#ED8046; }
-a:hover, a:active { }
+a:hover, a:active { text-decoration:none; border-bottom:1px solid; }
 
 .btn { border-radius:0; }
 .btn.btn-primary { background-color:#ED8046; color:#fff; border:none; }
@@ -28,11 +28,11 @@ nav button.navbar-toggle { color:#eee; padding:9px 16px; }
 nav button.navbar-toggle:hover { color:#666; }
 nav ul { font-size:0.85em; text-transform:uppercase; }
 nav a {  transition:all 0.25s ease; }
-nav ul.nav.navbar-nav li a:hover, nav ul.nav.navbar-nav li a:active { color:#ED8046; }
+nav ul.nav.navbar-nav li a:hover, nav ul.nav.navbar-nav li a:active { color:#ED8046; border-bottom:none; }
 
 /* ---- HOME // GLOBAL ---- */
 section h3 { margin:2em; }
-section h3 a:link, section h3 a:visited, section h3 a:active, section h3 a:hover { color:#333; text-decoration:none; }
+section h3 a:link, section h3 a:visited, section h3 a:active, section h3 a:hover { color:#333; border-bottom:none; }
 section h3 span { border:#515151 1px solid; font-family:"Flama Light"; font-size:1.45em; text-transform:uppercase; text-align:center; padding:7px 50px; }
 
 
@@ -97,9 +97,9 @@ section#work { margin:50px 0 125px 0; }
 .portfolioContainer .work-description h4 { text-transform:uppercase; font-family:"Flama"; letter-spacing:1px; }
 .portfolioContainer .work-description span { text-transform:uppercase; font-family:"Flama"; font-size:0.95em; }
 .portfolioContainer div:hover { opacity:0.8; }
-.portfolioFilter a:link, section#work .portfolioFilter a:visited { text-transform:uppercase; color:#999; text-decoration:none; margin:0 10px; font-size:1em; }
-.portfolioFilter a:hover, section#work .portfolioFilter a:active { color:#666; }
-.portfolioFilter a.current { color:#ed8046; }
+#filters a:link, #filters a:visited { text-transform:uppercase; color:#999; border-bottom:none; margin:0 10px; font-size:1em; }
+#filters a:hover, #filters a:active { color:#666; }
+#filters a.current { color:#ed8046; }
 
 @media only screen and (min-width:768px) {
 }
@@ -175,7 +175,7 @@ section#contact dl { margin-top:3em; }
 
 /* ---- BLOG // ARCHIVE ---- */
 .blog-archive h1 { margin:3em 3em 2em;}
-.blog-archive h1 a:link, .blog-archive h1 a:visited, .blog-archive h1 a:active, .blog-archive h1 a:hover { color:#333; text-decoration:none; }
+.blog-archive h1 a:link, .blog-archive h1 a:visited, .blog-archive h1 a:active, .blog-archive h1 a:hover { color:#333; border-bottom:none; }
 .blog-archive h1 span { border:#515151 1px solid; font-family:"Flama Light"; font-size:1.25em; text-transform:uppercase; text-align:center; padding:7px 50px; }
 
 .blog-archive h2 { font-size:2.5em; font-family:"Flama Ultra"; }
@@ -255,7 +255,7 @@ section.prevnext a.prev { text-align:right; }
 
 /* ---- BLOG // LINK POST ---- */
 .blog-link article blockquote { margin-top:4em; font-family:"Flama Light"; font-size:1.25em; }
-.blog-link article h1 a { text-decoration:none; }
+.blog-link article h1 a { border-bottom:none; }
 
 /* ---- BLOG // VIDEO POST ---- */
 
@@ -264,7 +264,7 @@ section.prevnext a.prev { text-align:right; }
 
 /* ---- WORK // ARCHIVE ---- */
 .work-archive h1 { margin:3em 3em 2em;}
-.work-archive h1 a:link, .work-archive h1 a:visited, .work-archive h1 a:active, .work-archive h1 a:hover { color:#333; text-decoration:none; }
+.work-archive h1 a:link, .work-archive h1 a:visited, .work-archive h1 a:active, .work-archive h1 a:hover { color:#333; border-bottom:none; }
 .work-archive h1 span { border:#515151 1px solid; font-family:"Flama Light"; font-size:1.25em; text-transform:uppercase; text-align:center; padding:7px 50px; }
 
 /* ---- WORK // SINGLE POST ---- */
