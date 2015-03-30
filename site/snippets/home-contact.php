@@ -11,13 +11,13 @@
                         <input class="btn btn-primary" name="send_mail" type="submit" value="Send">
                     </form-->
                     <!-- this needs to be fixed -->
-                    <form action="http://formspree.io/nathan@nchp.mn">
+                    <form action="http://formspree.io/nathan@nchp.mn" method="POST">
                         <input placeholder="Name &bullet;" type="text" name="name" value="">
                         <input placeholder="Email  &bullet;" type="text" name="email" value="">
                         <input placeholder="Phone  &bullet;" type="text" name="Phone" value="">
                         <textarea placeholder="Message  &bullet;" name="Message" rows="8" cols="0" value=""></textarea>
                         <input type="text" name="_gotcha" style="display:none;">
-                        <input type="hidden" name="_next" value="<?php echo $pages->find('contact-thanks')->url() ?>" >
+                        <input type="hidden" name="_next" value="<?php echo $pages->find('extras/contact-thanks')->url() ?>" >
                         <input type="submit" name="submit" value="Send" class="btn btn-primary">
                     </form>
                 </div>
