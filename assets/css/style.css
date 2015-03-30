@@ -29,6 +29,7 @@ nav button.navbar-toggle:hover { color:#666; }
 nav ul { font-size:0.85em; text-transform:uppercase; }
 nav a {  transition:all 0.25s ease; }
 nav ul.nav.navbar-nav li a:hover, nav ul.nav.navbar-nav li a:active { color:#ED8046; border-bottom:none; }
+nav #collapse { background:#fff; }
 
 /* ---- HOME // GLOBAL ---- */
 section h3 { margin:2em; }
