@@ -193,7 +193,7 @@ section#contact dl { margin-top:3em; }
 }
 
 /* ---- BLOG // GLOBAL SINGLE POSTS ---- */
-.blog-single article { margin-top:5em; }
+.blog-single article { margin-top:1em; }
 .blog-single article .meta { font-family:"Flama Thin"; font-size:1em; letter-spacing:1px; vertical-align:bottom; color:#777; margin-bottom:0; }
 .blog-single article .meta a { color:#777; }
 
@@ -232,14 +232,14 @@ section.prevnext hr { width:75%; margin:30px auto 50px auto; }
 section.prevnext a.prev { text-align:right; }
 
 @media only screen and (min-width : 768px) { /* .sm size */
-    .blog-single article { font-size:105%; }
+    .blog-single article { margin-top:3em; font-size:105%; }
     .blog-single article ul, .blog-single article ol {  margin:1em 2em; }
     .blog-single article blockquote { margin:2em; }
     .blog-single article blockquote p { }
     .blog-single article blockquote cite { }
 }
 @media only screen and (min-width : 992px) { /* .md size */
-    .blog-single article { font-size:110%; }
+    .blog-single article { margin-top:4em; font-size:110%; }
     .blog-single article blockquote {  }
 
 }
