@@ -47,7 +47,6 @@
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <?php echo js(array(
         'assets/js/bootstrap.min.js',
-        'assets/js/custom.js',
     )) ?>
     
     <?php if($page->isHomePage() or $page == 'extras/youtube'): ?>
