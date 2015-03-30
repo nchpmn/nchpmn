@@ -11,16 +11,14 @@
                         <input class="btn btn-primary" name="send_mail" type="submit" value="Send">
                     </form-->
                     <!-- this needs to be fixed -->
-                    <form action="https://docs.google.com/a/nchp.mn/forms/d/1kTv3r4TWYg5Rw-fQgnjqaSfIhTGzfD2w_JUmLtmx9Uo/formResponse" method="POST" id="ss-form" target="_self" onsubmit=""><ol role="list" class="ss-question-list" style="padding-left: 0">
-                        <input placeholder="Name &bullet;" type="text" name="entry.85818402" value="" class="ss-q-short" id="entry_85818402" dir="auto" aria-label="Name  " title="">
-                        <input placeholder="Email  &bullet;" type="text" name="entry.119583773" value="" class="ss-q-short" id="entry_119583773" dir="auto" aria-label="Email  " title="">
-                        <input placeholder="Phone  &bullet;" type="text" name="entry.202007987" value="" class="ss-q-short" id="entry_202007987" dir="auto" aria-label="Phone  " title="">
-                        <textarea placeholder="Message  &bullet;" name="entry.880823044" rows="8" cols="0" class="ss-q-long" id="entry_880823044" dir="auto" aria-label="Message  "></textarea>
-                        <input type="hidden" name="draftResponse" value="[,,&quot;-5471169342067801107&quot;]
-                        ">
-                        <input type="hidden" name="pageHistory" value="0">
-                        <input type="hidden" name="fbzx" value="-5471169342067801107">
-                        <input type="submit" name="submit" value="Send" id="ss-submit" class="btn btn-primary">
+                    <form action="http://formspree.io/nathan@nchp.mn">
+                        <input placeholder="Name &bullet;" type="text" name="name" value="">
+                        <input placeholder="Email  &bullet;" type="text" name="email" value="">
+                        <input placeholder="Phone  &bullet;" type="text" name="Phone" value="">
+                        <textarea placeholder="Message  &bullet;" name="Message" rows="8" cols="0" value=""></textarea>
+                        <input type="text" name="_gotcha" style="display:none;">
+                        <input type="hidden" name="_next" value="<?php echo $pages->find('contact-thanks')->url() ?>" >
+                        <input type="submit" name="submit" value="Send" class="btn btn-primary">
                     </form>
                 </div>
                 <div class="col-xs-10 col-xs-offset-1 col-sm-5 col-sm-offset-0">
