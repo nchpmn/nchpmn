@@ -47,14 +47,14 @@
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <?php echo js(array(
         'assets/js/bootstrap.min.js',
-    )) ?>
+    ), $async = true) ?>
     
     <?php if($page->isHomePage() or $page == 'extras/youtube'): ?>
         <?php echo js(array(
             'assets/js/jquery.easing.1.3.js',
             'assets/js/jquery.colio.min.js',
             'assets/js/jquery.isotope.min.js',
-        )) ?>
+        ), $async = true) ?>
         <script type="text/javascript">
         // Smooth Anchor Scroll Linky Thing Script
             $(function() {
