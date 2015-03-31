@@ -81,4 +81,4 @@ Coversource:
 
 ----
 
-Projectimages: setwidth1500-niko-art-final-fight.jpg
+Projectimages: asetwidth1500-niko-art-final-fight.jpg, img_0588.jpg, img_0594b.jpg, zimg_0547.jpg
