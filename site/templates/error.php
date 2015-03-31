@@ -1,6 +1,7 @@
 <?php snippet('header', array('bodyclass' => 'error-page blog-article blog-single')) ?>
 
-
+<?php
+?>
 <?php $code = http_response_code() ?>
 
 
