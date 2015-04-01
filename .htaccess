@@ -16,15 +16,6 @@ RewriteEngine on
 #
 # RewriteBase /mysite
 
-# block text files in the content folder from being accessed directly
-RewriteRule ^content/(.*)\.(txt|md|mdown)$ error [R=301,L]
-
-# block all files in the site folder from being accessed directly
-RewriteRule ^site/(.*) error [R=301,L]
-
-# block all files in the kirby folder from being accessed directly
-RewriteRule ^kirby/(.*) error [R=301,L]
-
 # make panel links work
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
@@ -35,11 +26,15 @@ RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule ^(.*) index.php [L]
 
-</IfModule>
+# disable directory browsing
+Options -Indexes
 
-# Additional recommended values
-# Remove comments for those you want to use.
-#
-# AddDefaultCharset UTF-8
-#
-# php_flag short_open_tag on
+#Rewrite URL's
+RewriteEngine On
+RewriteRule ^404/?$ error [NC]
+
+# Enable Error Documents
+# (404,File Not Found) | (403,Forbidden) | (500,Internal Server Error)
+ErrorDocument 403 http://localhost/dev/error/403
+
+</IfModule>
