@@ -29,12 +29,20 @@ RewriteRule ^(.*) index.php [L]
 # disable directory browsing
 Options -Indexes
 
-#Rewrite URL's
-RewriteEngine On
-RewriteRule ^404/?$ error [NC]
 
-# Enable Error Documents
-# (404,File Not Found) | (403,Forbidden) | (500,Internal Server Error)
-ErrorDocument 403 /dev/error
-
+<If "%{HTTP_HOST} == 'nchp.mn'">
+    ErrorDocument 403 http://nchp.mn/error/code:403
+    ErrorDocument 404 http://nchp.mn/error/code:404
+    ErrorDocument 500 http://nchp.mn/error/code:500
+</If>
+<ElseIf "%{HTTP_HOST} == 'dev.nchp.mn'">
+    ErrorDocument 403 http://dev.nchp.mn/error/code:403
+    ErrorDocument 404 http://dev.nchp.mn/error/code:404
+    ErrorDocument 500 http://dev.nchp.mn/error/code:500
+</ElseIf>
+<Else>
+    ErrorDocument 403 http://localhost/dev/error/code:403
+    ErrorDocument 404 http://localhost/dev/error/code:404
+    ErrorDocument 500 http://localhost/dev/error/code:500
+</Else>
 </IfModule>
