@@ -35,14 +35,9 @@ Options -Indexes
     ErrorDocument 404 http://nchp.mn/error/code:404
     ErrorDocument 500 http://nchp.mn/error/code:500
 </If>
-<ElseIf "%{HTTP_HOST} == 'http://dev.nchp.mn/'">
+<Else>
     ErrorDocument 403 http://dev.nchp.mn/error/code:403
     ErrorDocument 404 http://dev.nchp.mn/error/code:404
     ErrorDocument 500 http://dev.nchp.mn/error/code:500
-</ElseIf>
-<Else>
-    ErrorDocument 403 http://localhost/dev/error/code:403
-    ErrorDocument 404 http://localhost/dev/error/code:404
-    ErrorDocument 500 http://localhost/dev/error/code:500
 </Else>
 </IfModule>
