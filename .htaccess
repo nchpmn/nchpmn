@@ -30,12 +30,12 @@ RewriteRule ^(.*) index.php [L]
 Options -Indexes
 
 
-<If "%{HTTP_HOST} == 'nchp.mn'">
+<If "%{HTTP_HOST} == 'http://nchp.mn'">
     ErrorDocument 403 http://nchp.mn/error/code:403
     ErrorDocument 404 http://nchp.mn/error/code:404
     ErrorDocument 500 http://nchp.mn/error/code:500
 </If>
-<ElseIf "%{HTTP_HOST} == 'dev.nchp.mn'">
+<ElseIf "%{HTTP_HOST} == 'http://dev.nchp.mn/'">
     ErrorDocument 403 http://dev.nchp.mn/error/code:403
     ErrorDocument 404 http://dev.nchp.mn/error/code:404
     ErrorDocument 500 http://dev.nchp.mn/error/code:500
