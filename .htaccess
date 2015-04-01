@@ -16,7 +16,12 @@ RewriteEngine on
 #
 # RewriteBase /mysite
 
-
+# block text files in the content folder from being accessed directly
+RewriteRule ^content/(.*)\.(txt|md|mdown)$ http://nchp.mn/error [F]
+# block all files in the site folder from being accessed directly
+RewriteRule ^site/(.*) http://nchp.mn/error [F]
+# block all files in the kirby folder from being accessed directly
+RewriteRule ^kirby/(.*) http://nchp.mn/error [F]
 
 # make panel links work
 RewriteCond %{REQUEST_FILENAME} !-f
@@ -36,23 +41,11 @@ Options -Indexes
     ErrorDocument 403 http://nchp.mn/error/code:403
     ErrorDocument 404 http://nchp.mn/error/code:404
     ErrorDocument 500 http://nchp.mn/error/code:500
-    # block text files in the content folder from being accessed directly
-    RewriteRule ^content/(.*)\.(txt|md|mdown)$ http://nchp.mn/error/code:403
-    # block all files in the site folder from being accessed directly
-    RewriteRule ^site/(.*) http://nchp.mn/error/code:403
-    # block all files in the kirby folder from being accessed directly
-    RewriteRule ^kirby/(.*) http://nchp.mn/error/code:403
 </If>
 <Else>
     ErrorDocument 403 http://dev.nchp.mn/error/code:403
     ErrorDocument 404 http://dev.nchp.mn/error/code:404
     ErrorDocument 500 http://dev.nchp.mn/error/code:500
-    # block text files in the content folder from being accessed directly
-    RewriteRule ^content/(.*)\.(txt|md|mdown)$ http://dev.nchp.mn/error/code:403
-    # block all files in the site folder from being accessed directly
-    RewriteRule ^site/(.*) http://dev.nchp.mn/error/code:403
-    # block all files in the kirby folder from being accessed directly
-    RewriteRule ^kirby/(.*) http://dev.nchp.mn/error/code:403
 </Else>
 
 
