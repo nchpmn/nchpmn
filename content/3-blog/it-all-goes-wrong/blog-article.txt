@@ -1,0 +1,39 @@
+Title: It All Goes Wrong
+
+----
+
+Date: 2015-04-28
+
+----
+
+Excerpt: You're on location, up a mountain, in the middle of a sub-tropical rainforest, when it happens. What do you do next? It doesn't matter what it was that went wrong, it all means you can't keep shooting. When you're on the clock, it doesn't matter how big your production is, that's it: it's all ground to a halt. The next two minutes are crucial.
+
+----
+
+Text: 
+
+I spent the last weekend in exactly this position, halfway up a mountain, in the rain, mud, and chasing after a weekend boot camp race. Whilst I certainly feel fitter[^1] than I have in some time, the weekend proved just as punishing to the equipment I had with me.
+
+I was shooting in the DJI Ronin, flying a Sony A7s, Metabones Adapter Mk. IV and the Canon 17-40mm L-series. The nice thing about the camera setup is that both the camera body and the lens are weatherproof. Although that's not a particularly clear certification, it does mean they can without some amount of rain and water ingress.
+
+The Ronin, on the other hand, proved to be more difficult. The main point of a three-axis gimbal, like the Ronin, is to remove angular camera movement from the image. What this means is that unwanted panning, tilting and roll - the elements that actually contribute the most to 'handheld' camera movement - are isolated from camera translation. The camera can move freely through space, while suffering little angular movment.
+
+Simply another tool with its own unique set of specialities, the Ronin is the perfect tool for this job. It provided the ability to create some tremendous crane and dolly movments that would have been all but impossible with the run-and-gun setups required for such an event.
+
+Shooting in a rainforest, in Autumn, in the middle of a once-in-a-lifetime storm[^2], the Ronin's exposed electronics and brushless motors are the weakest point of the setup. The obvious move is to waterproof them, but the motors and electronics require unrestricted movement.
+
+This is where preparation becomes essential. Over two days, I researched and trialled different methods of waterproofing the motors, even going so far as to remove the stage from the arms of the gimbal to experiment with some plastic tubing over the sensors under the stage.
+
+The biggest drawback from the final waterproofed rig was the new difficulty in viewing the camera monitor. With the Ronin's design, the camera's monitor can easily be seen through the lattice framework of the rig. The Sony's articulating screen also works wonders in awkward situations, such a briefcase mode. However with the waterproofing covering the lattice, there are many fewer angles to see the viewfinder from - which could, if you haven't prepared and practiced - have a severe affect on the accuracy of your framing.
+
+Over the weekend, the only time we had to stop shooting was when I suffered a mightly wound - a leech had jumped on. Taking the time to properly investigate and prepare the camera payed off, as we were able to produce some incredible videos, even with the weather beating down on us.
+
+
+
+
+[^1]: And sorer!
+[^2]: Though, according to SBS's [satirical news column](http://www.sbs.com.au/comedy/article/2015/04/22/australians-recovering-their-fifteenth-once-lifetime-disaster), this is Australia's 16th once-in-a-lifetime weather event in the past 60 years.
+
+----
+
+Tags: gimbal
