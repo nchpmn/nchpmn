@@ -1,3 +1,9 @@
 Title: Blog
+
 ----
-Description: Writings of Nathan Chapman
+
+Text: 
+
+----
+
+Number: 6
