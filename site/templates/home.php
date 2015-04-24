@@ -15,9 +15,9 @@
     </div>    
 </header><!-- End header -->
 
-<?php foreach($page->children()->visible() as $section): ?>
-    <?php snippet('home-'.$section->uid(), array('data' => $section)) ?>
-<?php endforeach ?>
+<?php foreach($pages->visible() as $section) {
+    snippet('home-'.$section->uid(), array('data' => $section));
+} ?>
 
 
 
