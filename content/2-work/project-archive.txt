@@ -7,3 +7,11 @@ Numberitems: 12
 ----
 
 Defaultimage: camera-body.jpg
+
+----
+
+Label: 
+
+----
+
+Number: 3

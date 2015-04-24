@@ -6,4 +6,4 @@ Text:
 
 ----
 
-Number: 6
+Number: 2
