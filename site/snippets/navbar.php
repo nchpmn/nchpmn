@@ -15,22 +15,33 @@
                     <li><a href="#cover">Home</a></li>
                     <?php $items = $pages->visible() ?>
                     <?php foreach($items as $item): ?>
-                        <?php if($item->navall()->bool()): ?>
-                            <?php echo $item->title() ?>
+                        <?php if($item->navhome()->bool()): ?>
+                            <li><a href="#<?php echo $item->uri() ?>"><?php echo $item->title()->html() ?></a></li>
                         <?php endif ?>
                     <?php endforeach ?>
                 </ul>
                 
             <?php else: ?>
                 <ul class="nav navbar-nav pull-right">
-                    <?php $items = $pages->visible();
-                    if($items->count()): ?>
-                        <?php foreach($items as $item): ?>
-                            <li><a href="<?php echo $item->url() ?>"><?php echo $item->title()->html() ?></a></li>
-                        <?php endforeach; ?>
-                    <?php endif ?>
-                    <li><a href="<?php echo kirby()->urls()->index() ?>#contact">Contact</a></li>
-                </ul>
+                    <li><a href="<?php echo $site->url() ?>#cover">Home</a></li>
+                    <?php $items = $pages->visible() ?>
+                    <?php foreach($items as $item): ?>
+                        <?php if($item->navall()->bool()): ?>
+                            <?php if($item->navrel()->bool()): ?>
+                                <li><a href="<?php echo $site->url() ?>#<?php echo $item->uri() ?>"><?php echo $item->title()->html() ?></a></li>
+                            <?php else: ?>
+                                <li><a href="<?php echo $item->url() ?>"><?php echo $item->title()->html() ?></a></li>
+                            <?php endif ?>
+                        <?php endif ?>
+                    <?php endforeach ?>
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
             <?php endif; ?>            
         </div>
     </div>

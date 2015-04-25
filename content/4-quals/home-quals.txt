@@ -38,3 +38,15 @@ Minorquals:
 - 
   award: Work in a Team
   id: PUATEA001A
+
+----
+
+Navhome: 1
+
+----
+
+Navall: 
+
+----
+
+Navrel: 

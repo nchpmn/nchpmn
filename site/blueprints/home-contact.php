@@ -13,6 +13,9 @@ fields:
   navtitle:
     label: Navbar Settings
     type: headline
+  navhome:
+    text: Show link on home page
+    type: checkbox
   navall:
     text: Show link on all pages
     type: checkbox
