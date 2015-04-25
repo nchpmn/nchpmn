@@ -13,9 +13,12 @@
             <?php if($page->isHomePage()): ?>
                 <ul class="nav navbar-nav pull-right">
                     <li><a href="#cover">Home</a></li>
-                    <li><a href="#work">Work</a></li>
-                    <li><a href="#blog">Blog</a></li>
-                    <li><a href="#contact">Contact</a></li>
+                    <?php $items = $pages->visible() ?>
+                    <?php foreach($items as $item): ?>
+                        <?php if($item->navall()->bool()): ?>
+                            <?php echo $item->title() ?>
+                        <?php endif ?>
+                    <?php endforeach ?>
                 </ul>
                 
             <?php else: ?>

@@ -2,7 +2,7 @@ Title: Work
 
 ----
 
-Numberitems: 12
+Numberitems: 16
 
 ----
 
@@ -10,8 +10,16 @@ Defaultimage: camera-body.jpg
 
 ----
 
-Label: 
+Number: 4
 
 ----
 
-Number: 3
+Tags: 
+
+----
+
+Navall: 1
+
+----
+
+Navrel: 

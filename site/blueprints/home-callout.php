@@ -19,3 +19,14 @@ fields:
     label: Background Photo
     type: select
     options: images
+  navtitle:
+    label: Navbar Settings
+    type: headline
+  navall:
+    text: Show link on all pages
+    type: checkbox
+    width: 1/2
+  navrel:
+    text: Use relative link on subpages
+    type: checkbox
+    width: 1/2

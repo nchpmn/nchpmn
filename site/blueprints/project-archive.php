@@ -14,6 +14,10 @@ fields:
     label: Default Thumbnail
     type: select
     options: images
+  tags:
+    label: Colio Tags
+    type: tags
+    index: children
   archive:
     label: Archive Settings
     type: headline
@@ -23,10 +27,17 @@ fields:
   onepager:
     label: One Pager
     type: headline
-    tags:
-  label: Tags
-    type: tags
-    index: all
   number:
     label: Items to Show
     type: number
+  navtitle:
+    label: Navbar Settings
+    type: headline
+  navall:
+    text: Show link on all pages
+    type: checkbox
+    width: 1/2
+  navrel:
+    text: Use relative link on subpages
+    type: checkbox
+    width: 1/2
