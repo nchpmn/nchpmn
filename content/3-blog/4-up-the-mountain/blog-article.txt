@@ -32,7 +32,9 @@ The only time we had to stop shooting was when I suffered a mightly wound - a le
 
 Shooting without a crew means shooting without backup. Shooting solo, up a mountain, in the rain is just asking for trouble. Taking the time to properly investigate and prepare the camera payed off, as we were able to produce some incredible videos, even with the weather beating down on us.
 
-Watch the final videos made for the [Bravo Team Challenge][bravo].
+Below is one of the final videos.
+
+<div id="fb-root"></div><script>(function(d, s, id) {  var js, fjs = d.getElementsByTagName(s)[0];  if (d.getElementById(id)) return;  js = d.createElement(s); js.id = id;  js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.3";  fjs.parentNode.insertBefore(js, fjs);}(document, 'script', 'facebook-jssdk'));</script><div class="fb-video img-responsive" data-allowfullscreen="true" data-href="https://www.facebook.com/bravoteamchallenge/videos/677828122346988/"><div class="fb-xfbml-parse-ignore"><blockquote cite="/bravoteamchallenge/videos/677828122346988/"><a href="/bravoteamchallenge/videos/677828122346988/"></a><p>Check out what DAY 2 was all about! Register for DAY 3 (SUNDAY) NOW! Don't miss out! This is your last chance!TAG YOUR MATES www.bravoteamchallenge.com</p>Posted by <a href="https://www.facebook.com/bravoteamchallenge">Bravo Team Challenge</a> on Friday, 17 April 2015</blockquote></div></div>
 
 
 
@@ -47,7 +49,6 @@ Watch the final videos made for the [Bravo Team Challenge][bravo].
 [a7s]: http://www.amazon.com/gp/product/B00JIWXTXG/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B00JIWXTXG&linkCode=as2&tag=nathchap-20&linkId=DIBWZ6KTA7UL4ILE
 [metabones]: http://www.amazon.com/gp/product/B00L25PTHG/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B00L25PTHG&linkCode=as2&tag=nathchap-20&linkId=YB5H44D4XF7E5TPG
 [lens]: http://www.amazon.com/gp/product/B00009R6WO/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B00009R6WO&linkCode=as2&tag=nathchap-20&linkId=3G3LNA6P5TT3XIGE
-[bravo]:
 
 ----
 
