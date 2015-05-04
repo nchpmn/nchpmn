@@ -1,0 +1,57 @@
+Title: Bravo Team Challenge
+
+----
+
+Text: 
+
+----
+
+Role: Gimbal Operator
+
+----
+
+Year: 2015-04-17
+
+----
+
+Category: sport
+
+----
+
+Tags: 
+
+----
+
+Coversource: 
+
+----
+
+Cover: 
+
+----
+
+Videosource: youtube
+
+----
+
+Videoid: 
+
+----
+
+Company: Relativity
+
+----
+
+Client: Bravo Team Challenge
+
+----
+
+Projecturl: http://facebook.com/bravoteamchallenge
+
+----
+
+Crew: 
+
+- 
+  role: Editor
+  name: Nathan Chapman / Keean Murrell Snape
