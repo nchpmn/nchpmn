@@ -36,6 +36,7 @@ nav #collapse { background:#fff; }
 
 
 /* ---- HOME // GLOBAL ---- */
+section { margin:50px 0 125px 0; }
 section h3 { margin:2em; }
 section h3 a:link, section h3 a:visited, section h3 a:active, section h3 a:hover { color:#333; border-bottom:none; }
 section h3 span { border:#515151 1px solid; font-family:"Flama Light"; font-size:1.45em; text-transform:uppercase; text-align:center; padding:7px 50px; }
@@ -64,7 +65,7 @@ header.jumbotron.cover h2 { font-size:1.3em; margin-top:1.5em; }
 }
 
 /* ---- HOME // WELCOME ---- */
-section#welcome { display:table; height:auto; width:100%; position:relative; background-color:#f9f9f9; }
+section#welcome { margin-top:0; display:table; height:auto; width:100%; position:relative; background-color:#f9f9f9; }
 section#welcome .image-container { background-size:cover; background-position:top center; height:100%; overflow:hidden; padding:0; position:absolute; top:0; }
 section#welcome .container { padding:25px 0 75px; }
 section#welcome p.text-left { padding:0px 5px; }
@@ -95,7 +96,6 @@ section#stats { font-size:1.25em; background-position:center center; }
 
 
 /* ---- HOME // WORK ---- */
-section#work { margin:50px 0 125px 0; }
 .portfolioContainer div { padding:1px 1px 0 0; margin:0;  }
 .portfolioContainer div div { padding:none;; }
 .portfolioContainer .work-description { position:absolute; top:50%; -webkit-transform:translateY(-50%); -ms-transform:translateY(-50%); transform:translateY(-50%); width:100%; color:#fff; }
@@ -130,7 +130,6 @@ section#work .media .item:first-child { margin-top:1.5em; }
 
 
 /* ---- HOME // BLOG  ---- */
-section#blog { margin-top:70px; padding-top:20px; }
 section#blog div.post { padding:10px 30px 10px 30px; margin-bottom:2em; }
 section#blog div.post.first { background:#fafafa; }
 section#blog div.post.second { }
@@ -155,7 +154,6 @@ section#blog div.post { padding:10px 30px 10px 30px; }
 
 
 /* ---- HOME // QUALS ---- */
-section#quals { margin-top:75px; }
 section#quals dl { }
 section#quals dl.quals-major { }
 section#quals dl.quals-minor { font-size:0.9em; }
@@ -168,7 +166,6 @@ section#quals dl.quals-minor dd { margin-bottom:0.5em; }
 }
 
 /* ---- HOME // CONTACT ---- */
-section#contact { margin-top:100px; }
 section#contact h3 { margin-left:0px; margin-right:0px; }
 section#contact form { padding:0 15px; }
 section#contact input[type="text"], section#contact input[type="email"], section#contact textarea { font-size:1.2em; padding:10px; margin:5px 0; background:#fff; border:none; border-bottom:#000 2px solid; width:100%; }
