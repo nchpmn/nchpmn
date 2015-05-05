@@ -51,7 +51,6 @@
     
     <?php if($page->isHomePage() or $page == 'extras/youtube'): ?>
         <?php echo js(array(
-            'assets/js/jquery.easing.1.3.js',
             'assets/js/jquery.colio.min.js',
             'assets/js/jquery.isotope.min.js',
         ), $async = true) ?>
