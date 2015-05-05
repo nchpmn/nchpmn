@@ -1,26 +1,3 @@
-/* ---- HOME // CALLOUT + STATS ---- */
-section#callout, section#stats { background-repeat:no-repeat; background-position:center -50px; background-size:cover; background-attachment:scroll; display:table; height:auto; padding:45px 0 35px; width:100%; }
-section#callout h4, section#stats h4 { color:#fff; font-size:2em; text-transform:uppercase; font-family:"Flama"; margin-bottom:1em; letter-spacing:3px; }
-
-section#stats { background-position:center center; }
-section#stats div.stat { margin:5px 0 5px; }
-section#stats div.stat div { font-family:"Flama Light"; font-size:1.25em; text-shadow: 0px 0px 17px rgba(0, 0, 0, 0.84); }
-section#stats div.stat div span { font-family:"Flama"; font-size:2em; }
-
-@media only screen and (min-width : 768px) { /* .sm size */
-section#callout { background-position:center -240px; }
-section#stats { background-position:center -250px; }
-}
-@media only screen and (min-width : 992px) { /* .md size */
-section#callout, section#stats { background-position:center -320px; }
-}
-@media only screen and (min-width : 1200px) { /* .lg size */
-section#callout, section#stats { background-attachment:fixed; background-position:bottom center; }
-section#stats { font-size:1.25em; background-position:center center; }
-}
-
-
-
 /* ---- HOME // WORK ---- */
 .portfolioContainer div { padding:1px 1px 0 0; margin:0;  }
 .portfolioContainer div div { padding:none;; }

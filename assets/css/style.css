@@ -81,11 +81,25 @@ header .main h2 { font-size:1.3em; margin-top:1.5em; }
 }
 
 
-/* --- HOME // ABOUT ---- */
+/* --- HOME // WELCOME ---- */
 section#welcome { padding:0; display:table;  width:100%; position:relative; background-color:#f9f9f9; }
 section#welcome .image-container { background-size:cover; background-position:top center; height:100%; overflow:hidden; padding:0; position:absolute; top:0; }
 section#welcome .container { padding:25px 0 50px; }
 section#welcome p:first-of-type { font-size:1.65em; }
+
+
+/* ---- HOME // CALLOUT ---- */
+section#callout { background-repeat:no-repeat; background-position:center -50px; background-size:cover; background-attachment:scroll; display:table; height:auto; padding:50px 0; width:100%; }
+section#callout h4 { color:#fff; font-size:2em; text-transform:uppercase; font-family:"Flama"; margin-bottom:1em; letter-spacing:3px; }
+@media only screen and (min-width : 768px) { /* .sm size */
+section#callout { background-position:center -240px; }
+}
+@media only screen and (min-width : 992px) { /* .md size */
+section#callout { background-position:center -320px; }
+}
+@media only screen and (min-width : 1200px) { /* .lg size */
+section#callout { background-attachment:fixed; background-position:bottom center; }
+}
 
 /* ---- UTILITY ---- */
 .orange { color:#ed8046; }
