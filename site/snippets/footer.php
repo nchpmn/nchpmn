@@ -56,7 +56,7 @@
        $(document).scroll(function() { 
           scroll_start = $(this).scrollTop();
           if(scroll_start > offset.top) {
-              $('nav').css('background-color', 'rgba(255,255,255,0.75)');
+              $('nav').css('background-color', 'rgba(255,255,255,0.9)');
            } else {
               $('nav').css('background-color', 'rgba(255,255,255,0)');
            }

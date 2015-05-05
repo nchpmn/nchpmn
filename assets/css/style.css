@@ -22,6 +22,7 @@ dl { font-size:1.15em; }
 dt { font-family:"Flama"; text-transform:uppercase; letter-spacing:1px; font-size:0.8em; }
 dd { font-family:"Flama Light"; margin-bottom:1.5em; }
 
+
 /* ---- GLOBAL // NAVBAR ---- */
 nav.navbar { background-color:rgba(255,255,255,0); border-bottom:none; font-size:1em; text-transform:uppercase; -webkit-transition:background-color 0.25s ease; transition:background-color .25s ease;  }
 
@@ -48,6 +49,11 @@ footer a:hover, footer a:active { color:#eee; }
 footer .social a:hover, footer .social a:active { border-bottom:none; }
 
 
+/* ---- HOME ---- */
+section { margin:50px 0 125px 0; }
+section h3 { margin:2em; }
+section h3 a:link, section h3 a:visited, section h3 a:active, section h3 a:hover { color:#333; border-bottom:none; }
+section h3 span { border:#515151 1px solid; font-family:"Flama Light"; font-size:1.45em; text-transform:uppercase; text-align:center; padding:7px 50px; }
 
 /* ---- UTILITY ---- */
 .orange { color:#ed8046; }
