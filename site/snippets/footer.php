@@ -48,6 +48,21 @@
     <?php echo js(array(
         'assets/js/bootstrap.min.js',
     ), $async = true) ?>
+    <script type="text/javascript">
+    $(document).ready(function(){       
+       var scroll_start = 0;
+       var startchange = $('#welcome');
+       var offset = startchange.offset();
+       $(document).scroll(function() { 
+          scroll_start = $(this).scrollTop();
+          if(scroll_start > offset.top) {
+              $('nav').css('background-color', 'rgba(255,255,255,0.75)');
+           } else {
+              $('nav').css('background-color', 'rgba(255,255,255,0)');
+           }
+       });
+    });
+    </script>
     
     <?php if($page->isHomePage() or $page == 'extras/youtube'): ?>
         <?php echo js(array(
