@@ -50,10 +50,35 @@ footer .social a:hover, footer .social a:active { border-bottom:none; }
 
 
 /* ---- HOME ---- */
-section { margin:50px 0 125px 0; }
+section { padding:50px 0 125px 0; }
 section h3 { margin:2em; }
 section h3 a:link, section h3 a:visited, section h3 a:active, section h3 a:hover { color:#333; border-bottom:none; }
 section h3 span { border:#515151 1px solid; font-family:"Flama Light"; font-size:1.45em; text-transform:uppercase; text-align:center; padding:7px 50px; }
+
+
+/* ---- HOME // COVER ---- */
+header.cover { height:100%; width:100%; background:no-repeat center center fixed; background-size:cover; background-attachment:scroll; color:#fff; overflow:hidden; margin-bottom:0px; }
+
+header .main { position:relative; top:45%; -webkit-transform:translateY(-45%); -ms-transform:translateY(-45%); transform:translateY(-45%); }
+header .main h1 { text-transform:uppercase; padding:10px; background:rgba(0,0,0,.45); border:solid 1px #fff; font-size:3.5em; overflow:hidden; }
+header .main h2 { font-size:1.15em; text-transform:uppercase; font-family:"Flama Ultra"; }
+
+header .btn-wrap { position:relative; top:65%; -webkit-transform:translateY(-65%); -ms-transform:translateY(-65%); transform:translateY(-65%); }
+header .btn-wrap .btn { border:#bbb 1px solid; color:#bbb; background:rgba(255,255,255,0.05); padding:8px 15px 12px 15px; }
+header .btn-wrap .btn:hover { color:#eee; background:rgba(255,255,255,0.25); }
+
+@media only screen and (min-width : 768px) { /* .sm size */
+header .main h1 { font-size:4em; }
+header .main h2 { }
+}
+@media only screen and (min-width : 992px) { /* .md size */
+header .main h1 { font-size:5em; }
+header .main h2 { font-size:1.25em; margin-top:0.5em; }
+}
+@media only screen and (min-width : 1200px) { /* .lg size */
+header .main h1 { font-size:6em; }
+header .main h2 { font-size:1.3em; margin-top:1.5em; }
+}
 
 /* ---- UTILITY ---- */
 .orange { color:#ed8046; }
