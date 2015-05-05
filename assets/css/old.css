@@ -1,0 +1,326 @@
+/* Copyright Nathan Chapman, 2015 */
+
+/* ---- GLOBAL ---- */
+
+* { font-family:"Flama"; }
+
+html, body { height:100%; }
+
+h1, h2, h3, h4, h5, h6 { font-family:"Flama Thin"; font-weight:normal !important; }
+
+a:link, a:visited { font-family:inherit; color:#ED8046; }
+a:hover, a:active { text-decoration:none; border-bottom:1px solid; }
+
+.btn { border-radius:0; }
+.btn.btn-primary { background-color:#ED8046; color:#fff; border:none; }
+.btn.btn-primary:hover, .btn-prinary:active { }
+
+p { font-size:1.3em; font-family:"Flama Light"; line-height:1.5em; margin-bottom:1.5em; }
+
+dl { font-size:1.15em; }
+dt { font-family:"Flama"; text-transform:uppercase; letter-spacing:1px; font-size:0.8em; }
+dd { font-family:"Flama Light"; margin-bottom:1.5em; }
+
+/* ---- NAVBAR ---- */
+nav.navbar { background-color:transparent; border-bottom:none; font-size:1.2em; }
+nav .navbar-header a.navbar-brand { font-family:"Flama Ultra"; font-size:1.2em; color:#aaa; }
+nav button.navbar-toggle { color:#eee; padding:9px 16px; }
+nav button.navbar-toggle:hover { color:#666; }
+nav ul { font-size:0.85em; text-transform:uppercase; }
+nav a {  transition:all 0.25s ease; }
+nav ul.nav.navbar-nav li a:hover, nav ul.nav.navbar-nav li a:active { color:#ED8046; border-bottom:none; }
+nav #collapse { background:#fff; }
+@media only screen and (min-width : 768px) { /* .sm size */
+    nav #collapse { background:transparent; }
+}
+
+
+/* ---- HOME // GLOBAL ---- */
+section { margin:50px 0 125px 0; }
+section h3 { margin:2em; }
+section h3 a:link, section h3 a:visited, section h3 a:active, section h3 a:hover { color:#333; border-bottom:none; }
+section h3 span { border:#515151 1px solid; font-family:"Flama Light"; font-size:1.45em; text-transform:uppercase; text-align:center; padding:7px 50px; }
+
+
+/* ---- HOME // COVER ---- */
+header.jumbotron.cover { height:100%; width:100%; background:no-repeat center center fixed; background-size:cover; webkit-background-size:cover; -moz-background-size:cover; -o-background-size:cover; background-attachment:scroll; color:#fff; -webkit-transform-style:preserve-3d;  -moz-transform-style:preserve-3d; transform-style:preserve-3d; overflow:hidden; margin-bottom:0px; }
+header.jumbotron.cover .container { position:relative; top:45%; -webkit-transform:translateY(-45%); -ms-transform:translateY(-45%); transform:translateY(-45%); }
+header.jumbotron.cover .container-btn { position:relative; top:65%; -webkit-transform:translateY(-65%); -ms-transform:translateY(-65%); transform:translateY(-65%); }
+header.jumbotron.cover .container-btn .btn { border:#bbb 1px solid; color:#bbb; background:rgba(255,255,255,0.05); padding:8px 15px 12px 15px;}
+header.jumbotron.cover .container-btn .btn:hover { color:#eee; background:rgba(255,255,255,0.25); }
+header.jumbotron.cover h1 { text-transform:uppercase; padding:10px; background:rgba(0,0,0,0.25); border:solid 1px #fff; font-size:3.5em; overflow:hidden; }
+header.jumbotron.cover h2 { font-size:1.15em; text-transform:uppercase; font-family:"Flama Ultra"; }
+
+@media only screen and (min-width : 768px) { /* .sm size */
+header.jumbotron.cover h1 { font-size:4em; }
+header.jumbotron.cover h2 { }
+}
+@media only screen and (min-width : 992px) { /* .md size */
+header.jumbotron.cover h1 { font-size:5em; }
+header.jumbotron.cover h2 { font-size:1.25em; margin-top:0.5em; }
+}
+@media only screen and (min-width : 1200px) { /* .lg size */
+header.jumbotron.cover h1 { font-size:6em; }
+header.jumbotron.cover h2 { font-size:1.3em; margin-top:1.5em; }
+}
+
+/* ---- HOME // WELCOME ---- */
+section#welcome { margin-top:0; display:table; height:auto; width:100%; position:relative; background-color:#f9f9f9; }
+section#welcome .image-container { background-size:cover; background-position:top center; height:100%; overflow:hidden; padding:0; position:absolute; top:0; }
+section#welcome .container { padding:25px 0 75px; }
+section#welcome p.text-left { padding:0px 5px; }
+section#welcome p.lead { font-size:1.65em; font-weight:normal; font-family:"Flama Light"; }
+section#welcome p:not(lead) { }
+
+/* ---- HOME // CALLOUT + STATS ---- */
+section#callout, section#stats { background-repeat:no-repeat; background-position:center -50px; background-size:cover; background-attachment:scroll; display:table; height:auto; padding:45px 0 35px; width:100%; }
+section#callout h4, section#stats h4 { color:#fff; font-size:2em; text-transform:uppercase; font-family:"Flama"; margin-bottom:1em; letter-spacing:3px; }
+
+section#stats { background-position:center center; }
+section#stats div.stat { margin:5px 0 5px; }
+section#stats div.stat div { font-family:"Flama Light"; font-size:1.25em; text-shadow: 0px 0px 17px rgba(0, 0, 0, 0.84); }
+section#stats div.stat div span { font-family:"Flama"; font-size:2em; }
+
+@media only screen and (min-width : 768px) { /* .sm size */
+section#callout { background-position:center -240px; }
+section#stats { background-position:center -250px; }
+}
+@media only screen and (min-width : 992px) { /* .md size */
+section#callout, section#stats { background-position:center -320px; }
+}
+@media only screen and (min-width : 1200px) { /* .lg size */
+section#callout, section#stats { background-attachment:fixed; background-position:bottom center; }
+section#stats { font-size:1.25em; background-position:center center; }
+}
+
+
+
+/* ---- HOME // WORK ---- */
+.portfolioContainer div { padding:1px 1px 0 0; margin:0;  }
+.portfolioContainer div div { padding:none;; }
+.portfolioContainer .work-description { position:absolute; top:50%; -webkit-transform:translateY(-50%); -ms-transform:translateY(-50%); transform:translateY(-50%); width:100%; color:#fff; }
+.portfolioContainer .work-description h4 { text-transform:uppercase; font-family:"Flama"; letter-spacing:1px; }
+.portfolioContainer .work-description span { text-transform:uppercase; font-family:"Flama"; font-size:0.95em; }
+.portfolioContainer div:hover { opacity:0.8; }
+#filters a:link, #filters a:visited { text-transform:uppercase; color:#999; border-bottom:none; margin:0 10px; font-size:1em; }
+#filters a:hover, #filters a:active { color:#666; }
+#filters a.current { color:#ed8046; }
+
+@media only screen and (min-width:768px) {
+}
+
+
+/* ---- HOME // WORK // SINGLE ---- */
+section#work article h1 { font-size:3.5em; font-family:"Flama Ultra"; }
+section#work article div:first-child { display:block; margin-bottom:2em; font-family:"Flama Thin"; }
+section#work article div span { text-transform:uppercase; opacity:0.9; }
+section#work .media .item { margin-bottom:0.5em; }
+
+@media only screen and (min-width : 768px) { /* .sm size */
+section#work .media .item { margin-bottom:1em; }
+section#work .media .item:first-child { margin-top:1.5em; }
+}
+@media only screen and (min-width : 992px) { /* .md size */
+section#work .media .item { margin-bottom:1.5em; }
+section#work .media .item:first-child { margin-top:1.5em; }
+}
+@media only screen and (min-width : 1200px) { /* .lg size */
+}
+
+
+
+/* ---- HOME // BLOG  ---- */
+section#blog div.post { padding:10px 30px 10px 30px; margin-bottom:2em; }
+section#blog div.post.first { background:#fafafa; }
+section#blog div.post.second { }
+section#blog div.post .meta { color:#777; font-family:"Flama Light"; margin-top:1.5em; }
+
+section#blog div.post:not(.first):not(.second) h4 a { color:#333; }
+
+
+section#blog div.post h4 { font-size:2em; font-family:"Flama Ultra"; }
+section#blog div.post.first h4 { font-size:2.75em; }
+section#blog div.post.second h4 { font-size:2.25em; }
+
+@media only screen and (min-width : 768px) { /* .sm size */
+section#blog div.post { padding:10px 30px 10px 30px; }
+}
+@media only screen and (min-width : 992px) { /* .md size */
+
+}
+@media only screen and (min-width : 1200px) { /* .lg size */
+
+}
+
+
+/* ---- HOME // QUALS ---- */
+section#quals dl { }
+section#quals dl.quals-major { }
+section#quals dl.quals-minor { font-size:0.9em; }
+section#quals dt { text-transform:none; font-size:1.05em; letter-spacing:0; }
+section#quals dd { font-size:0.9em; color:#555; }
+section#quals dl.quals-minor dd { margin-bottom:0.5em; }
+
+@media only screen and (min-width : 768px) { /* .sm size */
+    section#quals dl.quals-major { text-align:right; }
+}
+
+/* ---- HOME // CONTACT ---- */
+section#contact { background-color:#f9f9f9; }
+section#contact h3 { margin-left:0px; margin-right:0px; }
+section#contact form { padding:0 15px; }
+section#contact input[type="text"], section#contact input[type="email"], section#contact textarea { font-size:1.2em; padding:10px; margin:5px 0; background:#fff; border:none; border-bottom:#000 2px solid; width:100%; }
+section#contact textarea { height:5em; }
+section#contact input[type="submit"] { text-transform:uppercase; background:#ed8046; border:none; color:#fff; letter-spacing:4px; padding:15px; width:100%; font-size:0.8em; margin:20px 0; }
+
+section#contact dl div { overflow:hidden; }
+section#contact dl { margin-top:3em; }
+
+/* ---- BLOG // ARCHIVE ---- */
+.blog-archive h1 { margin:3em 3em 2em;}
+.blog-archive h1 a:link, .blog-archive h1 a:visited, .blog-archive h1 a:active, .blog-archive h1 a:hover { color:#333; border-bottom:none; }
+.blog-archive h1 span { border:#515151 1px solid; font-family:"Flama Light"; font-size:1.25em; text-transform:uppercase; text-align:center; padding:7px 50px; }
+
+.blog-archive h2 { font-size:2.5em; font-family:"Flama Ultra"; }
+.blog-archive h2 a { color:#333; }
+
+.blog-archive article { margin-bottom:3em; }
+.blog-archive article:first-child { font-size:1.2em; background:#fafafa; }
+
+.blog-archive article .meta { color:#555; font-family:"Flama Light"; margin-top:.5em; }
+.blog-archive article:first-child .meta { color:#777; font-family:"Flama Light"; margin-top:1.5em; }
+
+@media only screen and (min-width : 768px) { /* .sm size */
+.blog-archive article { padding:20px 50px; }
+.blog-archive article:first-child { padding:10px 50px 30px 50px; }
+}
+
+/* ---- BLOG // GLOBAL SINGLE POSTS ---- */
+.blog-single article { margin-top:1em; }
+.blog-single article .meta { font-family:"Flama Thin"; font-size:1em; letter-spacing:1px; vertical-align:bottom; color:#777; margin-bottom:0; }
+.blog-single article .meta a { color:#777; }
+
+.blog-single article p { }
+.blog-single article .leading { font-size:1.3em; font-family:"Flama"; color:#444; line-height:1.5em; margin-bottom:1.5em; margin-top:4em; }
+
+.blog-single article strong { font-family:"Flama" }
+.blog-single article em { font-family:"Flama Light"; font-style:italic; }
+
+.blog-single article img { max-width:100%; height:auto; margin:2.5em 0 4.5em;  }
+
+.blog-single article h1, .blog-single article h2, .blog-single article h3, .blog-single article h4, .blog-single article h5, .blog-single article h6 { margin-top:2em; margin-bottom:0.5em; font-family:"Flama Ultra"; }
+.blog-single article h1 { font-size:4.5em; margin-top:1em; margin-bottom:0.2em; font-family:"Flama Thin"; color:#000; }
+.blog-single article h2 { font-size:3.5em; margin-top:1em; font-family:"Flama Thin"; color:#000; }
+.blog-single article h3 { font-size:3em; color:#555; margin-top:1.5em; }
+.blog-single article h4 { font-size:2em; color:#222; }
+.blog-single article h5 { font-size:1.65em; font-family:"Flama Light"; color:#555; }
+.blog-single article h6 { font-size:1.45em; font-family:"Flama Light"; color:#333; }
+
+.blog-single article ul, .blog-single article ol { list-style-position:outside; margin:1em 0;  }
+.blog-single article ul { list-style-type:square; }
+.blog-single article ol { list-style-type:decimal; }
+.blog-single article ul ul, .blog-single article ol ul { list-style-type:circle; }
+.blog-single article ul ol, .blog-single article ol ol { list-style-type:lower-alpha; }
+.blog-single article li { color:#333; font-family:"Flama Light"; font-size:1.3em; margin-bottom:0.5em; }
+
+.blog-single article blockquote { padding-left:1.5em; border-left-color:#d88e2f; background-color:#f9f9f9; }
+.blog-single article blockquote p { }
+.blog-single article blockquote cite { font-size:0.9em; font-family:"Flama Light"; }
+
+.blog-single article .footnotes { font-size:0.65em; margin:100px 20px 0px 20px; }
+section.prevnext { margin:0; }
+section.prevnext hr { width:75%; margin:30px auto 50px auto; }
+.prevnext a:visited, .prevnext a:link { padding:20px; text-transform:uppercase; color:#aaa; }
+.prevnext a:hover, .prevnext a:active { background-color:#efefef; }
+section.prevnext a.prev { text-align:right; }
+
+@media only screen and (min-width : 768px) { /* .sm size */
+    .blog-single article { margin-top:3em; font-size:105%; }
+    .blog-single article ul, .blog-single article ol {  margin:1em 2em; }
+    .blog-single article blockquote { margin:2em; }
+    .blog-single article blockquote p { }
+    .blog-single article blockquote cite { }
+}
+@media only screen and (min-width : 992px) { /* .md size */
+    .blog-single article { margin-top:4em; font-size:110%; }
+    .blog-single article blockquote {  }
+
+}
+
+@media only screen and (min-width : 1200px) { /* .lg size */
+    .blog-single article { font-size:115%; }
+    .blog-single article blockquote {  }
+}
+
+
+/* ---- BLOG // ARTICLE POST ---- */
+
+
+/* ---- BLOG // LINK POST ---- */
+.blog-link article blockquote { margin-top:4em; font-family:"Flama Light"; font-size:1.25em; }
+.blog-link article h1 a { border-bottom:none; }
+
+/* ---- BLOG // VIDEO POST ---- */
+
+.blog-link article div.media { margin-top:4em; margin-bottom:4em; }
+
+
+/* ---- WORK // ARCHIVE ---- */
+.work-archive h1 { margin:3em 3em 2em;}
+.work-archive h1 a:link, .work-archive h1 a:visited, .work-archive h1 a:active, .work-archive h1 a:hover { color:#333; border-bottom:none; }
+.work-archive h1 span { border:#515151 1px solid; font-family:"Flama Light"; font-size:1.25em; text-transform:uppercase; text-align:center; padding:7px 50px; }
+
+/* ---- WORK // SINGLE POST ---- */
+.work-single article { margin-top:150px; }
+.work-single article h1 { font-size:5em;  }
+.work-single article div { margin-bottom:2em; }
+.work-single .media .item { margin-bottom:0.5em; }
+.work-single .crew, .work-single .crew a { color:#999; }
+
+@media only screen and (min-width : 768px) { /* .sm size */
+.work-single .media .item { margin-bottom:1em; }
+.work-single .media .item:first-child { margin-top:1.5em; }
+}
+@media only screen and (min-width : 992px) { /* .md size */
+.work-single .media .item { margin-bottom:1.5em; }
+.work-single .media .item:first-child { margin-top:1.5em; }
+}
+@media only screen and (min-width : 1200px) { /* .lg size */
+}
+
+
+
+
+
+/* ---- FOOTER ---- */
+footer { background:#2f2f2f; padding:50px 0; margin-top:75px; color:#aaa; font-size:0.75em; }
+footer p strong { font-family:"Flama"; color:#ddd; font-size:1.1em; }
+footer a:link, footer a:visited { color:#cfcfcf; padding:1px; }
+footer a:hover, footer a:active { color:#eee; }
+
+#copyright { background:#222; padding-top:15px; text-align:right; font-size:0.65em; color:#666; }
+
+/* ---- UTILITY ---- */
+.orange { color:#ed8046; }
+.orange-bg { background-color:#ed8046; }
+
+.video-responsive { position:relative; padding-bottom: 66.66%; height: 0; overflow: hidden; max-width: 100%;}
+.video-responsive iframe, .video-responsive object, .video-responsive embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
+
+
+
+
+
+/* ---- MEDIA QUERIES - HOLDING ZONE ONLY!!! ---- */
+@media only screen and (min-width : 480px) { /* .xs size */ 
+
+}
+@media only screen and (min-width : 768px) { /* .sm size */
+
+}
+@media only screen and (min-width : 992px) { /* .md size */
+
+}
+@media only screen and (min-width : 1200px) { /* .lg size */
+
+}
