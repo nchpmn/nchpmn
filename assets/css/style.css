@@ -20,3 +20,24 @@ a:hover, a:active { text-decoration:none; border-bottom:1px solid; }
 dl { font-size:1.15em; }
 dt { font-family:"Flama"; text-transform:uppercase; letter-spacing:1px; font-size:0.8em; }
 dd { font-family:"Flama Light"; margin-bottom:1.5em; }
+
+/* ---- GLOBAL // NAVBAR ---- */
+nav.navbar { background-color:rgba(255,255,255,0); border-bottom:none; font-size:1em; text-transform:uppercase; -webkit-transition:background-color 0.25s ease; transition:background-color .25s ease;  }
+
+nav.navbar a { transition:all 0.25s ease; -webkit-transtion:all 0.25s ease; }
+nav.navbar a:hover, nav.navbar a:active { border-bottom:none; color:#ED8046 !important; }
+
+nav .navbar-brand { font-size:1.2em; }
+
+nav button.navbar-toggle { color:#eee; padding:9px 16px; }
+nav button.navbar-toggle:hover { color:#666; }
+
+nav #collapse { background:#fff; }
+@media only screen and (min-width : 768px) { /* .sm size */
+    nav #collapse { background:transparent; }
+}
+
+
+/* ---- UTILITY ---- */
+.orange { color:#ed8046; }
+.orange-bg { background-color:#ed8046; }

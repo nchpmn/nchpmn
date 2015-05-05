@@ -2,7 +2,7 @@
 <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
     <div class="container">
         <div class="navbar-header">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#collapse">
+            <button type="button" class="navbar-toggle btn-sm" data-toggle="collapse" data-target="#collapse">
                 <span class="sr-only">Toggle Navigation</span>
                 <i class="fa fa-asterisk"></i>
             </button>
