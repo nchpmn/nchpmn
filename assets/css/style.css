@@ -9,8 +9,9 @@ html, body { height:100%; }
 h1, h2, h3, h4, h5, h6 { font-family:"Flama Thin"; font-weight:normal; }
 
 p { font-size:1.3em; line-height:1.5em; margin-bottom:1.5em; }
+strong { font-family:"Flama" }
 
-a:link, a:visited { font-family:inherit; color:#ED8046; }
+a:link, a:visited { color:#ED8046; }
 a:hover, a:active { text-decoration:none; border-bottom:1px solid; }
 
 .btn { border-radius:0; }
@@ -36,6 +37,16 @@ nav #collapse { background:#fff; }
 @media only screen and (min-width : 768px) { /* .sm size */
     nav #collapse { background:transparent; }
 }
+
+
+/* ---- GLOBAL // FOOTER ---- */
+footer { background:#2f2f2f; padding:50px 0; color:#aaa; font-size:0.75em; }
+#copyright { background:#222; padding-top:15px; text-align:right; font-size:0.65em; color:#666; }
+
+footer a:link, footer a:visited { color:#cfcfcf; }
+footer a:hover, footer a:active { color:#eee; }
+footer .social a:hover, footer .social a:active { border-bottom:none; }
+
 
 
 /* ---- UTILITY ---- */

@@ -2,7 +2,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-xs-5 col-sm-2 col-sm-offset-1">
-                    <p class="text-right">CONTACT ME</p>
+                    <p class="text-right"><a href="<?php echo $site->url() ?>#contact">CONTACT ME</a></p>
                 </div>
                 <div class="col-xs-7 col-sm-4">
                     <dl>
@@ -14,7 +14,7 @@
                         <dd>+61 416 544 800</dd>
                     </dl>
                 </div>
-                <div class="col-xs-4 hidden-xs">
+                <div class="col-xs-4 hidden-xs social">
                     <p>SOCIALLY</p>
                     <a href="<?php echo $site->youtube() ?>"><i class="fa fa-youtube-square fa-3x"></i></a>
                     <a href="<?php echo $site->twitter() ?>"><i class="fa fa-twitter-square fa-3x"></i></a>
@@ -25,7 +25,7 @@
 				<div class="col-xs-5 visible-xs">
                     <p class="text-right">SOCIALLY</p>
                 </div>
-                <div class="col-xs-7 visible-xs">
+                <div class="col-xs-7 visible-xs social">
                     <a href="<?php echo $site->youtube() ?>"><i class="fa fa-youtube-square fa-3x"></i></a>
                     <a href="<?php echo $site->twitter() ?>"><i class="fa fa-twitter-square fa-3x"></i></a>
                     <a href="<?php echo $site->facebook() ?>"><i class="fa fa-facebook-square fa-3x"></i></a>
