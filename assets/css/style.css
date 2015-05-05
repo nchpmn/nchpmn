@@ -1,3 +1,22 @@
 /* Copyright Nathan Chapman, 2015 */
 
 /* ---- GLOBAL ---- */
+
+* { font-family:"Flama Light"; }
+
+html, body { height:100%; }
+
+h1, h2, h3, h4, h5, h6 { font-family:"Flama Thin"; font-weight:normal; }
+
+p { font-size:1.3em; line-height:1.5em; margin-bottom:1.5em; }
+
+a:link, a:visited { font-family:inherit; color:#ED8046; }
+a:hover, a:active { text-decoration:none; border-bottom:1px solid; }
+
+.btn { border-radius:0; }
+.btn.btn-primary { background-color:#ED8046; color:#fff; border:none; }
+
+
+dl { font-size:1.15em; }
+dt { font-family:"Flama"; text-transform:uppercase; letter-spacing:1px; font-size:0.8em; }
+dd { font-family:"Flama Light"; margin-bottom:1.5em; }
