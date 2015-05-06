@@ -25,11 +25,6 @@ Minorquals:
   award: Communicate in the Workplace
   id: PUACOM001B
 - 
-  award: >
-    Follow Defined Occupational Health and
-    Safety Policies and Procedures
-  id: PUAOHS001B
-- 
   award: Contribute to team effectiveness
   id: BSBFLM3120C
 - 
@@ -38,6 +33,11 @@ Minorquals:
 - 
   award: Work in a Team
   id: PUATEA001A
+- 
+  award: >
+    Follow Defined Occupational Health and
+    Safety Policies and Procedures
+  id: PUAOHS001B
 
 ----
 
