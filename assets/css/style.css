@@ -91,14 +91,14 @@ section#welcome p:first-of-type { font-size:1.65em; }
 
 
 /* ---- HOME // WORK ---- */
-section#work .item { padding:1px 1px 0 0; margin:0; overflow:hidden; }
+section#work .item { padding:0; margin:0; overflow:hidden; }
 section#work .description { z-index:100; position:absolute; top:50%; -webkit-transform:translateY(-50%); -ms-transform:translateY(-50%); transform:translateY(-50%); width:100%; color:#fff; }
 section#work .description h4, section#work .description span { text-transform:uppercase; font-family:"Flama"; }
 section#work .description h4 { letter-spacing:1px; }
 section#work .escription span { font-size:0.95em; }
 
-section#work img { z-index:1; filter:grayscale(.8); -webkit-filter:grayscale(.8); }
-section#work img:hover { z-index:1; filter:grayscale(0); -webkit-filter:grayscale(0); }
+section#work img { z-index:1; filter:grayscale(1); -webkit-filter:grayscale(1); transition:all .25s ease; }
+section#work .item:hover img { transform:scale(1.1); filter:grayscale(0); -webkit-filter:grayscale(0); }
 
 
 /* ---- HOME // BLOG ---- */
