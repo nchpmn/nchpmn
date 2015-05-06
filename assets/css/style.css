@@ -88,6 +88,21 @@ section#welcome .image-container { background-size:cover; background-position:to
 section#welcome .container { padding:25px 0 50px; }
 section#welcome p:first-of-type { font-size:1.65em; }
 
+/* ---- HOME // BLOG ---- */
+section#blog .post { padding:10px 30px; margin-bottom:2em; }
+section#blog .meta { color:#777; font-family:"Flama Light"; margin-top:1.5em; }
+section#blog .first { background:#f9f9f9; }
+
+section#blog .post h4 a { font-size:1.25em; font-family:"Flama Ultra"; }
+section#blog .first h4 { font-size:2.2em; }
+section#blog .second h4 { font-size:1.8em; }
+section#blog .post:not(.first):not(.second) a { color:#444; font-family:"Flama Light" }
+
+@media only screen and (min-width : 768px) { /* .sm size */
+section#blog .post:not(.first):not(.second):not(:last-child) { border-right:1px #eee solid; }
+}
+
+
 
 /* ---- HOME // CONTACT ---- */
 section#contact { background-color:#f9f9f9; }
