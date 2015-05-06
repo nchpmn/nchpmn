@@ -96,26 +96,6 @@
                     closeText: '<span><i class="fa fa-times fa-lg"></i></span>',
                     contentFilter: '',
                 });
-            
-                // "isotope" plugin  
-                var filter = '*', isotope_run = function(f) {  
-                    $('.portfolioContainer').  
-                    isotope({layoutMode : 'fitRows', filter: f}).  
-                    trigger('colio','excludeHidden');  
-                };  
-                  
-                $('#filters a').click(function(){  
-                    $(this).addClass('filter-active').siblings().removeClass('filter-active');  
-                    // take class name from href attr and then run isotope to filter items in portfolio  
-                    var href = $(this).attr('href').substr(1);  
-                    filter = href ? '.' + href : '*';  
-                    isotope_run(filter);  
-                    return false;  
-                });  
-                  
-                // run isotope with "*" filter to show all items  
-                isotope_run(filter);  
-                  
             });
         </script>
         <script>

@@ -82,11 +82,24 @@ header .main h2 { font-size:1.3em; margin-top:1.5em; }
 header.cover { background-attachment:fixed; }
 }
 
+
 /* --- HOME // WELCOME ---- */
 section#welcome { padding:0; display:table;  width:100%; position:relative; background-color:#f9f9f9; }
 section#welcome .image-container { background-size:cover; background-position:top center; height:100%; overflow:hidden; padding:0; position:absolute; top:0; }
 section#welcome .container { padding:25px 0 50px; }
 section#welcome p:first-of-type { font-size:1.65em; }
+
+
+/* ---- HOME // WORK ---- */
+section#work .item { padding:1px 1px 0 0; margin:0; overflow:hidden; }
+section#work .description { z-index:100; position:absolute; top:50%; -webkit-transform:translateY(-50%); -ms-transform:translateY(-50%); transform:translateY(-50%); width:100%; color:#fff; }
+section#work .description h4, section#work .description span { text-transform:uppercase; font-family:"Flama"; }
+section#work .description h4 { letter-spacing:1px; }
+section#work .escription span { font-size:0.95em; }
+
+section#work img { z-index:1; filter:grayscale(.8); -webkit-filter:grayscale(.8); }
+section#work img:hover { z-index:1; filter:grayscale(0); -webkit-filter:grayscale(0); }
+
 
 /* ---- HOME // BLOG ---- */
 section#blog .post { padding:10px 30px; margin-bottom:2em; }
@@ -103,7 +116,6 @@ section#blog .post:not(.first):not(.second):not(:last-child) { border-right:1px 
 }
 
 
-
 /* ---- HOME // CONTACT ---- */
 section#contact { background-color:#f9f9f9; }
 section#contact form { padding:0 15px; }
@@ -114,6 +126,7 @@ section#contact input[type="submit"] { width:100%; margin:20px 0; padding:15px; 
 section#contact dl { margin-top:3em; }
 section#contact dl div { overflow:hidden; }
 
+
 /* ---- HOME // QUALIFICATIONS ---- */
 section#quals dt { text-transform:none; font-size:1.05em; letter-spacing:0; }
 section#quals dd { font-size:0.9em; color:#555; }
@@ -123,6 +136,7 @@ section#quals dl.quals-minor dd { margin-bottom:0.5em; }
 @media only screen and (min-width : 768px) { /* .sm size */
     section#quals dl.quals-major { text-align:right; }
 }
+
 
 /* ---- HOME // CALLOUT ---- */
 section#callout { background-repeat:no-repeat; background-position:center -50px; background-size:cover; background-attachment:scroll; display:table; height:auto; padding:50px 0; width:100%; }
@@ -136,6 +150,7 @@ section#callout { background-position:center -320px; }
 @media only screen and (min-width : 1200px) { /* .lg size */
 section#callout { background-attachment:fixed; background-position:bottom center; }
 }
+
 
 /* ---- UTILITY ---- */
 .u-orange { color:#ed8046; }
