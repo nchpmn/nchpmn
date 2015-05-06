@@ -1,9 +1,9 @@
 /* ---- HOME // WORK ---- */
-.portfolioContainer div { padding:1px 1px 0 0; margin:0;  }
+/* .portfolioContainer div { padding:1px 1px 0 0; margin:0;  }
 .portfolioContainer div div { padding:none;; }
 .portfolioContainer .work-description { position:absolute; top:50%; -webkit-transform:translateY(-50%); -ms-transform:translateY(-50%); transform:translateY(-50%); width:100%; color:#fff; }
 .portfolioContainer .work-description h4 { text-transform:uppercase; font-family:"Flama"; letter-spacing:1px; }
-.portfolioContainer .work-description span { text-transform:uppercase; font-family:"Flama"; font-size:0.95em; }
+.portfolioContainer .work-description span { text-transform:uppercase; font-family:"Flama"; font-size:0.95em; } */
 .portfolioContainer div:hover { opacity:0.8; }
 #filters a:link, #filters a:visited { text-transform:uppercase; color:#999; border-bottom:none; margin:0 10px; font-size:1em; }
 #filters a:hover, #filters a:active { color:#666; }
