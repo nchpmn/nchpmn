@@ -97,7 +97,7 @@ section#work .description h4, section#work .description span { text-transform:up
 section#work .description h4 { letter-spacing:1px; }
 section#work .escription span { font-size:0.95em; }
 
-section#work img { z-index:1; filter:grayscale(1); -webkit-filter:grayscale(1); transition:all .25s ease; }
+section#work img { z-index:1; filter:grayscale(.2); -webkit-filter:grayscale(.2); transition:all .25s ease; }
 section#work .item:hover img { transform:scale(1.1); filter:grayscale(0); -webkit-filter:grayscale(0); }
 
 
