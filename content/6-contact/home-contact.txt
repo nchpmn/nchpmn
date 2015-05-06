@@ -1,12 +1,8 @@
-Title: Blog
+Title: Contact
 
 ----
 
-Text: 
-
-----
-
-Number: 5
+Photo: 
 
 ----
 
@@ -14,7 +10,7 @@ Navall: 1
 
 ----
 
-Navrel: 
+Navrel: 1
 
 ----
 

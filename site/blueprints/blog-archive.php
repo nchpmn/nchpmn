@@ -1,19 +1,20 @@
 <?php if(!defined('KIRBY')) exit ?>
 
-title: Home/Welcome
-pages: false
+title: Home/Blog
+pages: true
 fields:
   title:
     label: Title
-    type:  text
+    type: text
   text:
-    label: Text
-    type:  textarea
-    size:  large
-  photo:
-    label: Profile Photo
-    type: select
-    options: images
+    label: Leading Paragraph
+    type: textarea
+  home:
+    label: One Pager Settings
+    type: headline
+  number:
+    label: Items to Show
+    type: number
   navtitle:
     label: Navbar Settings
     type: headline
