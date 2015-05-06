@@ -31,54 +31,6 @@ section#work .media .item:first-child { margin-top:1.5em; }
 }
 
 
-
-/* ---- HOME // BLOG  ---- */
-section#blog div.post { padding:10px 30px 10px 30px; margin-bottom:2em; }
-section#blog div.post.first { background:#fafafa; }
-section#blog div.post.second { }
-section#blog div.post .meta { color:#777; font-family:"Flama Light"; margin-top:1.5em; }
-
-section#blog div.post:not(.first):not(.second) h4 a { color:#333; }
-
-
-section#blog div.post h4 { font-size:2em; font-family:"Flama Ultra"; }
-section#blog div.post.first h4 { font-size:2.75em; }
-section#blog div.post.second h4 { font-size:2.25em; }
-
-@media only screen and (min-width : 768px) { /* .sm size */
-section#blog div.post { padding:10px 30px 10px 30px; }
-}
-@media only screen and (min-width : 992px) { /* .md size */
-
-}
-@media only screen and (min-width : 1200px) { /* .lg size */
-
-}
-
-
-/* ---- HOME // QUALS ---- */
-section#quals dl { }
-section#quals dl.quals-major { }
-section#quals dl.quals-minor { font-size:0.9em; }
-section#quals dt { text-transform:none; font-size:1.05em; letter-spacing:0; }
-section#quals dd { font-size:0.9em; color:#555; }
-section#quals dl.quals-minor dd { margin-bottom:0.5em; }
-
-@media only screen and (min-width : 768px) { /* .sm size */
-    section#quals dl.quals-major { text-align:right; }
-}
-
-/* ---- HOME // CONTACT ---- */
-section#contact { background-color:#f9f9f9; }
-section#contact h3 { margin-left:0px; margin-right:0px; }
-section#contact form { padding:0 15px; }
-section#contact input[type="text"], section#contact input[type="email"], section#contact textarea { font-size:1.2em; padding:10px; margin:5px 0; background:#fff; border:none; border-bottom:#000 2px solid; width:100%; }
-section#contact textarea { height:5em; }
-section#contact input[type="submit"] { text-transform:uppercase; background:#ed8046; border:none; color:#fff; letter-spacing:4px; padding:15px; width:100%; font-size:0.8em; margin:20px 0; }
-
-section#contact dl div { overflow:hidden; }
-section#contact dl { margin-top:3em; }
-
 /* ---- BLOG // ARCHIVE ---- */
 .blog-archive h1 { margin:3em 3em 2em;}
 .blog-archive h1 a:link, .blog-archive h1 a:visited, .blog-archive h1 a:active, .blog-archive h1 a:hover { color:#333; border-bottom:none; }
@@ -190,14 +142,6 @@ section.prevnext a.prev { text-align:right; }
 }
 @media only screen and (min-width : 1200px) { /* .lg size */
 }
-
-
-/* ---- UTILITY ---- */
-.orange { color:#ed8046; }
-.orange-bg { background-color:#ed8046; }
-
-.video-responsive { position:relative; padding-bottom: 66.66%; height: 0; overflow: hidden; max-width: 100%;}
-.video-responsive iframe, .video-responsive object, .video-responsive embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
 
 
 
