@@ -13,13 +13,14 @@ strong { font-family:"Flama" }
 
 a:link, a:visited { color:#ED8046; }
 a:hover, a:active { text-decoration:none; border-bottom:1px solid; }
+.social a:hover, .social a:active { border-bottom:none; }
 
 .btn { border-radius:0; }
 .btn.btn-primary { background-color:#ED8046; color:#fff; border:none; }
 
 
 dl { font-size:1.15em; }
-dt { font-family:"Flama"; text-transform:uppercase; letter-spacing:1px; font-size:0.8em; }
+dt { font-family:"Flama"; text-transform:uppercase; letter-spacing:1px; font-size:0.8em; font-weight:normal; }
 dd { font-family:"Flama Light"; margin-bottom:1.5em; }
 
 
@@ -46,7 +47,7 @@ footer { background:#2f2f2f; padding:50px 0; color:#aaa; font-size:0.75em; }
 
 footer a:link, footer a:visited { color:#cfcfcf; }
 footer a:hover, footer a:active { color:#eee; }
-footer .social a:hover, footer .social a:active { border-bottom:none; }
+
 
 
 /* ---- HOME ---- */
@@ -78,8 +79,8 @@ header .main h2 { font-size:1.25em; margin-top:0.5em; }
 @media only screen and (min-width : 1200px) { /* .lg size */
 header .main h1 { font-size:6em; }
 header .main h2 { font-size:1.3em; margin-top:1.5em; }
+header.cover { background-attachment:fixed; }
 }
-
 
 /* --- HOME // WELCOME ---- */
 section#welcome { padding:0; display:table;  width:100%; position:relative; background-color:#f9f9f9; }
@@ -87,6 +88,16 @@ section#welcome .image-container { background-size:cover; background-position:to
 section#welcome .container { padding:25px 0 50px; }
 section#welcome p:first-of-type { font-size:1.65em; }
 
+
+/* ---- HOME // CONTACT ---- */
+section#contact { background-color:#f9f9f9; }
+section#contact form { padding:0 15px; }
+section#contact input[type="text"], section#contact input[type="email"], section#contact textarea { width:100%; padding:10px; margin:5px 0; font-size:1.2em; border:none; border-bottom:#000 2px solid; border-radius:0; }
+section#contact textarea { height:6em; }
+section#contact input:focus, section#contact textarea:focus { outline:0; color:#000; }
+section#contact input[type="submit"] { width:100%; margin:20px 0; padding:15px; font-size:0.8em; color:#fff; font-family:"Flama"; text-transform:uppercase; letter-spacing:4px;  }
+section#contact dl { margin-top:3em; }
+section#contact dl div { overflow:hidden; }
 
 /* ---- HOME // QUALIFICATIONS ---- */
 section#quals dt { text-transform:none; font-size:1.05em; letter-spacing:0; }
@@ -112,5 +123,8 @@ section#callout { background-attachment:fixed; background-position:bottom center
 }
 
 /* ---- UTILITY ---- */
-.orange { color:#ed8046; }
-.orange-bg { background-color:#ed8046; }
+.u-orange { color:#ed8046; }
+.u-orange-bg { background-color:#ed8046; }
+
+.video-responsive { position:relative; padding-bottom: 66.66%; height: 0; overflow: hidden; max-width: 100%;}
+.video-responsive iframe, .video-responsive object, .video-responsive embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
