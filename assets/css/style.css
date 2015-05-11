@@ -155,6 +155,3 @@ section#callout { background-attachment:fixed; background-position:bottom center
 /* ---- UTILITY ---- */
 .u-orange { color:#ed8046; }
 .u-orange-bg { background-color:#ed8046; }
-
-.video-responsive { position:relative; padding-bottom: 66.66%; height: 0; overflow: hidden; max-width: 100%;}
-.video-responsive iframe, .video-responsive object, .video-responsive embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
