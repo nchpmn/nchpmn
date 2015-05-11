@@ -2,9 +2,7 @@
 
 /* ---- GLOBAL ---- */
 
-* { font-family:"Flama Light"; }
-
-html, body { height:100%; }
+html, body { height:100%; font-family:"Flama Light"; }
 
 h1, h2, h3, h4, h5, h6 { font-family:"Flama Thin"; font-weight:normal; }
 
@@ -13,7 +11,7 @@ strong { font-family:"Flama" }
 
 a:link, a:visited { color:#ED8046; }
 a:hover, a:active { text-decoration:none; border-bottom:1px solid; }
-.social a:hover, .social a:active { border-bottom:none; }
+.social a:hover, .social a:active, a.colio-close { border-bottom:none; }
 
 .btn { border-radius:0; }
 .btn.btn-primary { background-color:#ED8046; color:#fff; border:none; }
@@ -92,13 +90,32 @@ section#welcome p:first-of-type { font-size:1.65em; }
 
 /* ---- HOME // WORK ---- */
 section#work .item { padding:0; margin:0; overflow:hidden; }
-section#work .description { z-index:100; position:absolute; top:50%; -webkit-transform:translateY(-50%); -ms-transform:translateY(-50%); transform:translateY(-50%); width:100%; color:#fff; }
+section#work .description { z-index:100; position:absolute; top:50%; -webkit-transform:translateY(-50%); -ms-transform:translateY(-50%); transform:translateY(-50%); width:100%; color:#fff; transition:all .25s ease; text-shadow: 1px 1px 2px rgba(0, 0, 0, .25);}
 section#work .description h4, section#work .description span { text-transform:uppercase; font-family:"Flama"; }
 section#work .description h4 { letter-spacing:1px; }
 section#work .escription span { font-size:0.95em; }
 
-section#work img { z-index:1; filter:grayscale(.2); -webkit-filter:grayscale(.2); transition:all .25s ease; }
-section#work .item:hover img { transform:scale(1.1); filter:grayscale(0); -webkit-filter:grayscale(0); }
+section#work img { z-index:1; filter:contrast(0.7); -webkit-filter:contrast(0.7); transition:all .25s ease; }
+section#work .item:hover img { transform:scale(1.05); filter:contrast(1); -webkit-filter:contrast(1); }
+section#work .item:hover .description { opacity:0; }
+
+/* ---- HOME // WORK // SINGLE ---- */
+section#work article h1 { font-size:3.5em; font-family:"Flama Ultra"; font-weight:normal;  }
+section#work article div:first-child { display:block; margin-bottom:2em; }
+section#work article div span { text-transform:uppercase; opacity:0.9; }
+section#work .media .embed-responsive { margin-bottom:0.5em; }
+
+
+@media only screen and (min-width : 768px) { /* .sm size */
+section#work .media .embed-responsive { margin-bottom:1em; }
+section#work .media .embed-responsive:first-child { margin-top:1.5em; }
+}
+@media only screen and (min-width : 992px) { /* .md size */
+section#work .media .embed-responsive { margin-bottom:1.5em; }
+section#work .media .embed-responsive:first-child { margin-top:1.5em; }
+}
+
+
 
 
 /* ---- HOME // BLOG ---- */

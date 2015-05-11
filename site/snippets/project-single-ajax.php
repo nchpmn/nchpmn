@@ -1,5 +1,5 @@
 <div class="row">
-    <div class="col-sm-6 col-md-7 media" style="display:block">
+    <div class="col-md-7 col-lg-8 media" style="display:block">
     <?php $cover = $page->cover(); ?>
     <?php if($page->videoSource() == "youtube"): ?>
         <!-- YOUTUBE -->        
@@ -16,7 +16,7 @@
     <?php endif ?>
     
     </div>
-    <article class="col-sm-6 col-md-5">
+    <article class="col-md-5 col-lg-4">
         <div class="clearfix">
             <h1><a href="<?php echo $page->url() ?>"><?php echo $page->title() ?></a></h1>
             <span class="pull-left"><?php echo $page->role() ?></span>

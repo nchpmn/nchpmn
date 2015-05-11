@@ -1,21 +1,3 @@
-/* ---- HOME // WORK // SINGLE ---- */
-section#work article h1 { font-size:3.5em; font-family:"Flama Ultra"; }
-section#work article div:first-child { display:block; margin-bottom:2em; font-family:"Flama Thin"; }
-section#work article div span { text-transform:uppercase; opacity:0.9; }
-section#work .media .item { margin-bottom:0.5em; }
-
-@media only screen and (min-width : 768px) { /* .sm size */
-section#work .media .item { margin-bottom:1em; }
-section#work .media .item:first-child { margin-top:1.5em; }
-}
-@media only screen and (min-width : 992px) { /* .md size */
-section#work .media .item { margin-bottom:1.5em; }
-section#work .media .item:first-child { margin-top:1.5em; }
-}
-@media only screen and (min-width : 1200px) { /* .lg size */
-}
-
-
 /* ---- BLOG // ARCHIVE ---- */
 .blog-archive h1 { margin:3em 3em 2em;}
 .blog-archive h1 a:link, .blog-archive h1 a:visited, .blog-archive h1 a:active, .blog-archive h1 a:hover { color:#333; border-bottom:none; }
