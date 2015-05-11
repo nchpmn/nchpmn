@@ -8,6 +8,7 @@ h1, h2, h3, h4, h5, h6 { font-family:"Flama Thin"; font-weight:normal; }
 
 p { font-size:1.3em; line-height:1.5em; margin-bottom:1.5em; }
 strong { font-family:"Flama" }
+em { font-family:"Flama Light"; font-style:italic; }
 
 a:link, a:visited { color:#ED8046; }
 a:hover, a:active { text-decoration:none; border-bottom:1px solid; }
@@ -23,7 +24,7 @@ dd { font-family:"Flama Light"; margin-bottom:1.5em; }
 
 
 /* ---- GLOBAL // NAVBAR ---- */
-nav.navbar { background-color:rgba(255,255,255,0); border-bottom:none; font-size:1em; text-transform:uppercase; -webkit-transition:background-color 0.25s ease; transition:background-color .25s ease;  }
+nav.navbar { background-color:rgba(255,255,255,0); border-bottom:none; font-size:1em; text-transform:uppercase; -webkit-transition:background-color 0.25s ease; transition:background-color .25s ease; }
 
 nav.navbar a { transition:all 0.25s ease; -webkit-transtion:all 0.25s ease; }
 nav.navbar a:hover, nav.navbar a:active { border-bottom:none; color:#ED8046 !important; }
@@ -167,6 +168,91 @@ section#callout { background-position:center -320px; }
 @media only screen and (min-width : 1200px) { /* .lg size */
 section#callout { background-attachment:fixed; background-position:bottom center; }
 }
+
+
+/* ---- BLOG // SINGLE ---- */
+.blog-single article { margin-top:1em; }
+
+.blog-single h1, .blog-single h2, .blog-single h3, .blog-single h4, .blog-single h5, .blog-single article h6 { margin-top:2em; margin-bottom:0.5em; font-family:"Flama Ultra"; }
+.blog-single h1 { font-size:4.5em; margin-top:1em; margin-bottom:0.2em; font-family:"Flama Thin"; color:#000; }
+.blog-single h2 { font-size:3.5em; margin-top:1em; font-family:"Flama Thin"; color:#000; }
+.blog-single h3 { font-size:3em; color:#555; margin-top:1.5em; }
+.blog-single h4 { font-size:2em; color:#222; }
+.blog-single h5 { font-size:1.65em; font-family:"Flama Light"; color:#555; }
+.blog-single h6 { font-size:1.45em; font-family:"Flama Light"; color:#333; }
+
+.blog-single ul, .blog-single ol { list-style-position:outside; margin:1em 0;  }
+.blog-single ul { list-style-type:square; }
+.blog-single ol { list-style-type:decimal; }
+.blog-single ul ul, .blog-single ol ul { list-style-type:circle; }
+.blog-single ul ol, .blog-single ol ol { list-style-type:lower-alpha; }
+.blog-single article li { color:#333; font-family:"Flama Light"; margin-bottom:0.5em; }
+.blog-single article li p { font-size:1em; }
+
+.blog-single img { max-width:100%; height:auto; margin:2.5em 0 4.5em;  }
+
+
+.blog-single .meta { font-size:1em; letter-spacing:1px; vertical-align:bottom; color:#777; margin-bottom:0; }
+.blog-single .meta a { color:#666; }
+.blog-single .leading { font-size:1.3em; color:#444; line-height:1.5em; margin-bottom:1.5em; margin-top:4em; }
+
+
+@media only screen and (min-width : 768px) { /* .sm size */
+    .blog-single article { margin-top:3em; font-size:105%; }
+    .blog-single article ul, .blog-single article ol {  margin:1em 2em; }
+    .blog-single article blockquote { margin:2em; }
+    .blog-single article blockquote p { }
+    .blog-single article blockquote cite { }
+}
+@media only screen and (min-width : 992px) { /* .md size */
+    .blog-single article { margin-top:4em; font-size:110%; }
+    .blog-single article blockquote {  }
+
+}
+
+@media only screen and (min-width : 1200px) { /* .lg size */
+    .blog-single article { font-size:115%; }
+    .blog-single article blockquote {  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* ---- UTILITY ---- */
