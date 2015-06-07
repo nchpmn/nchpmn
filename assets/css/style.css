@@ -22,9 +22,16 @@ dl { font-size:1.15em; }
 dt { font-family:"Flama"; text-transform:uppercase; letter-spacing:1px; font-size:0.8em; font-weight:normal; }
 dd { font-family:"Flama Light"; margin-bottom:1.5em; }
 
+section.prevnext { margin:0; }
+section.prevnext hr { width:75%; margin:30px auto 50px auto; }
+.prevnext a:visited, .prevnext a:link { padding:20px; text-transform:uppercase; color:#aaa; }
+.prevnext a:hover, .prevnext a:active { background-color:#efefef; }
+section.prevnext a.prev { text-align:right; }
+
 
 /* ---- GLOBAL // NAVBAR ---- */
-nav.navbar { background-color:rgba(255,255,255,0); border-bottom:none; font-size:1em; text-transform:uppercase; -webkit-transition:background-color 0.25s ease; transition:background-color .25s ease; }
+nav.navbar { background-color:rgba(255,255,255,0.9); border-bottom:none; font-size:1em; text-transform:uppercase; -webkit-transition:background-color 0.25s ease; transition:background-color .25s ease; }
+.home nav.navbar { background-color:rgba(255,255,255,0); }
 
 nav.navbar a { transition:all 0.25s ease; -webkit-transtion:all 0.25s ease; }
 nav.navbar a:hover, nav.navbar a:active { border-bottom:none; color:#ED8046 !important; }
@@ -181,20 +188,28 @@ section#callout { background-attachment:fixed; background-position:bottom center
 .blog-single h5 { font-size:1.65em; font-family:"Flama Light"; color:#555; }
 .blog-single h6 { font-size:1.45em; font-family:"Flama Light"; color:#333; }
 
-.blog-single ul, .blog-single ol { list-style-position:outside; margin:1em 0;  }
-.blog-single ul { list-style-type:square; }
-.blog-single ol { list-style-type:decimal; }
-.blog-single ul ul, .blog-single ol ul { list-style-type:circle; }
-.blog-single ul ol, .blog-single ol ol { list-style-type:lower-alpha; }
+.blog-single article ul, .blog-single ol { list-style-position:outside; margin:1em 0;  }
+.blog-single article ul { list-style-type:square; }
+.blog-single article ol { list-style-type:decimal; }
+.blog-single article ul ul, .blog-single article ol ul { list-style-type:circle; }
+.blog-single article ul ol, .blog-single article ol ol { list-style-type:lower-alpha; }
 .blog-single article li { color:#333; font-family:"Flama Light"; margin-bottom:0.5em; }
 .blog-single article li p { font-size:1em; }
 
 .blog-single img { max-width:100%; height:auto; margin:2.5em 0 4.5em;  }
 
+.blog-single article blockquote { padding-left:1.5em; border-left-color:#d88e2f; background-color:#f9f9f9; }
+.blog-single article blockquote p { }
+.blog-single article blockquote cite { font-size:0.9em; font-family:"Flama Light"; }
 
 .blog-single .meta { font-size:1em; letter-spacing:1px; vertical-align:bottom; color:#777; margin-bottom:0; }
 .blog-single .meta a { color:#666; }
 .blog-single .leading { font-size:1.3em; color:#444; line-height:1.5em; margin-bottom:1.5em; margin-top:4em; }
+
+.blog-single .footnotes { margin:100px 20px 0px 20px; }
+
+
+
 
 
 @media only screen and (min-width : 768px) { /* .sm size */

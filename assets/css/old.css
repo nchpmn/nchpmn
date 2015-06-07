@@ -17,26 +17,6 @@
 .blog-archive article:first-child { padding:10px 50px 30px 50px; }
 }
 
-/* ---- BLOG // GLOBAL SINGLE POSTS ---- */
-.blog-single article ul, .blog-single article ol { list-style-position:outside; margin:1em 0;  }
-.blog-single article ul { list-style-type:square; }
-.blog-single article ol { list-style-type:decimal; }
-.blog-single article ul ul, .blog-single article ol ul { list-style-type:circle; }
-.blog-single article ul ol, .blog-single article ol ol { list-style-type:lower-alpha; }
-.blog-single article li { color:#333; font-family:"Flama Light"; font-size:1.3em; margin-bottom:0.5em; }
-
-.blog-single article blockquote { padding-left:1.5em; border-left-color:#d88e2f; background-color:#f9f9f9; }
-.blog-single article blockquote p { }
-.blog-single article blockquote cite { font-size:0.9em; font-family:"Flama Light"; }
-
-.blog-single article .footnotes { font-size:0.65em; margin:100px 20px 0px 20px; }
-section.prevnext { margin:0; }
-section.prevnext hr { width:75%; margin:30px auto 50px auto; }
-.prevnext a:visited, .prevnext a:link { padding:20px; text-transform:uppercase; color:#aaa; }
-.prevnext a:hover, .prevnext a:active { background-color:#efefef; }
-section.prevnext a.prev { text-align:right; }
-
-
 
 /* ---- BLOG // ARTICLE POST ---- */
 
