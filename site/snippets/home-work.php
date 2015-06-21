@@ -12,22 +12,20 @@
                         <h4><?php echo $item->title() ?></h4>
                         <span><?php echo $item->role() ?></span>
                     </div>
-                    <?php if($item->coverSource() == '1'): ?>
-                        <?php if($item->videoSource() == 'youtube'): ?>
-                            <img src="<?php echo 'http://i1.ytimg.com/vi/'.$item->videoID().'/maxresdefault.jpg' ?>" class="img-responsive" />
-                        <?php else: ?>
-                            <?php
-                            $hash = unserialize(file_get_contents("http://vimeo.com/api/v2/video/".$item->videoID().".php"));
+
+                    <?php if(preg_match("/(https?:\/\/)?(www\.)?(player\.)?vimeo\.com\/([a-z]*\/)*([0-9]{6,11})[?]?.*/", $item->videoURL(), $output_array)): ?>
+                    <!-- Vimeo Video URL -->
+                        <?php $videoID = $output_array[5] ?>
+                        <?php
+                            $hash = unserialize(file_get_contents("http://vimeo.com/api/v2/video/".$videoID.".php"));
                             $img = $hash[0]['thumbnail_large'] ?>
-                            <img src="<?php echo $img ?>" class="img-responsive" />                                
-                        <?php endif ?>
-                    <?php else: ?>
-                        <?php if($item->cover() == ''): ?>
-                            <?php echo thumb(page('work')->file(strval(page('work')->defaultimage())), array('width' => 500, 'height' => 282, 'crop' => true, 'class' => 'img-responsive')); ?>
-                        <?php else: ?>
-                            <?php echo thumb($item->file(strval($item->cover())), array('width' => 500, 'height' => 282, 'crop' => true, 'class' => 'img-responsive')); ?>
-                        <?php endif ?>
+                        <img src="<?php echo $img ?>" class="img-responsive" />
+                    <?php elseif(preg_match("/^(?:http(?:s)?:\/\/)?(?:www\.)?(?:m\.)?(?:youtu\.be\/|youtube\.com\/(?:(?:watch)?\?(?:.*&)?v(?:i)?=|(?:embed|v|vi|user)\/))([^\?&\"'>]+)/", $item->videoURL(), $output_array)): ?>
+                    <!-- YouTube Video URL -->
+                        <?php $videoID = $output_array[1] ?>
+                        <img src="<?php echo 'http://i1.ytimg.com/vi/'.$videoID.'/maxresdefault.jpg' ?>" class="img-responsive" />
                     <?php endif ?>
+
                 </a>
             </div>
             <?php if(++$count % 3 == 0): ?>

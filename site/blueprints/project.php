@@ -44,16 +44,9 @@ fields:
     label: Cover Image
     type: select
     options: images
-  videoSource:
-    label: Video Source
-    type: radio
-    options:
-      youtube: YouTube
-      vimeo: Vimeo
-  videoID:
-    label: Video ID
+  videoURL:
+    label: Video URL (Vimeo and YouTube are supported)
     type: text
-    placeholder: 1234567
   projectImages:
     label: Project Images
     type: checkboxes
