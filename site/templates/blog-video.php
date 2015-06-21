@@ -15,17 +15,7 @@
         </div>
         <div class="row">
             <div class="col-sm-10 col-sm-offset-1 media">
-                <?php if($page->source() == "youtube"): ?>
-                    <!-- YOUTUBE -->
-                    <div class="video-responsive item">
-                        <iframe width="1280" height="720" src="https://www.youtube.com/embed/<?php echo $page->videoid(); ?>?showinfo=0&autohide=1&autoplay=0&controls=2&modestbranding=1" frameborder="0" allowfullscreen></iframe>
-                    </div>
-                <?php elseif($page->source() == "vimeo"): ?>
-                    <!-- VIMEO -->
-                    <div class="video-responsive item">
-                        <iframe src="http://player.vimeo.com/video/<?php echo $page->videoid(); ?>?portrait=0&title=0&badge=0&byline=0&color=ed8046" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
-                    </div>    
-                <?php endif; ?>
+                <?php echo $page->videourl()->oembed(); ?>
             </div>
             <div class="col-sm-8 col-sm-offset-2">
                 <?php echo $page->text()->kirbytext() ?>

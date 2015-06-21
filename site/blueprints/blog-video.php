@@ -6,20 +6,14 @@ files:
   sortable: false
 fields:
   title:
-    label: Title
+    label: Title (YouTube and Vimeo are Supported)
     type: text
   date:
     label: Date
     type: date
     format: DD/MM/YYYY
-  source:
-    label: Video Source
-    type: radio
-    options:
-      youtube: YouTube
-      vimeo: Vimeo
-  videoid:
-    label: Video ID
+  videourl:
+    label: Video URL
     type: text
   text:
     label: Text

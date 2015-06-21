@@ -6,14 +6,6 @@ Date: 2015-03-23
 
 ----
 
-Source: vimeo
-
-----
-
-Videoid: 121103018
-
-----
-
 Text: 
 
 The overall marketing campaign for Nikolovski Lawyers consisted of three Television Commercials ([Morning Run][1], [The Fighter][2], and [Family Building][3]) as well as bus and newspaper advertising, and increased community sponsorship. This behind-the-scenes look at the TVC campaign created for Nikolovski Lawyers really gives a great overview of how the process works at Relativity: how a brand is reconstructed into the emotional hooks, and then translated into film, both for television and cinema advertising.
@@ -34,3 +26,7 @@ With the fast pace of production, and the use of a DJI Ronin, we opted for wirel
 ----
 
 Tags: behind-the-scenes
+
+----
+
+Videourl: https://vimeo.com/121103018

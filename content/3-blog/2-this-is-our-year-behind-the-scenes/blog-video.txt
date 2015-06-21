@@ -6,16 +6,12 @@ Date: 2015-03-03
 
 ----
 
-Source: vimeo
-
-----
-
-Videoid: 105523417
-
-----
-
 Text: 
 
 ----
 
 Tags: behind-the-scenes
+
+----
+
+Videourl: https://vimeo.com/105733685

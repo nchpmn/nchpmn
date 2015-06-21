@@ -234,6 +234,7 @@ section#callout { background-attachment:fixed; background-position:bottom center
 /* ---- BLOG // SINGLE // VIDEO POST ---- */
 
 .blog-video article div.media { margin-top:4em; margin-bottom:4em; }
+.blog-video article div.media .play { display:none; }
 
 
 
