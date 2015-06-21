@@ -1,4 +1,4 @@
-<?php snippet('header', array('bodyclass' => 'blog-link blog-single')) ?>
+<?php snippet('header', array('bodyclass' => 'blog-video blog-single')) ?>
 
 <article>
     <div class="container">
