@@ -16,7 +16,7 @@
         <div class="row">
             <div class="col-sm-10 col-sm-offset-1 col-lg-8 col-lg-offset-2">
                 <blockquote>
-                    <?php echo $page->quote() ?>
+                    <?php echo $page->quote()->kirbytext() ?>
                 </blockquote>
                 <?php echo $page->text()->kirbytext() ?>
             </div>            
