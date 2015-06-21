@@ -16,6 +16,7 @@
         'assets/css/style.css',
         'assets/fonts/flama.min.css',
         'assets/css/font-awesome.min.css',
+        'assets/oembed/oembed.css',
     )) ?>
     <?php if($page->isHomePage()): ?>
         <?php echo css(array(
