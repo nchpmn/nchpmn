@@ -26,14 +26,6 @@ Cover:
 
 ----
 
-Videosource: vimeo
-
-----
-
-Videoid: 112238062
-
-----
-
 Company: Relativity
 
 ----
@@ -51,3 +43,7 @@ Crew:
 ----
 
 Coversource: 1
+
+----
+
+Videourl: https://vimeo.com/112238062

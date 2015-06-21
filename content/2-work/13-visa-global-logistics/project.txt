@@ -30,14 +30,6 @@ Cover: screenshot-2015-03-17-20.58.00.png
 
 ----
 
-Videosource: vimeo
-
-----
-
-Videoid: 120323650
-
-----
-
 Company: Relativity
 
 ----
@@ -63,3 +55,7 @@ Projectimages: screenshot-2015-03-17-20.58.00.png
 ----
 
 Coversource: 1
+
+----
+
+Videourl: https://vimeo.com/120323650

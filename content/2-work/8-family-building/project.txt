@@ -34,14 +34,6 @@ Cover: 1-nik_family_1194_141026b.jpg
 
 ----
 
-Videosource: vimeo
-
-----
-
-Videoid: 114090104
-
-----
-
 Company: Relativity
 
 ----
@@ -82,3 +74,7 @@ Projectimages: 1-setwidth1500-niko-art-final-build.jpg, 2-1798704_85522290450178
 ----
 
 Coversource: 
+
+----
+
+Videourl: https://vimeo.com/114090104

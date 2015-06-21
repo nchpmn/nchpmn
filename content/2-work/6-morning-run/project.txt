@@ -34,14 +34,6 @@ Cover: nik_run_1494_web_141026a.jpg
 
 ----
 
-Videosource: vimeo
-
-----
-
-Videoid: 112238061
-
-----
-
 Company: Relativity
 
 ----
@@ -80,3 +72,9 @@ Crew:
 Projectimages: 0-setwidth1500-niko-art-final-rise.jpg, 10458388_853693504654724_1731647701418706011_n.jpg, img_0346.jpg, img_0348.jpg
 
 ----
+
+Coversource: 
+
+----
+
+Videourl: https://vimeo.com/112238061

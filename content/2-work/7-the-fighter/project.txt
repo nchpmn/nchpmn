@@ -34,14 +34,6 @@ Cover: nik_fight_113_web_141026a.jpg
 
 ----
 
-Videosource: vimeo
-
-----
-
-Videoid: 114730775
-
-----
-
 Company: Relativity
 
 ----
@@ -82,3 +74,7 @@ Coversource:
 ----
 
 Projectimages: asetwidth1500-niko-art-final-fight.jpg, img_0588.jpg, img_0594b.jpg, zimg_0547.jpg
+
+----
+
+Videourl: https://vimeo.com/114730775

@@ -26,14 +26,6 @@ Cover:
 
 ----
 
-Videosource: vimeo
-
-----
-
-Videoid: 105520746
-
-----
-
 Company: Relativity
 
 ----
@@ -55,3 +47,7 @@ Coversource: 1
 ----
 
 Projectimages: 258041_485891911434887_409574135_o.jpg
+
+----
+
+Videourl: https://vimeo.com/105520746

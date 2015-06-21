@@ -26,14 +26,6 @@ Cover: 10847307_779587368783671_6771819892168511063_o.jpg
 
 ----
 
-Videosource: youtube
-
-----
-
-Videoid: nk--gmR7tnk
-
-----
-
 Projectimages: 10847307_779587368783671_6771819892168511063_o.jpg
 
 ----
@@ -55,3 +47,7 @@ Crew:
 ----
 
 Coversource: 1
+
+----
+
+Videourl: https://www.youtube.com/watch?v=nk--gmR7tnk

@@ -26,14 +26,6 @@ Cover:
 
 ----
 
-Videosource: vimeo
-
-----
-
-Videoid: 104571559
-
-----
-
 Company: Relativity
 
 ----
@@ -59,3 +51,7 @@ Coversource: 1
 ----
 
 Projectimages: 10338565_796490183708390_6538478625741008566_o.jpg, 10465525_796490083708400_407532492475704678_o.jpg, 1965685_796493887041353_7740828900379435766_o.jpg
+
+----
+
+Videourl: https://vimeo.com/104571559

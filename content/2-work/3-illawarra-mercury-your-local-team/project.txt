@@ -30,14 +30,6 @@ Cover: 10406994_824691917554883_5359171967014508423_n.jpg
 
 ----
 
-Videosource: vimeo
-
-----
-
-Videoid: 104064430
-
-----
-
 Company: Relativity
 
 ----
@@ -78,3 +70,7 @@ Projectimages: _dsc0864.jpg, z_dsc0619.jpg
 ----
 
 Coversource: 1
+
+----
+
+Videourl: https://vimeo.com/104064430
