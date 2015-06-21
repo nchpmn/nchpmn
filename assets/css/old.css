@@ -1,35 +1,3 @@
-/* ---- BLOG // ARCHIVE ---- */
-.blog-archive h1 { margin:3em 3em 2em;}
-.blog-archive h1 a:link, .blog-archive h1 a:visited, .blog-archive h1 a:active, .blog-archive h1 a:hover { color:#333; border-bottom:none; }
-.blog-archive h1 span { border:#515151 1px solid; font-family:"Flama Light"; font-size:1.25em; text-transform:uppercase; text-align:center; padding:7px 50px; }
-
-.blog-archive h2 { font-size:2.5em; font-family:"Flama Ultra"; }
-.blog-archive h2 a { color:#333; }
-
-.blog-archive article { margin-bottom:3em; }
-.blog-archive article:first-child { font-size:1.2em; background:#fafafa; }
-
-.blog-archive article .meta { color:#555; font-family:"Flama Light"; margin-top:.5em; }
-.blog-archive article:first-child .meta { color:#777; font-family:"Flama Light"; margin-top:1.5em; }
-
-@media only screen and (min-width : 768px) { /* .sm size */
-.blog-archive article { padding:20px 50px; }
-.blog-archive article:first-child { padding:10px 50px 30px 50px; }
-}
-
-
-/* ---- BLOG // ARTICLE POST ---- */
-
-
-/* ---- BLOG // LINK POST ---- */
-.blog-link article blockquote { margin-top:4em; font-family:"Flama Light"; font-size:1.25em; }
-.blog-link article h1 a { border-bottom:none; }
-
-/* ---- BLOG // VIDEO POST ---- */
-
-.blog-link article div.media { margin-top:4em; margin-bottom:4em; }
-
-
 /* ---- WORK // ARCHIVE ---- */
 .work-archive h1 { margin:3em 3em 2em;}
 .work-archive h1 a:link, .work-archive h1 a:visited, .work-archive h1 a:active, .work-archive h1 a:hover { color:#333; border-bottom:none; }
