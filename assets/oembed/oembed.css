@@ -1,0 +1,62 @@
+/* line 5, D:/Server/www/dev/assets/oembed/oembed.scss */
+.oembed iframe, .oembed object, .oembed embed, .oembed img {
+  max-width: 100%;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  border-width: 0; }
+
+/* line 13, D:/Server/www/dev/assets/oembed/oembed.scss */
+.oembed-video {
+  width: 100%;
+  position: relative;
+  padding: 0;
+  padding-top: 56.25%; }
+  /* line 21, D:/Server/www/dev/assets/oembed/oembed.scss */
+  .oembed-video iframe, .oembed-video object, .oembed-video img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; }
+
+/* line 31, D:/Server/www/dev/assets/oembed/oembed.scss */
+.oembed-lazyvideo {
+  background-color: #dedede;
+  overflow: hidden; }
+  /* line 35, D:/Server/www/dev/assets/oembed/oembed.scss */
+  .oembed-lazyvideo .play {
+    z-index: 10;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: .7;
+    cursor: pointer;
+    transition: opacity .4s ease-in-out; }
+    /* line 46, D:/Server/www/dev/assets/oembed/oembed.scss */
+    .oembed-lazyvideo .play img {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: auto;
+      height: auto; }
+  /* line 56, D:/Server/www/dev/assets/oembed/oembed.scss */
+  .oembed-lazyvideo:hover .play {
+    opacity: .4; }
+  /* line 60, D:/Server/www/dev/assets/oembed/oembed.scss */
+  .oembed-lazyvideo .thumb {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-size: cover;
+    background-position: 50% 50%;
+    cursor: pointer; }
+  /* line 73, D:/Server/www/dev/assets/oembed/oembed.scss */
+  .oembed-lazyvideo iframe, .oembed-lazyvideo object {
+    display: none; }
+
+/*# sourceMappingURL=oembed.css.map */
